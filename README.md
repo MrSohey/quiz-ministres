@@ -15,6 +15,23 @@ Trois niveaux, gigognes :
 Le meilleur score est conservé séparément pour chaque niveau, dans `localStorage`.
 Aucun cookie, donc aucune bannière de consentement.
 
+**Défi partageable.** Dès la première manche, l'adresse de la page porte la graine
+de la partie. Le lien rejoue exactement la même partie —
+mêmes personnes, même ordre — pour comparer les scores à armes égales. Tout tient
+dans l'URL, il n'y a rien à héberger :
+
+```
+…/quiz-ministres/?defi=intermediaire.uuhy9b.13q47wh
+```
+
+Comme la graine est dans l'URL, recharger la page rejoue la même partie au lieu d'en
+tirer une nouvelle — pratique après un rafraîchissement accidentel, mais la partie
+repart de la manche 1.
+
+Une graine fige le tirage mais pas les données : si la base a changé depuis la
+création du défi, le jeu le signale plutôt que de promettre à tort une partie
+identique.
+
 Site statique, sans backend, sans compte, sans tracking. Les photos sont servies
 directement par Wikimedia Commons.
 
@@ -65,6 +82,12 @@ Tout se joue dans `data/ministers.json`, qui est fait pour être édité à la m
    ```bash
    npx tsx scripts/fetch-photo-metadata.ts "Nom du fichier.jpg"
    ```
+
+   Le champ `Artist` de Commons n'est **pas toujours** un nom d'auteur : il peut
+   contenir un gabarit d'avertissement, une chaîne « original.jpg : A derivative
+   work: B » ou une consigne en prose. Le script signale ces cas et affiche aussi
+   `Attribution` et `Credit`, où se trouve alors la bonne valeur. Créditez les deux
+   auteurs pour un travail dérivé. Le schéma refuse les gabarits recopiés tels quels.
 
 3. **Ajouter la fiche**, en reprenant la structure d'une entrée existante. Points de
    vigilance :

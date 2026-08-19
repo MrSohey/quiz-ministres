@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { MINISTERS } from "../game/ministers";
 import { photoDescriptionUrl } from "../game/photoUrl";
 
@@ -15,9 +16,33 @@ export function CreditsPage({ onBack }: Props) {
     a.lastName.localeCompare(b.lastName, "fr"),
   );
 
+  // Échapper par « Échap » est le réflexe attendu dès qu'une croix de fermeture
+  // existe. S'abonner à un événement du document est le cas d'usage légitime d'un
+  // effet : on synchronise avec un système extérieur à React.
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onBack();
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [onBack]);
+
   return (
-    <section className="panel">
-      <h2>Crédits photographiques</h2>
+    <section className="panel credits">
+      {/* En-tête collant : la liste fait 206 entrées, exiger de la parcourir en
+          entier pour retrouver le bouton de retour serait pénible. */}
+      <header className="credits__header">
+        <h2>Crédits photographiques</h2>
+        <button
+          type="button"
+          className="credits__close"
+          onClick={onBack}
+          aria-label="Fermer les crédits et revenir au jeu"
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+      </header>
+
       <p className="muted">
         Toutes les photographies proviennent de Wikimedia Commons et sont affichées depuis
         leurs serveurs. Elles restent la propriété de leurs auteurs et sont réutilisées

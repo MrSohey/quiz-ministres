@@ -207,6 +207,41 @@
 
 /* Crédits ------------------------------------------------------------------ */
 
+/*
+ * En-tête collant. Les marges négatives annulent le rembourrage du panneau pour
+ * que le fond couvre toute la largeur : sans elles, la liste défilerait dans les
+ * gouttières, de part et d'autre de l'en-tête.
+ */
+.credits__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin: calc(var(--space-5) * -1) calc(var(--space-5) * -1) var(--space-4);
+  padding: var(--space-3) var(--space-5);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.credits__header h2 {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.credits__close {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+  border-radius: 50%;
+}
+
 .credits-list {
   list-style: none;
   padding: 0;
@@ -257,4 +292,83 @@
 /* Niveau rappelé dans la barre de score. */
 .score-bar__level {
   color: var(--color-text-muted);
+}
+
+/* Défi partagé ------------------------------------------------------------- */
+
+.challenge {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-4);
+  background: var(--color-accent-soft);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.challenge p {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+/* La base a changé depuis la création du défi : l'avertissement doit se voir. */
+.challenge--stale {
+  background: var(--color-hint-soft);
+  border-left-color: var(--color-hint);
+}
+
+.share {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+  margin-bottom: var(--space-4);
+}
+
+.share h3 {
+  margin-top: 0;
+}
+
+.share__row {
+  display: flex;
+  gap: var(--space-2);
+}
+
+/* Le champ rétrécit sous le bouton plutôt que de déborder sur mobile. */
+.share__url {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 0.8125rem;
+}
+
+.share__row button {
+  flex: 0 0 auto;
+}
+
+/* Partage en cours de partie : discret, mais toujours atteignable. */
+.share-inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-3);
+}
+
+.share-inline__button {
+  padding: var(--space-1) var(--space-2);
+  min-height: 0;
+  font-size: 0.8125rem;
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.share-inline__button:hover {
+  border: none;
+  text-decoration: none;
 }

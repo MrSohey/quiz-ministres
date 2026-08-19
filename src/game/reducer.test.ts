@@ -10,8 +10,6 @@ import {
 } from "./reducer";
 import type { Minister } from "./types";
 
-const constantRng = () => 0.5;
-
 function makeMinister(id: string, lastName: string): Minister {
   return {
     id,
@@ -56,7 +54,7 @@ function started(): GameState {
   return gameReducer(initialState(MINISTERS), {
     type: "start",
     level: "intermediaire",
-    rng: constantRng,
+    seed: "test",
   });
 }
 
@@ -85,8 +83,7 @@ describe("start", () => {
   it("ne démarre pas sur une base vide", () => {
     const empty = initialState([]);
     expect(
-      gameReducer(empty, { type: "start", level: "intermediaire", rng: constantRng })
-        .status,
+      gameReducer(empty, { type: "start", level: "intermediaire", seed: "test" }).status,
     ).toBe("idle");
   });
 });
@@ -186,7 +183,7 @@ describe("bonus de série", () => {
     for (let i = 0; i < 4; i++) {
       state = solveRound(state);
       scores.push(state.score);
-      state = gameReducer(state, { type: "nextRound", rng: constantRng });
+      state = gameReducer(state, { type: "nextRound" });
     }
     // 100, 200, puis 300 + 25, puis 425 + 25
     expect(scores).toEqual([100, 200, 325, 450]);
@@ -195,9 +192,9 @@ describe("bonus de série", () => {
   it("est remis à zéro par un indice", () => {
     let state = started();
     state = solveRound(state);
-    state = gameReducer(state, { type: "nextRound", rng: constantRng });
+    state = gameReducer(state, { type: "nextRound" });
     state = solveRound(state);
-    state = gameReducer(state, { type: "nextRound", rng: constantRng });
+    state = gameReducer(state, { type: "nextRound" });
     state = gameReducer(state, { type: "requestHint" });
     state = solveRound(state);
     expect(state.streak).toBe(0);
@@ -211,7 +208,7 @@ describe("déroulé de la partie", () => {
     for (let i = 0; i < ROUNDS_PER_GAME; i++) {
       expect(state.status).toBe("playing");
       state = solveRound(state);
-      state = gameReducer(state, { type: "nextRound", rng: constantRng });
+      state = gameReducer(state, { type: "nextRound" });
     }
     expect(state.status).toBe("finished");
     expect(state.round).toBeNull();
@@ -220,7 +217,7 @@ describe("déroulé de la partie", () => {
 
   it("refuse de passer à la manche suivante avant la fin de la courante", () => {
     const state = started();
-    expect(gameReducer(state, { type: "nextRound", rng: constantRng })).toBe(state);
+    expect(gameReducer(state, { type: "nextRound" })).toBe(state);
   });
 
   // Sans ce plafond, une partie de 10 manches sur un vivier de 3 personnes
@@ -230,7 +227,7 @@ describe("déroulé de la partie", () => {
     let state = gameReducer(initialState(small), {
       type: "start",
       level: "intermediaire",
-      rng: constantRng,
+      seed: "test",
     });
     expect(state.roundsInGame).toBe(2);
 
@@ -238,7 +235,7 @@ describe("déroulé de la partie", () => {
     for (let i = 0; i < 2; i++) {
       seen.push(state.round!.minister.id);
       state = solveRound(state);
-      state = gameReducer(state, { type: "nextRound", rng: constantRng });
+      state = gameReducer(state, { type: "nextRound" });
     }
     expect(state.status).toBe("finished");
     expect(new Set(seen).size).toBe(2);
@@ -262,12 +259,12 @@ describe("niveaux", () => {
     const easy = gameReducer(initialState(base), {
       type: "start",
       level: "facile",
-      rng: constantRng,
+      seed: "test",
     });
     const hard = gameReducer(initialState(base), {
       type: "start",
       level: "difficile",
-      rng: constantRng,
+      seed: "test",
     });
 
     // Agriculture n'est pas régalien : personne n'entre en Facile.
@@ -287,19 +284,68 @@ describe("niveaux", () => {
   });
 });
 
+/**
+ * Le cœur du défi partageable : à graine égale, partie identique. Si ce bloc casse,
+ * deux joueurs suivant le même lien ne voient plus les mêmes photos et la
+ * comparaison de scores n'a plus de sens.
+ */
+describe("reproductibilité par la graine", () => {
+  function partieComplete(seed: string): string[] {
+    let state = gameReducer(initialState(MINISTERS), {
+      type: "start",
+      level: "intermediaire",
+      seed,
+    });
+    const vus: string[] = [];
+    while (state.status === "playing" && state.round) {
+      vus.push(state.round.minister.id);
+      state = solveRound(state);
+      state = gameReducer(state, { type: "nextRound" });
+    }
+    return vus;
+  }
+
+  it("rejoue exactement la même suite de personnes", () => {
+    expect(partieComplete("k3m9qz")).toEqual(partieComplete("k3m9qz"));
+  });
+
+  it("donne une suite différente pour une autre graine", () => {
+    expect(partieComplete("k3m9qz")).not.toEqual(partieComplete("autre1"));
+  });
+
+  // Le réducteur est invoqué deux fois par React StrictMode en développement. Avec
+  // un générateur à état passé dans l'action, la partie divergerait entre dev et
+  // production ; l'ordre est donc figé une seule fois, au démarrage.
+  it("est insensible à une double invocation du réducteur", () => {
+    const depart = initialState(MINISTERS);
+    const action = { type: "start", level: "intermediaire", seed: "k3m9qz" } as const;
+    const une = gameReducer(depart, action);
+    const deux = gameReducer(gameReducer(depart, action), action);
+    expect(deux.lineup.map((m) => m.id)).toEqual(une.lineup.map((m) => m.id));
+  });
+
+  it("expose la graine pour que l'interface puisse la partager", () => {
+    const state = gameReducer(initialState(MINISTERS), {
+      type: "start",
+      level: "intermediaire",
+      seed: "k3m9qz",
+    });
+    expect(state.seed).toBe("k3m9qz");
+    expect(gameReducer(state, { type: "reset" }).seed).toBeNull();
+  });
+});
+
 describe("photo indisponible", () => {
   it("remplace la personne sans changer le numéro de manche", () => {
     const state = started();
     const before = state.round!.minister.id;
-    const after = gameReducer(state, { type: "skipUnavailablePhoto", rng: constantRng });
+    const after = gameReducer(state, { type: "skipUnavailablePhoto" });
     expect(after.round?.index).toBe(state.round!.index);
     expect(after.round?.minister.id).not.toBe(before);
   });
 
   it("ne remplace pas une manche déjà terminée", () => {
     const solved = solveRound(started());
-    expect(gameReducer(solved, { type: "skipUnavailablePhoto", rng: constantRng })).toBe(
-      solved,
-    );
+    expect(gameReducer(solved, { type: "skipUnavailablePhoto" })).toBe(solved);
   });
 });

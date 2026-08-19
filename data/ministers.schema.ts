@@ -30,6 +30,36 @@ export const mandateSchema = z
     message: "endYear doit être postérieure ou égale à startYear",
   });
 
+/**
+ * Le champ `Artist` de Commons n'est pas toujours un nom d'auteur : il contient
+ * parfois un gabarit d'avertissement, une chaîne « original.jpg : A derivative
+ * work: B », ou une consigne d'attribution en prose. Recopié tel quel, cela
+ * s'affiche sur la page Crédits.
+ *
+ * Ces motifs signalent une valeur reprise sans relecture. Le remède est de regarder
+ * aussi les champs `Attribution` et `Credit` du fichier, que `fetch-photo-metadata`
+ * affiche désormais.
+ */
+const CREDIT_INTERDIT: readonly [RegExp, string][] = [
+  [/\.jpe?g|\.png|\.webp/i, "contient un nom de fichier"],
+  [/derivative work/i, "chaîne de dérivation brute : créditer les deux auteurs"],
+  [/^\s*\[/, "crochets d'inventaire à retirer"],
+  [/^(this file|this illustration|english\s*:)/i, "gabarit Commons, pas un auteur"],
+  [/please credit this with/i, "consigne d'attribution : n'en garder que le nom"],
+];
+
+const creditSchema = z
+  .string()
+  .min(1, "crédit obligatoire, même pour le domaine public")
+  .max(120, "crédit anormalement long : probablement du texte de gabarit")
+  .superRefine((credit, ctx) => {
+    for (const [motif, message] of CREDIT_INTERDIT) {
+      if (motif.test(credit)) {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, message: `crédit — ${message}` });
+      }
+    }
+  });
+
 export const ministerSchema = z
   .object({
     id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "id en kebab-case, sans accent"),
@@ -43,7 +73,7 @@ export const ministerSchema = z
     mandates: z.array(mandateSchema).min(1, "au moins un mandat"),
     photo: z.object({
       commonsFile: z.string().min(1),
-      credit: z.string().min(1, "crédit obligatoire, même pour le domaine public"),
+      credit: creditSchema,
       license: z.string().min(1),
     }),
     sourceUrl: z.string().url(),

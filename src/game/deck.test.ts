@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { createDeck, draw, shuffle, type Rng } from "./deck";
+import { createLineup, shuffle, type Rng } from "./deck";
 
 /** Générateur déterministe : la logique de tirage doit être testable sans hasard. */
 function seededRng(seed: number): Rng {
@@ -27,60 +27,36 @@ describe("shuffle", () => {
   it("est déterministe pour une graine donnée", () => {
     expect(shuffle(ITEMS, seededRng(42))).toEqual(shuffle(ITEMS, seededRng(42)));
   });
-});
 
-describe("draw", () => {
-  it("ne répète aucune carte tant que le sac n'est pas vide", () => {
-    const rng = seededRng(7);
-    let deck = createDeck(ITEMS, rng);
-    const drawn: string[] = [];
-    for (let i = 0; i < ITEMS.length; i++) {
-      const result = draw(deck, ITEMS, rng);
-      drawn.push(result.card);
-      deck = result.deck;
-    }
-    expect(new Set(drawn).size).toBe(ITEMS.length);
-  });
-
-  it("reconstitue le sac une fois vidé", () => {
-    const rng = seededRng(3);
-    let deck = createDeck(ITEMS, rng);
-    const drawn: string[] = [];
-    for (let i = 0; i < ITEMS.length * 3; i++) {
-      const result = draw(deck, ITEMS, rng);
-      drawn.push(result.card);
-      deck = result.deck;
-    }
-    expect(drawn).toHaveLength(ITEMS.length * 3);
-  });
-
-  // Le bug classique du sac : la dernière carte d'un sac ressort en première
-  // position du suivant, et le joueur voit deux fois la même photo d'affilée.
-  it("ne sert jamais deux fois la même carte de suite, y compris à la jointure", () => {
-    for (let seed = 1; seed <= 200; seed++) {
-      const rng = seededRng(seed);
-      let deck = createDeck(ITEMS, rng);
-      let previous: string | null = null;
-      for (let i = 0; i < ITEMS.length * 4; i++) {
-        const result = draw(deck, ITEMS, rng);
-        expect(result.card).not.toBe(previous);
-        previous = result.card;
-        deck = result.deck;
-      }
-    }
-  });
-
-  it("fonctionne avec une base d'un seul élément", () => {
-    const rng = seededRng(1);
-    const deck = createDeck(["seul"], rng);
-    const first = draw(deck, ["seul"], rng);
-    expect(first.card).toBe("seul");
-    expect(draw(first.deck, ["seul"], rng).card).toBe("seul");
+  it("ne renvoie pas systématiquement le même ordre", () => {
+    const ordres = new Set(
+      Array.from({ length: 20 }, (_, i) => shuffle(ITEMS, seededRng(i + 1)).join("")),
+    );
+    expect(ordres.size).toBeGreaterThan(1);
   });
 });
 
-describe("createDeck", () => {
-  it("refuse une base vide", () => {
-    expect(() => createDeck([], seededRng(1))).toThrow();
+describe("createLineup", () => {
+  // C'est cette propriété qui garantit qu'une personne n'apparaît jamais deux fois
+  // dans une partie : l'ordre de passage est une permutation du vivier.
+  it("est une permutation du vivier, sans doublon ni omission", () => {
+    const lineup = createLineup(ITEMS, seededRng(7));
+    expect(lineup).toHaveLength(ITEMS.length);
+    expect(new Set(lineup).size).toBe(ITEMS.length);
+  });
+
+  it("couvre tout le vivier, pas seulement les manches prévues", () => {
+    // Le surplus sert de réserve quand une photo est indisponible : sans lui, le
+    // remplacement n'aurait aucune carte à servir.
+    const grand = Array.from({ length: 50 }, (_, i) => `m${i}`);
+    expect(createLineup(grand, seededRng(3))).toHaveLength(50);
+  });
+
+  it("refuse un vivier vide", () => {
+    expect(() => createLineup([], seededRng(1))).toThrow();
+  });
+
+  it("fonctionne avec un vivier d'un seul élément", () => {
+    expect(createLineup(["seul"], seededRng(1))).toEqual(["seul"]);
   });
 });

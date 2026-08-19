@@ -56,10 +56,31 @@ for (const page of Object.values(payload.query?.pages ?? {})) {
   const read = (key: string) => stripHtml(meta[key]?.value ?? "");
 
   console.log(`\n--- ${page.title.replace(/^File:/, "")}`);
-  console.log(`  credit  : ${read("Artist") || "(non renseigné)"}`);
-  console.log(`  license : ${read("LicenseShortName") || "(non renseignée)"}`);
+
+  const artist = read("Artist");
+  console.log(`  Artist      : ${artist || "(non renseigné)"}`);
+
+  // `Artist` n'est pas toujours un nom d'auteur. On affiche donc aussi les deux
+  // autres champs : quand il contient un gabarit, la valeur juste est souvent dans
+  // `Attribution`. Le schéma refuse les gabarits recopiés tels quels.
+  const attribution = read("Attribution");
+  if (attribution) console.log(`  Attribution : ${attribution}`);
+  const credit = read("Credit");
+  if (credit) console.log(`  Credit      : ${credit}`);
+
+  console.log(`  license     : ${read("LicenseShortName") || "(non renseignée)"}`);
   const restrictions = read("Restrictions");
   if (restrictions) console.log(`  ⚠️ restrictions : ${restrictions}`);
+
+  for (const [motif, conseil] of [
+    [/derivative work/i, "chaîne de dérivation : créditez les deux auteurs"],
+    [/^(this file|this illustration|english\s*:)/i, "gabarit : utilisez Attribution"],
+    [/please credit this with/i, "consigne : n'en gardez que le nom"],
+    [/\.jpe?g|\.png/i, "nom de fichier : ce n'est pas un auteur"],
+  ] as const) {
+    if (motif.test(artist)) console.log(`  ⚠️ Artist inutilisable — ${conseil}`);
+  }
+
   console.log(
     "  → vérifiez que la licence autorise la réutilisation avant d'ajouter la fiche.",
   );
