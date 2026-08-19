@@ -1250,7 +1250,9 @@
     "id": "dominique-strauss-kahn",
     "firstName": "Dominique",
     "lastName": "Strauss-Kahn",
-    "aliases": [],
+    "aliases": [
+      "DSK"
+    ],
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
@@ -3401,7 +3403,9 @@
     "id": "maurice-couve-de-murville",
     "firstName": "Maurice Couve",
     "lastName": "de Murville",
-    "aliases": [],
+    "aliases": [
+      "Couve de Murville"
+    ],
     "party": "UNR",
     "politicalFamily": "droite",
     "mandates": [
@@ -3855,7 +3859,9 @@
     "id": "michele-alliot-marie",
     "firstName": "Michèle",
     "lastName": "Alliot-Marie",
-    "aliases": [],
+    "aliases": [
+      "MAM"
+    ],
     "party": "LR",
     "politicalFamily": "droite",
     "mandates": [
@@ -4642,7 +4648,10 @@
     "id": "renaud-donnedieu-de-vabres",
     "firstName": "Renaud Donnedieu",
     "lastName": "de Vabres",
-    "aliases": [],
+    "aliases": [
+      "Donnedieu de Vabres",
+      "Donnedieu"
+    ],
     "party": "Parti républicain",
     "politicalFamily": "droite",
     "mandates": [
@@ -5195,7 +5204,10 @@
     "id": "valery-giscard-d-estaing",
     "firstName": "Valéry",
     "lastName": "Giscard d'Estaing",
-    "aliases": [],
+    "aliases": [
+      "Giscard",
+      "VGE"
+    ],
     "party": "Républicains indépendants",
     "politicalFamily": "droite",
     "mandates": [

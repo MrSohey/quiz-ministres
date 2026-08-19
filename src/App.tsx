@@ -108,7 +108,7 @@ export default function App() {
 
   return (
     <main className="app">
-      <h1>Quizz des ministres</h1>
+      <h1>Quiz des ministres</h1>
 
       {status === "idle" && (
         <LevelPicker ministers={MINISTERS} bestScores={bestScores} onPick={start} />
