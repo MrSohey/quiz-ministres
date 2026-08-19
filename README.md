@@ -114,53 +114,25 @@ descend sous 10 personnes — en dessous, une partie recyclerait les photos.
 
 ## Contribuer
 
-Une pull request doit passer `.github/workflows/ci.yml`, qui exécute quatre contrôles
+Une pull request doit passer `.github/workflows/ci.yml`, qui exécute cinq contrôles
 en parallèle :
 
-| Job       | Commande                           | Ce qu'il attrape                                               |
-| --------- | ---------------------------------- | -------------------------------------------------------------- |
-| **Lint**  | `npm run lint`                     | bugs de hooks React, `any`, promesses non attendues, code mort |
-| **Types** | `npm run typecheck`                | erreurs TypeScript en mode strict                              |
-| **Tests** | `npm run validate` puis `npm test` | données invalides, régressions de logique                      |
-| **Build** | `npm run build`                    | ce qui ne casse qu'à la compilation de production              |
+| Job        | Commande                           | Ce qu'il attrape                                               |
+| ---------- | ---------------------------------- | -------------------------------------------------------------- |
+| **Format** | `npm run format:check`             | mise en forme non conforme à Prettier                          |
+| **Lint**   | `npm run lint`                     | bugs de hooks React, `any`, promesses non attendues, code mort |
+| **Types**  | `npm run typecheck`                | erreurs TypeScript en mode strict                              |
+| **Tests**  | `npm run validate` puis `npm test` | données invalides, régressions de logique                      |
+| **Build**  | `npm run build`                    | ce qui ne casse qu'à la compilation de production              |
 
-Un dernier job, **CI**, ne fait qu'agréger les précédents. C'est le seul à
-déclarer « required » : ajouter un contrôle plus tard ne demandera que de l'ajouter à
-son `needs`, sans retoucher la configuration du dépôt.
+Un dernier job, **CI**, ne fait qu'agréger les précédents. C'est le seul déclaré
+« required » sur `main` : une PR dont il échoue n'est pas mergeable. Ajouter un contrôle
+plus tard ne demande que de l'ajouter à son `needs`, sans retoucher la configuration du
+dépôt.
 
 `npm run check-links` n'est **pas** un contrôle de PR, délibérément : il dépend de la
 disponibilité de Wikimedia et bloquerait des merges légitimes lors d'un incident
 réseau. Il tourne une fois par semaine (`check-links.yml`).
-
-### Rendre la CI bloquante
-
-Le workflow signale les échecs mais **n'empêche pas le merge** tant que le dépôt ne
-l'exige pas. Une fois la première CI passée sur `main` (pour que GitHub connaisse le
-nom du contrôle) :
-
-```bash
-gh api -X POST repos/:owner/:repo/rulesets \
-  -f name='Protection de main' \
-  -f target=branch \
-  -f enforcement=active \
-  -F 'conditions[ref_name][include][]=~DEFAULT_BRANCH' \
-  -F 'rules[][type]=pull_request' \
-  -F 'rules[][type]=required_status_checks' \
-  -F 'rules[][parameters][required_status_checks][][context]=CI'
-```
-
-Ou dans l'interface : **Settings → Rules → Rulesets → New branch ruleset**, cible
-`main`, puis cocher _Require a pull request before merging_ et _Require status checks
-to pass_ en ajoutant le contrôle `CI`.
-
-## Avant le premier push
-
-Trois valeurs à renseigner, aucune n'est devinable automatiquement :
-
-- [ ] `LICENSE` — remplacer `<votre-pseudo-github>` par le titulaire du copyright ;
-- [ ] `vite.config.ts` — `REPOSITORY_NAME` doit correspondre au nom du dépôt, sinon les
-      assets seront en 404 sur GitHub Pages ;
-- [ ] règle de branche exigeant le contrôle `CI` (voir « Rendre la CI bloquante »).
 
 ## Déploiement
 
