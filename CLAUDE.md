@@ -755,29 +755,27 @@ directement, pour que les tests soient déterministes.
 
 ## 10. Intégration continue
 
-`.github/workflows/ci.yml` tourne sur chaque pull request et sur `main`. Quatre jobs
+`.github/workflows/ci.yml` tourne sur chaque pull request et sur `main`. Cinq jobs
 en parallèle, plus un agrégateur :
 
-| Job       | Commande                                               |
-| --------- | ------------------------------------------------------ |
-| **Lint**  | `npm run lint`                                         |
-| **Types** | `npm run typecheck`                                    |
-| **Tests** | `npm run validate` puis `npm test`                     |
-| **Build** | `npm run build`                                        |
-| **CI**    | agrège les quatre via `needs`, échoue si l'un a échoué |
+| Job        | Commande                                             |
+| ---------- | ---------------------------------------------------- |
+| **Format** | `npm run format:check`                               |
+| **Lint**   | `npm run lint`                                       |
+| **Types**  | `npm run typecheck`                                  |
+| **Tests**  | `npm run validate` puis `npm test`                   |
+| **Build**  | `npm run build`                                      |
+| **CI**     | agrège les cinq via `needs`, échoue si l'un a échoué |
 
-**Seul le job `CI` est à déclarer « required »** dans les règles de branche. Ajouter un
-contrôle plus tard ne demandera que de l'ajouter à son `needs`, sans toucher aux
-réglages du dépôt — un point de couplage en moins entre le code et la configuration
-GitHub.
+**Seul le job `CI` est déclaré « required »** dans les règles de branche de `main` :
+une PR dont il échoue n'est pas mergeable. Ajouter un contrôle plus tard ne demande que
+de l'ajouter à son `needs`, sans toucher aux réglages du dépôt — un point de couplage en
+moins entre le code et la configuration GitHub.
 
 Le job **Format** échoue sans rien réécrire : `--check` se contente de lister les
 fichiers fautifs. `npm run format` corrige tout en local.
 
 `npm run verify` rejoue la même séquence en local, sans accès réseau.
-
-Un workflow **ne bloque rien par lui-même** : tant que le dépôt ne l'exige pas, une PR
-rouge reste mergeable. La procédure d'activation est dans le README.
 
 ### Ce qui n'est volontairement pas un contrôle de PR
 
