@@ -1,0 +1,6 @@
+node_modules/
+dist/
+data/candidates.raw.json
+*.local
+.DS_Store
+tsconfig.tsbuildinfo

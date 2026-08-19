@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+
+# Écrit par npm, dans son propre format.
+package-lock.json
+
+# Généré par les scripts Python de collecte puis édité à la main. Imposer le format
+# de Prettier ici ferait échouer la CI à chaque régénération, pour un fichier dont
+# la mise en forme est déjà stable et vérifiée par le schéma Zod.
+data/ministers.json
+data/candidates.raw.json
