@@ -1,4 +1,4 @@
-# Quizz des ministres de la Ve République
+# Quiz des ministres de la Ve République
 
 Jeu web : on montre la photo d'une personne ayant été ministre en France sous la
 Ve République (depuis 1958), le joueur doit retrouver **son nom** et **un ministère

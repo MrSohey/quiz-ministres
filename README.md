@@ -1,4 +1,4 @@
-# Quizz des ministres de la Ve République
+# Quiz des ministres de la Ve République
 
 Un jeu web : une photo, deux questions — le nom de la personne et un ministère
 qu'elle a occupé depuis 1958. Six indices sont disponibles à la demande, chacun coûte
