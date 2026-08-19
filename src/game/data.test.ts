@@ -8,7 +8,7 @@
 import { describe, expect, it } from "vitest";
 import { ministersSchema } from "../../data/ministers.schema";
 import { MINISTERS } from "./ministers";
-import { resolvePortfolio } from "./matching";
+import { isNameCorrect, resolvePortfolio } from "./matching";
 import { PORTFOLIO_BY_ID } from "./portfolios";
 import { MANDATE_RANKS } from "./types";
 import { maxHintsFor } from "./hints";
@@ -62,6 +62,32 @@ describe("ministers.json", () => {
     // deviendrait indevinable pour un joueur qui bloque.
     for (const minister of MINISTERS) {
       expect(maxHintsFor(minister)).toBeGreaterThanOrEqual(4);
+    }
+  });
+
+  // Ces saisies étaient toutes refusées avant l'ajout des alias. Deux d'entre elles
+  // relevaient d'un bug : le générateur avait pris la particule de « Couve de
+  // Murville » et « Donnedieu de Vabres » pour le début du nom, si bien que le nom
+  // usuel complet ne correspondait plus à rien.
+  it.each([
+    ["maurice-couve-de-murville", "Couve de Murville"],
+    ["renaud-donnedieu-de-vabres", "Donnedieu de Vabres"],
+    ["valery-giscard-d-estaing", "Giscard"],
+    ["valery-giscard-d-estaing", "VGE"],
+    ["dominique-strauss-kahn", "DSK"],
+    ["michele-alliot-marie", "MAM"],
+  ])("accepte « %s » sous la forme « %s »", (id, input) => {
+    const minister = MINISTERS.find((m) => m.id === id);
+    expect(minister, `fiche ${id} absente de la base`).toBeDefined();
+    expect(isNameCorrect(input, minister!)).toBe(true);
+  });
+
+  it("n'a pas d'alias vide ni redondant avec le nom de famille", () => {
+    for (const minister of MINISTERS) {
+      for (const alias of minister.aliases) {
+        expect(alias.trim().length).toBeGreaterThan(0);
+        expect(alias.toLowerCase()).not.toBe(minister.lastName.toLowerCase());
+      }
     }
   });
 
