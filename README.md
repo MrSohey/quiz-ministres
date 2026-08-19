@@ -83,6 +83,12 @@ Tout se joue dans `data/ministers.json`, qui est fait pour être édité à la m
    npx tsx scripts/fetch-photo-metadata.ts "Nom du fichier.jpg"
    ```
 
+   Le champ `Artist` de Commons n'est **pas toujours** un nom d'auteur : il peut
+   contenir un gabarit d'avertissement, une chaîne « original.jpg : A derivative
+   work: B » ou une consigne en prose. Le script signale ces cas et affiche aussi
+   `Attribution` et `Credit`, où se trouve alors la bonne valeur. Créditez les deux
+   auteurs pour un travail dérivé. Le schéma refuse les gabarits recopiés tels quels.
+
 3. **Ajouter la fiche**, en reprenant la structure d'une entrée existante. Points de
    vigilance :
    - `commonsFile` est le nom du fichier **sans** le préfixe `File:` ;

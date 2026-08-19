@@ -91,6 +91,23 @@ describe("ministers.json", () => {
     }
   });
 
+  /**
+   * Le champ `Artist` de Commons contient parfois un gabarit, une chaîne de
+   * dérivation ou une consigne en prose. Recopié sans relecture, cela s'affiche
+   * tel quel sur la page Crédits — c'est arrivé sur 16 fiches.
+   */
+  it.each([
+    ["nom de fichier", "Vadepied_Guichard_1973.jpg : MontdErve"],
+    ["chaîne de dérivation", "Benjamin Geminel derivative work: Flappiefh"],
+    ["crochets d'inventaire", "[Service de l'information du ministère]"],
+    ["gabarit Commons", "This file, which was originally posted to an external website"],
+    ["consigne en prose", "Please credit this with : © Peter Potrowl"],
+    ["texte anormalement long", "x".repeat(121)],
+  ])("le schéma refuse un crédit %s", (_cas, credit) => {
+    const fiche = { ...MINISTERS[0]!, photo: { ...MINISTERS[0]!.photo, credit } };
+    expect(ministersSchema.safeParse([fiche]).success).toBe(false);
+  });
+
   it("crédite et licencie chaque photo", () => {
     for (const minister of MINISTERS) {
       expect(minister.photo.credit.trim().length).toBeGreaterThan(0);
