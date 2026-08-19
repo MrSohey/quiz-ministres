@@ -49,7 +49,7 @@ et mets-le à jour quand une décision structurante change.
   `eslint-plugin-react-hooks`. On cherche des bugs, pas un style : dépendances de
   hooks oubliées, `setState` dans un effet, `any`, promesses non attendues.
 - **npm** (un seul `package-lock.json`).
-- Node ≥ 20.
+- Node ≥ 24.
 
 - **Prettier** pour le formatage, vérifié en CI (`npm run format:check`).
 

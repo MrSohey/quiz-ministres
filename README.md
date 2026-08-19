@@ -29,7 +29,7 @@ npm install
 npm run dev          # http://localhost:5173
 ```
 
-Node 20 ou plus.
+Node 24 ou plus.
 
 ## Commandes
 
