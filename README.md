@@ -15,6 +15,18 @@ Trois niveaux, gigognes :
 Le meilleur score est conservé séparément pour chaque niveau, dans `localStorage`.
 Aucun cookie, donc aucune bannière de consentement.
 
+**Défi partageable.** En fin de partie, un lien rejoue exactement la même partie —
+mêmes personnes, même ordre — pour comparer les scores à armes égales. Tout tient
+dans l'URL, il n'y a rien à héberger :
+
+```
+…/quiz-ministres/?defi=intermediaire.uuhy9b.13q47wh
+```
+
+Une graine fige le tirage mais pas les données : si la base a changé depuis la
+création du défi, le jeu le signale plutôt que de promettre à tort une partie
+identique.
+
 Site statique, sans backend, sans compte, sans tracking. Les photos sont servies
 directement par Wikimedia Commons.
 

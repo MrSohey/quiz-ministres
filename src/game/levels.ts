@@ -1,5 +1,5 @@
 /**
- * Niveaux de difficulté. Voir CLAUDE.md §7.7.
+ * Niveaux de difficulté. Voir CLAUDE.md §7.6.
  *
  * Les trois niveaux sont gigognes : tout ce qu'accepte Facile est accepté par
  * Intermédiaire, et tout ce qu'accepte Intermédiaire est accepté par Difficile.

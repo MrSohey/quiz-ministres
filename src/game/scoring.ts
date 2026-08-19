@@ -1,5 +1,5 @@
 /**
- * Calcul des points. Voir CLAUDE.md §7.6.
+ * Calcul des points. Voir CLAUDE.md §7.8.
  */
 import {
   PENALTY_PER_HINT,

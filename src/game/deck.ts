@@ -1,18 +1,16 @@
 /**
- * Tirage aléatoire sans répétition. Voir CLAUDE.md §7.3.
+ * Ordre de passage d'une partie. Voir CLAUDE.md §7.3.
  *
  * Piocher au hasard à chaque manche ferait revenir la même personne deux fois dans
- * une partie de dix manches (paradoxe des anniversaires). On mélange donc la liste
- * une fois et on pioche en tête, comme dans un sac.
+ * une partie de dix manches (paradoxe des anniversaires). On mélange donc le vivier
+ * une fois pour toutes, au démarrage, et on avance dans cet ordre.
+ *
+ * Ce mélange unique est aussi ce qui rend un défi partageable possible : l'ordre ne
+ * dépend que de la graine, et plus du moment où chaque action est jouée.
  */
 
 /** Source d'aléa injectable, pour que les tests soient déterministes. */
 export type Rng = () => number;
-
-export interface Deck<T> {
-  readonly remaining: readonly T[];
-  readonly lastDrawn: T | null;
-}
 
 /** Mélange de Fisher-Yates, sans muter l'entrée. */
 export function shuffle<T>(items: readonly T[], rng: Rng): T[] {
@@ -27,35 +25,14 @@ export function shuffle<T>(items: readonly T[], rng: Rng): T[] {
   return result;
 }
 
-export function createDeck<T>(items: readonly T[], rng: Rng): Deck<T> {
-  if (items.length === 0) throw new Error("Impossible de créer un sac vide");
-  return { remaining: shuffle(items, rng), lastDrawn: null };
-}
-
-export interface DrawResult<T> {
-  card: T;
-  deck: Deck<T>;
-}
-
 /**
- * Pioche la carte suivante. Quand le sac est vide il est reconstitué, en garantissant
- * que la première carte du nouveau sac n'est pas celle qui vient d'être vue : sinon
- * la même photo apparaîtrait deux fois de suite à la jointure.
+ * Ordre de passage complet du vivier.
+ *
+ * On mélange TOUT le vivier, pas seulement les dix premières manches : le reste
+ * sert de réserve quand une photo se révèle indisponible et qu'il faut remplacer
+ * une fiche sans casser la reproductibilité (voir `skipUnavailablePhoto`).
  */
-export function draw<T>(deck: Deck<T>, allItems: readonly T[], rng: Rng): DrawResult<T> {
-  let remaining = deck.remaining;
-
-  if (remaining.length === 0) {
-    remaining = shuffle(allItems, rng);
-    if (allItems.length > 1 && remaining[0] === deck.lastDrawn) {
-      // Un simple échange avec la deuxième carte suffit et reste équiprobable
-      // pour toutes les autres positions.
-      const first = remaining[0] as T;
-      const second = remaining[1] as T;
-      remaining = [second, first, ...remaining.slice(2)];
-    }
-  }
-
-  const card = remaining[0] as T;
-  return { card, deck: { remaining: remaining.slice(1), lastDrawn: card } };
+export function createLineup<T>(pool: readonly T[], rng: Rng): T[] {
+  if (pool.length === 0) throw new Error("Impossible de tirer dans un vivier vide");
+  return shuffle(pool, rng);
 }

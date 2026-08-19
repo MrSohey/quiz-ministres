@@ -2,15 +2,20 @@
  * Machine à états de la partie. Voir CLAUDE.md §7.1 et §7.2.
  *
  * Module volontairement pur : aucune référence à React, au DOM, à `Date.now()` ni à
- * `Math.random()`. La source d'aléa est passée dans les actions. C'est ce qui rend
- * l'ensemble testable sans monter d'interface.
+ * `Math.random()`. C'est ce qui rend l'ensemble testable sans monter d'interface.
+ *
+ * L'aléa est concentré dans la seule action `start`, qui reçoit une graine et en
+ * déduit l'ordre de passage complet. Aucune autre action ne tire au sort : c'est ce
+ * qui rend une partie reproductible à l'identique depuis un lien partagé (§7.7), et
+ * ce qui met le réducteur à l'abri de la double invocation de React StrictMode.
  */
 import { ROUNDS_PER_GAME, roundsForPool } from "./config";
-import { createDeck, draw, type Deck, type Rng } from "./deck";
+import { createLineup } from "./deck";
 import { hasMoreHints, MAX_HINTS, maxHintsFor } from "./hints";
 import { ministersForLevel, type LevelId } from "./levels";
 import { isNameCorrect, isPortfolioCorrect } from "./matching";
 import { continuesStreak, scoreRound, streakBonus, type RoundOutcome } from "./scoring";
+import { createSeededRng } from "./seed";
 import type { Minister } from "./types";
 
 export type RoundStatus =
@@ -36,11 +41,16 @@ export interface GameState {
   ministers: readonly Minister[];
   /** Niveau choisi pour la partie en cours. */
   level: LevelId | null;
-  /** Personnes jouables au niveau choisi. Le sac est tiré là-dedans. */
+  /** Graine de la partie : ce qui rend le défi partageable. */
+  seed: string | null;
+  /** Personnes jouables au niveau choisi. */
   pool: readonly Minister[];
   /** Nombre de manches, plafonné par la taille du vivier. */
   roundsInGame: number;
-  deck: Deck<Minister> | null;
+  /** Vivier mélangé une fois pour toutes, au démarrage. */
+  lineup: readonly Minister[];
+  /** Position de la prochaine fiche non encore servie dans `lineup`. */
+  cursor: number;
   round: Round | null;
   /** Manches terminées, dans l'ordre. */
   history: Round[];
@@ -50,25 +60,27 @@ export interface GameState {
 }
 
 export type GameAction =
-  | { type: "start"; level: LevelId; rng: Rng }
+  | { type: "start"; level: LevelId; seed: string }
   /** Retour au choix du niveau, sans conserver la partie précédente. */
   | { type: "reset" }
   | { type: "submit"; field: AnswerField; value: string }
   | { type: "requestHint" }
   | { type: "reveal" }
-  | { type: "nextRound"; rng: Rng }
+  | { type: "nextRound" }
   | { type: "dismissRejection" }
   /** La photo est introuvable sur Commons : on saute la personne (CLAUDE.md §6.3). */
-  | { type: "skipUnavailablePhoto"; rng: Rng };
+  | { type: "skipUnavailablePhoto" };
 
 export function initialState(ministers: readonly Minister[]): GameState {
   return {
     status: "idle",
     ministers,
     level: null,
+    seed: null,
     pool: [],
     roundsInGame: ROUNDS_PER_GAME,
-    deck: null,
+    lineup: [],
+    cursor: 0,
     round: null,
     history: [],
     score: 0,
@@ -131,16 +143,24 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
     case "start": {
       const pool = ministersForLevel(state.ministers, action.level);
       if (pool.length === 0) return state;
-      const deck = createDeck(pool, action.rng);
-      const { card, deck: nextDeck } = draw(deck, pool, action.rng);
+
+      // Unique point d'entrée de l'aléa : à graine égale, partie identique.
+      const lineup = createLineup(
+        pool,
+        createSeededRng(`${action.level}:${action.seed}`),
+      );
+      const first = lineup[0] as Minister;
+
       return {
         ...initialState(state.ministers),
         status: "playing",
         level: action.level,
+        seed: action.seed,
         pool,
         roundsInGame: roundsForPool(pool.length),
-        deck: nextDeck,
-        round: newRound(card, 0),
+        lineup,
+        cursor: 1,
+        round: newRound(first, 0),
       };
     }
 
@@ -203,23 +223,31 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
 
     case "nextRound": {
       const round = state.round;
-      if (!round || !isRoundOver(round) || !state.deck) return state;
+      if (!round || !isRoundOver(round)) return state;
 
       const nextIndex = round.index + 1;
-      if (nextIndex >= state.roundsInGame) {
+      const next = state.lineup[state.cursor];
+      if (nextIndex >= state.roundsInGame || !next) {
         return { ...state, status: "finished", round: null };
       }
-      const { card, deck } = draw(state.deck, state.pool, action.rng);
-      return { ...state, deck, round: newRound(card, nextIndex) };
+      return { ...state, cursor: state.cursor + 1, round: newRound(next, nextIndex) };
     }
 
     case "skipUnavailablePhoto": {
       const round = state.round;
       // Une manche déjà entamée (indice pris, réponse trouvée) n'est pas remplacée :
       // seule une photo en échec dès l'affichage justifie de changer de personne.
-      if (!round || isRoundOver(round) || !state.deck) return state;
-      const { card, deck } = draw(state.deck, state.pool, action.rng);
-      return { ...state, deck, round: newRound(card, round.index) };
+      if (!round || isRoundOver(round)) return state;
+      // La remplaçante vient de la réserve, c'est-à-dire de la partie du vivier
+      // mélangé qui dépasse les manches prévues. L'ordre reste donc déterminé par
+      // la seule graine.
+      const replacement = state.lineup[state.cursor];
+      if (!replacement) return state;
+      return {
+        ...state,
+        cursor: state.cursor + 1,
+        round: newRound(replacement, round.index),
+      };
     }
 
     default: {

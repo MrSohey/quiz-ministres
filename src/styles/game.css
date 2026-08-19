@@ -258,3 +258,58 @@
 .score-bar__level {
   color: var(--color-text-muted);
 }
+
+/* Défi partagé ------------------------------------------------------------- */
+
+.challenge {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-4);
+  background: var(--color-accent-soft);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.challenge p {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+/* La base a changé depuis la création du défi : l'avertissement doit se voir. */
+.challenge--stale {
+  background: var(--color-hint-soft);
+  border-left-color: var(--color-hint);
+}
+
+.share {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+  margin-bottom: var(--space-4);
+}
+
+.share h3 {
+  margin-top: 0;
+}
+
+.share__row {
+  display: flex;
+  gap: var(--space-2);
+}
+
+/* Le champ rétrécit sous le bouton plutôt que de déborder sur mobile. */
+.share__url {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 0.8125rem;
+}
+
+.share__row button {
+  flex: 0 0 auto;
+}

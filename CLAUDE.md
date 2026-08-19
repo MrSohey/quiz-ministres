@@ -102,7 +102,9 @@ distance de Levenshtein (~20 lignes) plutôt que d'ajouter une librairie.
     ├── game/
     │   ├── types.ts               # types du domaine
     │   ├── photoUrl.ts            # construit l'URL Commons à partir du nom de fichier
-    │   ├── deck.ts                # tirage aléatoire sans répétition
+    │   ├── deck.ts                # ordre de passage : mélange unique du vivier
+    │   ├── seed.ts                # aléa reproductible, empreinte du vivier
+    │   ├── challenge.ts           # encodage du défi dans l'URL
     │   ├── portfolios.ts          # table des ministères : libellés, alias, sigles
     │   ├── levels.ts              # niveaux de difficulté et filtrage du vivier
     │   ├── matching.ts            # normalisation + comparaison des réponses
@@ -111,6 +113,8 @@ distance de Levenshtein (~20 lignes) plutôt que d'ajouter une librairie.
     │   └── reducer.ts             # machine à états de la partie
     ├── components/
     │   ├── LevelPicker.tsx
+    │   ├── ChallengeBanner.tsx
+    │   ├── ShareChallenge.tsx
     │   ├── PhotoCard.tsx
     │   ├── AnswerForm.tsx
     │   ├── HintPanel.tsx
@@ -173,7 +177,7 @@ type PortfolioId =
   | "porte-parole-gouvernement"
   | "autre";
 
-/** Rang du poste. C'est lui qui sépare les niveaux de difficulté (§7.7). */
+/** Rang du poste. C'est lui qui sépare les niveaux de difficulté (§7.6). */
 type MandateRank = "ministre" | "ministre-delegue" | "secretaire-etat";
 
 interface Mandate {
@@ -411,7 +415,7 @@ type RoundStatus =
 Les deux réponses sont **indépendantes** : trouver le nom ne révèle pas le ministère,
 et réciproquement. Chaque champ trouvé se verrouille (affiché en vert, non éditable).
 
-### 7.3 Tirage aléatoire — `game/deck.ts`
+### 7.3 Ordre de passage — `game/deck.ts`
 
 Ne **jamais** faire `ministers[Math.floor(Math.random() * n)]` à chaque manche : on
 reverrait deux fois la même personne dans la même partie.
@@ -588,7 +592,7 @@ Après le 6e indice, le bouton devient « Donner la réponse » → passage en `
 
 Les indices déjà obtenus restent affichés pendant toute la manche.
 
-### 7.7 Niveaux de difficulté — `game/levels.ts`
+### 7.6 Niveaux de difficulté — `game/levels.ts`
 
 Le joueur choisit un niveau avant de commencer. Les trois viviers sont **gigognes** :
 monter de niveau, c'est retrouver les personnes déjà connues noyées dans un ensemble
@@ -626,6 +630,50 @@ précédent, et chacun doit contenir au moins 10 personnes.
 `roundsForPool(poolSize) = min(ROUNDS_PER_GAME, poolSize)`. Sur un vivier plus petit
 que 10, la partie est raccourcie plutôt que de recycler le sac et de montrer deux fois
 la même photo.
+
+### 7.7 Défi partageable — `game/seed.ts`, `game/challenge.ts`
+
+Un lien rejoue **exactement la même partie** : mêmes personnes, même ordre. Deux
+joueurs peuvent donc comparer leurs scores sur une base honnête, ce qu'un tirage
+aléatoire rend impossible.
+
+Tout tient dans l'URL, conformément à la contrainte « aucun backend » (§1) :
+
+```
+https://…/quiz-ministres/?defi=intermediaire.uuhy9b.13q47wh
+                                └─ niveau ─┘ └graine┘ └empreinte┘
+```
+
+#### L'ordre de passage est figé au démarrage
+
+C'est la décision structurante. `start` reçoit une graine, en dérive un générateur
+mulberry32, **mélange le vivier entier une fois** et range le résultat dans
+`state.lineup`. Toutes les autres actions se contentent d'avancer un curseur : plus
+aucune ne tire au sort.
+
+Ce n'est pas un raffinement, c'est une nécessité. Un générateur porte un état, et
+**React StrictMode double-invoque les réducteurs en développement** : passé dans une
+action, il consommerait deux valeurs au lieu d'une et la partie divergerait entre
+développement et production. Un bug invisible en local, faussant tous les défis en
+ligne. `reducer.test.ts` verrouille la propriété avec un test de double invocation.
+
+Le mélange couvre **tout** le vivier et pas seulement les dix manches : le surplus
+sert de réserve à `skipUnavailablePhoto`, qui remplace une fiche sans casser la
+reproductibilité.
+
+#### L'empreinte du vivier
+
+Une graine fige le tirage, **pas les données**. Ajouter ou retirer une fiche change
+la partie que produit un ancien lien. `poolFingerprint` hache les identifiants du
+vivier ; si l'empreinte reçue ne correspond plus, le bandeau prévient le joueur au
+lieu de lui promettre à tort une partie identique.
+
+#### Robustesse du lien
+
+Un lien vient d'un tiers et peut être tronqué par une messagerie ou bricolé à la
+main. `decodeChallenge` renvoie `null` à la moindre anomalie — niveau inconnu, graine
+hors alphabet, champ manquant — et le joueur retombe sur le choix du niveau.
+`challenge.test.ts` couvre une dizaine de formes invalides.
 
 ### 7.8 Score — `game/scoring.ts`
 
