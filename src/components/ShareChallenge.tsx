@@ -1,32 +1,17 @@
-import { useEffect, useState } from "react";
+import { useClipboard } from "./useClipboard";
 
 interface Props {
   url: string;
 }
 
 /**
- * Bouton de partage du défi. Voir CLAUDE.md §7.7.
+ * Panneau de partage affiché en fin de partie. Voir CLAUDE.md §7.7.
  *
- * Le presse-papiers n'est pas garanti : il exige un contexte sécurisé et peut être
- * refusé par l'utilisateur. Le lien reste donc toujours visible et sélectionnable,
- * le bouton n'étant qu'un raccourci.
+ * Le lien reste visible et sélectionnable : la copie par le presse-papiers peut
+ * échouer, le bouton n'en est qu'un raccourci.
  */
 export function ShareChallenge({ url }: Props) {
-  const [copied, setCopied] = useState(false);
-
-  // Le message de confirmation s'efface seul plutôt que de rester indéfiniment.
-  useEffect(() => {
-    if (!copied) return;
-    const timer = setTimeout(() => setCopied(false), 3000);
-    return () => clearTimeout(timer);
-  }, [copied]);
-
-  const copy = () => {
-    void navigator.clipboard
-      .writeText(url)
-      .then(() => setCopied(true))
-      .catch(() => setCopied(false));
-  };
+  const { copied, copy } = useClipboard();
 
   return (
     <section className="share">
@@ -42,13 +27,13 @@ export function ShareChallenge({ url }: Props) {
           aria-label="Lien du défi"
           onFocus={(event) => event.currentTarget.select()}
         />
-        <button type="button" onClick={copy}>
+        <button type="button" onClick={() => copy(url)}>
           Copier
         </button>
       </div>
       {/* `role="status"` fait annoncer la confirmation par les lecteurs d'écran. */}
       <p className="muted" role="status">
-        {copied ? "Lien copié." : " "}
+        {copied ? "Lien copié." : " "}
       </p>
     </section>
   );

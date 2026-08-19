@@ -113,7 +113,9 @@ distance de Levenshtein (~20 lignes) plutôt que d'ajouter une librairie.
     │   └── reducer.ts             # machine à états de la partie
     ├── components/
     │   ├── LevelPicker.tsx
-    │   ├── ChallengeBanner.tsx
+    │   ├── StaleChallengeNotice.tsx
+    │   ├── ShareLinkButton.tsx
+    │   ├── useClipboard.ts
     │   ├── ShareChallenge.tsx
     │   ├── PhotoCard.tsx
     │   ├── AnswerForm.tsx
@@ -643,6 +645,28 @@ Tout tient dans l'URL, conformément à la contrainte « aucun backend » (§1) 
 https://…/quiz-ministres/?defi=intermediaire.uuhy9b.13q47wh
                                 └─ niveau ─┘ └graine┘ └empreinte┘
 ```
+
+#### L'URL est écrite dès la première manche
+
+`start` inscrit immédiatement le défi dans l'adresse, par `replaceState` : le lien est
+partageable tout de suite, sans attendre l'écran de fin. `pushState` empilerait une
+entrée par partie et rendrait le bouton « retour » inutilisable.
+
+**Conséquence assumée : recharger la page rejoue la même partie** au lieu d'en tirer
+une nouvelle. C'est préférable — un rafraîchissement accidentel ne coûte plus le
+tirage — mais il faut le savoir : la partie repart de la manche 1, le score est perdu.
+
+Un bouton « Partager cette partie » double la barre d'adresse pendant le jeu. Ce n'est
+pas redondant : sur mobile, l'URL disparaît dès qu'on fait défiler la page, et c'est là
+que le jeu se joue le plus.
+
+#### Le bandeau n'annonce QUE l'anomalie
+
+`StaleChallengeNotice` ne s'affiche que si l'empreinte reçue ne correspond plus au
+vivier. Il n'annonce jamais « vous jouez un défi » : puisque l'URL porte la graine dès
+la première manche, un simple rechargement emprunte exactement le même chemin qu'un
+lien reçu d'un tiers. Les deux cas étant indiscernables, un tel message serait faux
+une fois sur deux.
 
 #### L'ordre de passage est figé au démarrage
 

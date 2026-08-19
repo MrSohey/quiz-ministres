@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useMemo, useReducer, useState } from "react";
 import { AnswerForm } from "./components/AnswerForm";
-import { ChallengeBanner } from "./components/ChallengeBanner";
 import { CreditsPage } from "./components/CreditsPage";
 import { EndScreen } from "./components/EndScreen";
 import { HintPanel } from "./components/HintPanel";
@@ -9,6 +8,8 @@ import { PhotoCard } from "./components/PhotoCard";
 import { RevealPanel } from "./components/RevealPanel";
 import { ScoreBar } from "./components/ScoreBar";
 import { ShareChallenge } from "./components/ShareChallenge";
+import { ShareLinkButton } from "./components/ShareLinkButton";
+import { StaleChallengeNotice } from "./components/StaleChallengeNotice";
 import { challengeUrl, decodeChallenge, type Challenge } from "./game/challenge";
 import { bestScoreStorageKey } from "./game/config";
 import { hasMoreHints, hintsFor, maxHintsFor } from "./game/hints";
@@ -72,6 +73,21 @@ function clearChallengeFromUrl(): void {
 }
 
 /**
+ * Inscrit la partie en cours dans l'URL, dès la première manche.
+ *
+ * Le lien est ainsi partageable tout de suite, sans attendre l'écran de fin. Effet
+ * de bord assumé : recharger la page rejoue la même partie plutôt que d'en tirer une
+ * nouvelle — ce qui vaut mieux, un rafraîchissement accidentel ne coûtant plus le
+ * tirage.
+ *
+ * `replaceState` et non `pushState` : la partie n'est pas une étape de navigation,
+ * et empiler une entrée par manche rendrait le bouton « retour » inutilisable.
+ */
+function writeChallengeToUrl(challenge: Challenge): void {
+  window.history.replaceState(null, "", challengeUrl(challenge, window.location.href));
+}
+
+/**
  * État de départ : partie déjà lancée si la page a été ouverte via un lien de défi.
  *
  * Le démarrage se fait ici plutôt que dans un effet, pour deux raisons. Un effet qui
@@ -121,8 +137,14 @@ export default function App() {
   const isNewBest = status === "finished" && state.score > bestBeforeGame;
 
   const start = useCallback((levelId: LevelId, withSeed?: string) => {
+    const seed = withSeed ?? randomSeed();
     setBestBeforeGame(readBestScores()[levelId]);
-    dispatch({ type: "start", level: levelId, seed: withSeed ?? randomSeed() });
+    dispatch({ type: "start", level: levelId, seed });
+    writeChallengeToUrl({
+      level: levelId,
+      seed,
+      fingerprint: poolFingerprint(ministersForLevel(MINISTERS, levelId)),
+    });
   }, []);
 
   const leaveChallenge = useCallback(() => {
@@ -195,8 +217,8 @@ export default function App() {
         <LevelPicker ministers={MINISTERS} bestScores={bestScores} onPick={start} />
       )}
 
-      {status === "playing" && round && level && challenge && (
-        <ChallengeBanner level={level} sameBase={sameBase} onLeave={leaveChallenge} />
+      {status === "playing" && !sameBase && (
+        <StaleChallengeNotice onRestart={leaveChallenge} />
       )}
 
       {status === "playing" && round && level && (
@@ -208,6 +230,7 @@ export default function App() {
             streak={state.streak}
             levelLabel={getLevel(level).label}
           />
+          {shareUrl && <ShareLinkButton url={shareUrl} />}
           <PhotoCard
             key={round.minister.id}
             commonsFile={round.minister.photo.commonsFile}

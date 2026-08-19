@@ -15,13 +15,18 @@ Trois niveaux, gigognes :
 Le meilleur score est conservé séparément pour chaque niveau, dans `localStorage`.
 Aucun cookie, donc aucune bannière de consentement.
 
-**Défi partageable.** En fin de partie, un lien rejoue exactement la même partie —
+**Défi partageable.** Dès la première manche, l'adresse de la page porte la graine
+de la partie. Le lien rejoue exactement la même partie —
 mêmes personnes, même ordre — pour comparer les scores à armes égales. Tout tient
 dans l'URL, il n'y a rien à héberger :
 
 ```
 …/quiz-ministres/?defi=intermediaire.uuhy9b.13q47wh
 ```
+
+Comme la graine est dans l'URL, recharger la page rejoue la même partie au lieu d'en
+tirer une nouvelle — pratique après un rafraîchissement accidentel, mais la partie
+repart de la manche 1.
 
 Une graine fige le tirage mais pas les données : si la base a changé depuis la
 création du défi, le jeu le signale plutôt que de promettre à tort une partie
