@@ -240,6 +240,31 @@ export const PORTFOLIOS: readonly Portfolio[] = [
     acronyms: [],
   },
   {
+    id: "cohesion-territoires",
+    canonicalLabel: "Ministère de la Cohésion des territoires",
+    holderLabel: "Ministre de la Cohésion des territoires",
+    aliases: ["cohésion des territoires", "aménagement du territoire"],
+    acronyms: [],
+  },
+  {
+    id: "egalite-femmes-hommes",
+    canonicalLabel: "Ministère de l'Égalité entre les femmes et les hommes",
+    holderLabel: "Ministre chargé de l'Égalité entre les femmes et les hommes",
+    aliases: [
+      "égalité femmes-hommes",
+      "égalité entre les femmes et les hommes",
+      "droits des femmes",
+    ],
+    acronyms: [],
+  },
+  {
+    id: "tourisme",
+    canonicalLabel: "Ministère du Tourisme",
+    holderLabel: "Ministre du Tourisme",
+    aliases: ["tourisme"],
+    acronyms: [],
+  },
+  {
     id: "porte-parole-gouvernement",
     canonicalLabel: "Porte-parole du Gouvernement",
     holderLabel: "Porte-parole du Gouvernement",

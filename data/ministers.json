@@ -1,5 +1,29 @@
 [
   {
+    "id": "agnes-buzyn",
+    "firstName": "Agnès",
+    "lastName": "Buzyn",
+    "aliases": [],
+    "party": "Sans étiquette",
+    "politicalFamily": "autre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2017,
+        "endYear": 2020,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Agnès Buzyn 2018-04-06 lancement stratégie autisme 2018-2022 (cropped).jpg",
+      "credit": "Amélie Tsaag Valren",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2826971",
+    "difficulty": 2
+  },
+  {
     "id": "agnes-firmin-le-bodo",
     "firstName": "Agnès",
     "lastName": "Firmin-Le Bodo",
@@ -337,6 +361,30 @@
     "difficulty": 3
   },
   {
+    "id": "anicet-le-pors",
+    "firstName": "Anicet",
+    "lastName": "Le Pors",
+    "aliases": [],
+    "party": "PCF",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1981,
+        "endYear": 1984,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Anicet-Le-Pors-2020.jpg",
+      "credit": "Cpalp",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2849909",
+    "difficulty": 2
+  },
+  {
     "id": "anne-genetet",
     "firstName": "Anne",
     "lastName": "Genetet",
@@ -488,6 +536,30 @@
     "difficulty": 2
   },
   {
+    "id": "aurelien-rousseau",
+    "firstName": "Aurélien",
+    "lastName": "Rousseau",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2023,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Aurélien Rousseau.jpg",
+      "credit": "TrisHR",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q29738515",
+    "difficulty": 2
+  },
+  {
     "id": "barbara-pompili",
     "firstName": "Barbara",
     "lastName": "Pompili",
@@ -536,6 +608,61 @@
     "difficulty": 2
   },
   {
+    "id": "benoit-hamon",
+    "firstName": "Benoît",
+    "lastName": "Hamon",
+    "aliases": [],
+    "party": "Génération.s",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2014,
+        "endYear": 2014,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Benoit Hamon 280816.jpg",
+      "credit": "Marion Germa",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q818118",
+    "difficulty": 2
+  },
+  {
+    "id": "bernard-bosson",
+    "firstName": "Bernard",
+    "lastName": "Bosson",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué aux Affaires européennes",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bernard Bosson-3.jpg",
+      "credit": "SuperManu",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2897580",
+    "difficulty": 2
+  },
+  {
     "id": "bernard-cazeneuve",
     "firstName": "Bernard",
     "lastName": "Cazeneuve",
@@ -567,6 +694,54 @@
     "difficulty": 1
   },
   {
+    "id": "bernard-kouchner",
+    "firstName": "Bernard",
+    "lastName": "Kouchner",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2007,
+        "endYear": 2010,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bernard Kouchner - World Economic Forum Annual Meeting Davos 2008 (cropped).jpg",
+      "credit": "World Economic Forum",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q206327",
+    "difficulty": 1
+  },
+  {
+    "id": "bernard-tapie",
+    "firstName": "Bernard",
+    "lastName": "Tapie",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Tapie en 2011 en tournée en Belgique pour \"OSCAR\"..jpg",
+      "credit": "Michaël Bemelmans",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q728645",
+    "difficulty": 2
+  },
+  {
     "id": "brice-hortefeux",
     "firstName": "Brice",
     "lastName": "Hortefeux",
@@ -589,6 +764,54 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q502972",
     "difficulty": 1
+  },
+  {
+    "id": "brigitte-bourguignon",
+    "firstName": "Brigitte",
+    "lastName": "Bourguignon",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Brigitte Bourguignon.jpg",
+      "credit": "Jean-Luc Hauser",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2925411",
+    "difficulty": 2
+  },
+  {
+    "id": "brigitte-klinkert",
+    "firstName": "Brigitte",
+    "lastName": "Klinkert",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Brigitte Klinkert en 2021.jpg",
+      "credit": "Edouard bail",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q63764562",
+    "difficulty": 2
   },
   {
     "id": "bruno-le-maire",
@@ -766,6 +989,37 @@
     "difficulty": 3
   },
   {
+    "id": "catherine-colonna",
+    "firstName": "Catherine",
+    "lastName": "Colonna",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Catherine Colonna - 2023 (cropped).jpg",
+      "credit": "Governo do Estado de São Paulo",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q273396",
+    "difficulty": 1
+  },
+  {
     "id": "catherine-pegard",
     "firstName": "Catherine",
     "lastName": "Pégard",
@@ -811,6 +1065,54 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q437405",
+    "difficulty": 2
+  },
+  {
+    "id": "catherine-vautrin",
+    "firstName": "Catherine",
+    "lastName": "Vautrin",
+    "aliases": [],
+    "party": "Horizons",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Portrait officiel de Catherine Vautrin - ©ECPAD.jpg",
+      "credit": "Lara PRIOLET/ECPAD/DEFENSE",
+      "license": "Licence Ouverte"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2942097",
+    "difficulty": 2
+  },
+  {
+    "id": "chantal-jouanno",
+    "firstName": "Chantal",
+    "lastName": "Jouanno",
+    "aliases": [],
+    "party": "UDI",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2010,
+        "endYear": 2011,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Chantal Jouanno, UMP regional elections, Paris 2010-01-21.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q524546",
     "difficulty": 2
   },
   {
@@ -1161,6 +1463,54 @@
     "difficulty": 1
   },
   {
+    "id": "claude-allegre",
+    "firstName": "Claude",
+    "lastName": "Allègre",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Claude Allègre, 2009 (cropped).jpg",
+      "credit": "fondapol",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1096420",
+    "difficulty": 2
+  },
+  {
+    "id": "claude-bartolone",
+    "firstName": "Claude",
+    "lastName": "Bartolone",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1998,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Claude Bartolone.jpg",
+      "credit": "thomas aubin from SAINT DENIS, FRANCE",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1096496",
+    "difficulty": 2
+  },
+  {
     "id": "claude-cheysson",
     "firstName": "Claude",
     "lastName": "Cheysson",
@@ -1209,6 +1559,54 @@
     "difficulty": 1
   },
   {
+    "id": "claude-evin",
+    "firstName": "Claude",
+    "lastName": "Évin",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1988,
+        "endYear": 1991,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "ClaudeEvin.jpg",
+      "credit": "Fantafix",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2978384",
+    "difficulty": 2
+  },
+  {
+    "id": "claudie-haignere",
+    "firstName": "Claudie",
+    "lastName": "Haigneré",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "HaignereClaudie.jpg",
+      "credit": "Frank Leuband",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q235580",
+    "difficulty": 2
+  },
+  {
     "id": "clement-beaune",
     "firstName": "Clément",
     "lastName": "Beaune",
@@ -1238,6 +1636,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q33172434",
     "difficulty": 3
+  },
+  {
+    "id": "cecile-duflot",
+    "firstName": "Cécile",
+    "lastName": "Duflot",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Cécile Duflot, 2010 (cropped).jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q268634",
+    "difficulty": 2
   },
   {
     "id": "damien-abad",
@@ -1613,6 +2035,54 @@
     "difficulty": 3
   },
   {
+    "id": "edwige-avice",
+    "firstName": "Edwige",
+    "lastName": "Avice",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Edwige Avice 1981 (cropped).png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3048745",
+    "difficulty": 2
+  },
+  {
+    "id": "emmanuel-macron",
+    "firstName": "Emmanuel",
+    "lastName": "Macron",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 2014,
+        "endYear": 2016,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Emmanuel Macron 2025 (cropped).jpg",
+      "credit": "Nebojša Tejić",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3052772",
+    "difficulty": 1
+  },
+  {
     "id": "emmanuelle-wargon",
     "firstName": "Emmanuelle",
     "lastName": "Wargon",
@@ -1778,6 +2248,30 @@
     "difficulty": 2
   },
   {
+    "id": "francois-abadie",
+    "firstName": "François",
+    "lastName": "Abadie",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "tourisme",
+        "officialTitle": "Ministre du Tourisme",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François Abadie 1981 (cropped).png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3083773",
+    "difficulty": 2
+  },
+  {
     "id": "francois-baroin",
     "firstName": "François",
     "lastName": "Baroin",
@@ -1845,6 +2339,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q12963",
     "difficulty": 1
+  },
+  {
+    "id": "francois-braun",
+    "firstName": "François",
+    "lastName": "Braun",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2022,
+        "endYear": 2023,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François Braun (16-06-2023).jpg",
+      "credit": "Government of Catalonia",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q112289951",
+    "difficulty": 2
   },
   {
     "id": "francois-fillon",
@@ -2070,6 +2588,30 @@
     "difficulty": 2
   },
   {
+    "id": "frederique-vidal",
+    "firstName": "Frédérique",
+    "lastName": "Vidal",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2017,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Frédérique Vidal INRIA.jpg",
+      "credit": "Vilenath",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28950190",
+    "difficulty": 2
+  },
+  {
     "id": "gabriel-attal",
     "firstName": "Gabriel",
     "lastName": "Attal",
@@ -2170,6 +2712,30 @@
     "difficulty": 3
   },
   {
+    "id": "genevieve-fioraso",
+    "firstName": "Geneviève",
+    "lastName": "Fioraso",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2012,
+        "endYear": 2015,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Geneviève Fioraso - Février 2013.jpg",
+      "credit": "Matthieu Riegler, CC-by",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q283173",
+    "difficulty": 2
+  },
+  {
     "id": "georges-pompidou",
     "firstName": "Georges",
     "lastName": "Pompidou",
@@ -2192,6 +2758,78 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2185",
     "difficulty": 1
+  },
+  {
+    "id": "gil-averous",
+    "firstName": "Gil",
+    "lastName": "Avérous",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2024,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Gil Averous.jpg",
+      "credit": "ThomWikz",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q21761190",
+    "difficulty": 2
+  },
+  {
+    "id": "gilles-de-robien",
+    "firstName": "Gilles",
+    "lastName": "de Robien",
+    "aliases": [],
+    "party": "Démocratie libérale",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Gillesderobien.jpg",
+      "credit": "CUBALIBRE2 d'après M. Maison - Mairie d'Amiens",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q798242",
+    "difficulty": 2
+  },
+  {
+    "id": "guy-drut",
+    "firstName": "Guy",
+    "lastName": "Drut",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Extract Guy Drut (1969).jpg",
+      "credit": "Unknown author, travail dérivé par Agamitsudo",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q365638",
+    "difficulty": 2
   },
   {
     "id": "gerald-darmanin",
@@ -2253,6 +2891,30 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q12956",
+    "difficulty": 1
+  },
+  {
+    "id": "hamlaoui-mekachera",
+    "firstName": "Hamlaoui",
+    "lastName": "Mekachera",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 2004,
+        "endYear": 2007,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Hamlaoui Mekachera (20e Maghreb des Livres, Paris, 8 février 2014).jpg",
+      "credit": "Indif",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3126470",
     "difficulty": 1
   },
   {
@@ -2359,6 +3021,30 @@
     "difficulty": 3
   },
   {
+    "id": "herve-berville",
+    "firstName": "Hervé",
+    "lastName": "Berville",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2022,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Berville 2023.jpg",
+      "credit": "Conseil de l'Union Européenne",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30223120",
+    "difficulty": 2
+  },
+  {
     "id": "herve-gaymard",
     "firstName": "Hervé",
     "lastName": "Gaymard",
@@ -2414,6 +3100,30 @@
     "difficulty": 2
   },
   {
+    "id": "hubert-germain",
+    "firstName": "Hubert",
+    "lastName": "Germain",
+    "aliases": [],
+    "party": "UDR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1972,
+        "endYear": 1974,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Paul Arnault Germain Sud El Alamein Stuka-s hell oct 1942.jpg",
+      "credit": "Unknown author",
+      "license": "Licence Ouverte"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3142009",
+    "difficulty": 3
+  },
+  {
     "id": "hubert-vedrine",
     "firstName": "Hubert",
     "lastName": "Védrine",
@@ -2436,6 +3146,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q560682",
     "difficulty": 2
+  },
+  {
+    "id": "isabelle-rome",
+    "firstName": "Isabelle",
+    "lastName": "Rome",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre déléguée à l'Égalité femmes-hommes, à la Diversité et à l'Égalité des chances",
+        "startYear": 2022,
+        "endYear": 2023,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Isabelle Rome - 2018.jpg",
+      "credit": "Ministère de la Justice, France",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q56715795",
+    "difficulty": 3
   },
   {
     "id": "jack-lang",
@@ -2487,6 +3221,30 @@
       "license": "Public domain"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q379229",
+    "difficulty": 2
+  },
+  {
+    "id": "jacqueline-gourault",
+    "firstName": "Jacqueline",
+    "lastName": "Gourault",
+    "aliases": [],
+    "party": "MoDem",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2018,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Informal meeting of justice and home affairs ministers.Arrivals (Home Affairs) Jacqueline Gourault (34910260564) (cropped).jpg",
+      "credit": "Arno Mikkor, Aron Urb",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3157735",
     "difficulty": 2
   },
   {
@@ -2619,6 +3377,61 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3159399",
     "difficulty": 3
+  },
+  {
+    "id": "jacques-maziol",
+    "firstName": "Jacques",
+    "lastName": "Maziol",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1962,
+        "endYear": 1966,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "14.02.65 Inauguration rue Latécoère avec la famille, M. Maziol et Didier Daurat (1965) - 53Fi2247 (Jacques Maziol).jpg",
+      "credit": "André Cros",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3159535",
+    "difficulty": 3
+  },
+  {
+    "id": "jacques-mezard",
+    "firstName": "Jacques",
+    "lastName": "Mézard",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2017,
+        "endYear": 2020,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2017,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Mézard ministre.jpg",
+      "credit": "Antinhactrobador",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3159636",
+    "difficulty": 2
   },
   {
     "id": "jacques-toubon",
@@ -2820,6 +3633,30 @@
     "difficulty": 3
   },
   {
+    "id": "jean-puech",
+    "firstName": "Jean",
+    "lastName": "Puech",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Puech.jpg",
+      "credit": "Guillaume Paumier (user:guillom), travail dérivé par Badzil",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3174139",
+    "difficulty": 2
+  },
+  {
     "id": "jean-sauvagnargues",
     "firstName": "Jean",
     "lastName": "Sauvagnargues",
@@ -2866,6 +3703,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3174738",
     "difficulty": 3
+  },
+  {
+    "id": "jean-baptiste-djebbari",
+    "firstName": "Jean-Baptiste",
+    "lastName": "Djebbari",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 2019,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Djebbari 2021 (cropped).jpg",
+      "credit": "Conseil de l'Union Européenne",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30343005",
+    "difficulty": 2
   },
   {
     "id": "jean-baptiste-lemoyne",
@@ -2938,6 +3799,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q101229059",
     "difficulty": 3
+  },
+  {
+    "id": "jean-claude-gaudin",
+    "firstName": "Jean-Claude",
+    "lastName": "Gaudin",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Claude Gaudin 1 JD022008 cropped.jpg",
+      "credit": "Superbenjamin",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q670918",
+    "difficulty": 2
   },
   {
     "id": "jean-francois-carenco",
@@ -3218,6 +4103,30 @@
     "difficulty": 1
   },
   {
+    "id": "jean-paul-delevoye",
+    "firstName": "Jean-Paul",
+    "lastName": "Delevoye",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Paul Delevoye.jpg",
+      "credit": "Semaines sociales de France",
+      "license": "CC BY-SA 2.0 fr"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3168448",
+    "difficulty": 2
+  },
+  {
     "id": "jean-pierre-chevenement",
     "firstName": "Jean-Pierre",
     "lastName": "Chevènement",
@@ -3288,6 +4197,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q63263",
     "difficulty": 1
+  },
+  {
+    "id": "jean-pierre-soisson",
+    "firstName": "Jean-Pierre",
+    "lastName": "Soisson",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Pierre Soisson (cropped).jpg",
+      "credit": "Gege089 at French Wikipedia",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q603262",
+    "difficulty": 2
   },
   {
     "id": "jean-yves-le-drian",
@@ -3362,6 +4295,61 @@
     "difficulty": 3
   },
   {
+    "id": "julien-denormandie",
+    "firstName": "Julien",
+    "lastName": "Denormandie",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 2018,
+        "endYear": 2020,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Julien Denormandie 2018 (cropped).jpg",
+      "credit": "Jacques Paquier",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30459912",
+    "difficulty": 2
+  },
+  {
+    "id": "justine-benin",
+    "firstName": "Justine",
+    "lastName": "Benin",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2022,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Justine Bénin.jpg",
+      "credit": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30342954",
+    "difficulty": 2
+  },
+  {
     "id": "kader-arif",
     "firstName": "Kader",
     "lastName": "Arif",
@@ -3384,6 +4372,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1394045",
     "difficulty": 3
+  },
+  {
+    "id": "laura-flessel-colovic",
+    "firstName": "Laura",
+    "lastName": "Flessel-Colovic",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2017,
+        "endYear": 2018,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Laura Flessel-Colovic, Team trophy presentation Challenge international de Saint-Maur 2013 t161426.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q239263",
+    "difficulty": 2
   },
   {
     "id": "laurence-boone",
@@ -3575,6 +4587,37 @@
     "difficulty": 2
   },
   {
+    "id": "louis-mermaz",
+    "firstName": "Louis",
+    "lastName": "Mermaz",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1988,
+        "endYear": 1988,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 1990,
+        "endYear": 1992,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Louis MERMAZ.jpg",
+      "credit": "Louis MERMAZ",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q976492",
+    "difficulty": 2
+  },
+  {
     "id": "luc-chatel",
     "firstName": "Luc",
     "lastName": "Chatel",
@@ -3668,6 +4711,30 @@
     "difficulty": 3
   },
   {
+    "id": "marie-barsacq",
+    "firstName": "Marie",
+    "lastName": "Barsacq",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2024,
+        "endYear": 2025,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marie-Barsacq-2008.jpg",
+      "credit": "Jmex",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q131545757",
+    "difficulty": 2
+  },
+  {
     "id": "marie-guevenoux",
     "firstName": "Marie",
     "lastName": "Guévenoux",
@@ -3740,6 +4807,30 @@
     "difficulty": 2
   },
   {
+    "id": "marisol-touraine",
+    "firstName": "Marisol",
+    "lastName": "Touraine",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2012,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marisol Touraine 2015.jpg",
+      "credit": "Camille 75000",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q270094",
+    "difficulty": 2
+  },
+  {
     "id": "marlene-schiappa",
     "firstName": "Marlène",
     "lastName": "Schiappa",
@@ -3762,6 +4853,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q20807844",
     "difficulty": 3
+  },
+  {
+    "id": "martine-aubry",
+    "firstName": "Martine",
+    "lastName": "Aubry",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Martine Aubry - avril 2012 (3) crop.jpg",
+      "credit": "Philippe J., travail dérivé par Jack Rabbit Slim's",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q228977",
+    "difficulty": 2
   },
   {
     "id": "marylise-lebranchu",
@@ -4079,6 +5194,30 @@
     "difficulty": 1
   },
   {
+    "id": "michel-delebarre",
+    "firstName": "Michel",
+    "lastName": "Delebarre",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1990,
+        "endYear": 1992,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Delebarre 4JDD 2010.jpg",
+      "credit": "Vlaam",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q129774",
+    "difficulty": 2
+  },
+  {
     "id": "michel-gillibert",
     "firstName": "Michel",
     "lastName": "Gillibert",
@@ -4370,6 +5509,54 @@
     "difficulty": 2
   },
   {
+    "id": "muriel-penicaud",
+    "firstName": "Muriel",
+    "lastName": "Pénicaud",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2017,
+        "endYear": 2020,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Muriel Pénicaud 2019 (cropped).jpg",
+      "credit": "Jacques Paquier",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3328127",
+    "difficulty": 2
+  },
+  {
+    "id": "nadia-hai",
+    "firstName": "Nadia",
+    "lastName": "Hai",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nadia Hai.jpg",
+      "credit": "Jean-Luc Hauser",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30343155",
+    "difficulty": 2
+  },
+  {
     "id": "najat-vallaud-belkacem",
     "firstName": "Najat",
     "lastName": "Vallaud-Belkacem",
@@ -4392,6 +5579,54 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q268529",
     "difficulty": 2
+  },
+  {
+    "id": "nathalie-loiseau",
+    "firstName": "Nathalie",
+    "lastName": "Loiseau",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2017,
+        "endYear": 2019,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nathalie Loiseau sur un marché durant la campagne des européennes (cropped).jpg",
+      "credit": "Teemo86",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q16666184",
+    "difficulty": 1
+  },
+  {
+    "id": "nicolas-forissier",
+    "firstName": "Nicolas",
+    "lastName": "Forissier",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Portrait Forissier 2025 (cropped).jpg",
+      "credit": "Ministère de l'Europe et des Affaires étrangères",
+      "license": "Licence Ouverte"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3340330",
+    "difficulty": 1
   },
   {
     "id": "nicolas-hulot",
@@ -4494,6 +5729,54 @@
     "difficulty": 1
   },
   {
+    "id": "nicole-bricq",
+    "firstName": "Nicole",
+    "lastName": "Bricq",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nicole Bricq (cropped).jpg",
+      "credit": "World Trade Organization",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q452131",
+    "difficulty": 1
+  },
+  {
+    "id": "noelle-lenoir",
+    "firstName": "Noëlle",
+    "lastName": "Lenoir",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Noëlle Lenoir 2.jpg",
+      "credit": "M. Jacques Benaroch",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q529265",
+    "difficulty": 2
+  },
+  {
     "id": "olivia-gregoire",
     "firstName": "Olivia",
     "lastName": "Grégoire",
@@ -4523,6 +5806,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q30349408",
     "difficulty": 2
+  },
+  {
+    "id": "olivier-becht",
+    "firstName": "Olivier",
+    "lastName": "Becht",
+    "aliases": [],
+    "party": "Agir",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2022,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Olivier BECHT.jpg",
+      "credit": "Werner STEINKE",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30348845",
+    "difficulty": 1
   },
   {
     "id": "olivier-dussopt",
@@ -4717,6 +6024,30 @@
     "difficulty": 2
   },
   {
+    "id": "philippe-bas",
+    "firstName": "Philippe",
+    "lastName": "Bas",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2007,
+        "endYear": 2007,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Phbas6juin12 (cropped).JPG",
+      "credit": "Deshayesdavid",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3379308",
+    "difficulty": 2
+  },
+  {
     "id": "philippe-douste-blazy",
     "firstName": "Philippe",
     "lastName": "Douste-Blazy",
@@ -4887,6 +6218,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q346154",
     "difficulty": 3
+  },
+  {
+    "id": "pierre-dreyfus",
+    "firstName": "Pierre",
+    "lastName": "Dreyfus",
+    "aliases": [],
+    "party": "SFIO",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 1981,
+        "endYear": 1982,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Trophee Auto van het jaar uitgereikt aan President-Directeur-Generaal van Renaul, Bestanddeelnr 918-7477.jpg",
+      "credit": "Jack de Nijs for Anefo",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1350177",
+    "difficulty": 2
   },
   {
     "id": "pierre-joxe",
@@ -5270,6 +6625,54 @@
     "difficulty": 3
   },
   {
+    "id": "rene-teulade",
+    "firstName": "René",
+    "lastName": "Teulade",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "René Teulade.jpg",
+      "credit": "Arnoub",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3426925",
+    "difficulty": 2
+  },
+  {
+    "id": "richard-ferrand",
+    "firstName": "Richard",
+    "lastName": "Ferrand",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2017,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Échanges avec Richard Ferrand, Président de l'Assemblée nationale, à la Faculté de droit Paris-Est 01 (cropped 2).jpg",
+      "credit": "Faculté de droit Paris-Est Créteil",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3430759",
+    "difficulty": 2
+  },
+  {
     "id": "rima-abdul-malak",
     "firstName": "Rima",
     "lastName": "Abdul Malak",
@@ -5507,6 +6910,30 @@
     "difficulty": 2
   },
   {
+    "id": "roxana-maracineanu",
+    "firstName": "Roxana",
+    "lastName": "Maracineanu",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2018,
+        "endYear": 2020,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Roxana Maracineanu - 2018 (cropped).jpg",
+      "credit": "Jérémy Barande",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q446170",
+    "difficulty": 2
+  },
+  {
     "id": "sarah-el-hairy",
     "firstName": "Sarah",
     "lastName": "El Haïry",
@@ -5562,6 +6989,37 @@
     "difficulty": 2
   },
   {
+    "id": "simone-veil",
+    "firstName": "Simone",
+    "lastName": "Veil",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1974,
+        "endYear": 1979,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Simone Veil, gymnase Japy 2008 02 27 n3 ret.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q298180",
+    "difficulty": 2
+  },
+  {
     "id": "sophie-cluzel",
     "firstName": "Sophie",
     "lastName": "Cluzel",
@@ -5584,6 +7042,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3490886",
     "difficulty": 3
+  },
+  {
+    "id": "stanislas-guerini",
+    "firstName": "Stanislas",
+    "lastName": "Guerini",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Stanislas guerini AN 16475.JPG",
+      "credit": "G.Garitan",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30343112",
+    "difficulty": 2
   },
   {
     "id": "stephane-le-foll",
@@ -5634,6 +7116,30 @@
     "difficulty": 1
   },
   {
+    "id": "stephane-travert",
+    "firstName": "Stéphane",
+    "lastName": "Travert",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2017,
+        "endYear": 2018,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Stéphane Travert 19059 salle 4 colonnes.jpg",
+      "credit": "G.Garitan",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3502105",
+    "difficulty": 2
+  },
+  {
     "id": "sylvie-goulard",
     "firstName": "Sylvie",
     "lastName": "Goulard",
@@ -5656,6 +7162,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q247924",
     "difficulty": 1
+  },
+  {
+    "id": "sylvie-retailleau",
+    "firstName": "Sylvie",
+    "lastName": "Retailleau",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Sylvie Retailleau 2018 (crop).jpg",
+      "credit": "Université Paris-Saclay",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q47498954",
+    "difficulty": 2
   },
   {
     "id": "sebastien-lecornu",
@@ -5868,6 +7398,37 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q960643",
+    "difficulty": 2
+  },
+  {
+    "id": "xavier-bertrand",
+    "firstName": "Xavier",
+    "lastName": "Bertrand",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2007,
+        "endYear": 2012,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Xavier Bertrand - 2025 (cropped).jpg",
+      "credit": "Claudio Centonze / European Union, 2025 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q203793",
     "difficulty": 2
   },
   {
@@ -6127,6 +7688,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q274689",
     "difficulty": 2
+  },
+  {
+    "id": "elisabeth-moreno",
+    "firstName": "Élisabeth",
+    "lastName": "Moreno",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre déléguée à l'Égalité femmes-hommes, à la Diversité et à l'Égalité des chances",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Élisabeth Moreno FranceAfrica summit 2021.jpg",
+      "credit": "Filo gèn'",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64373817",
+    "difficulty": 3
   },
   {
     "id": "emile-pelletier",

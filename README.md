@@ -8,9 +8,9 @@ Trois niveaux, gigognes :
 
 | Niveau        | Périmètre                                          | Vivier        |
 | ------------- | -------------------------------------------------- | ------------- |
-| Facile        | Postes régaliens depuis 1981                       | 96 personnes  |
-| Intermédiaire | Tous les ministères depuis 1958                    | 193 personnes |
-| Difficile     | Y compris ministres délégués et secrétaires d'État | 229 personnes |
+| Facile        | Postes régaliens depuis 1981                       | 108 personnes |
+| Intermédiaire | Tous les ministères depuis 1958                    | 255 personnes |
+| Difficile     | Y compris ministres délégués et secrétaires d'État | 293 personnes |
 
 Le meilleur score est conservé séparément pour chaque niveau, dans `localStorage`.
 Aucun cookie, donc aucune bannière de consentement.
@@ -181,8 +181,8 @@ leurs auteurs, ne sont pas hébergées dans ce dépôt, et sont affichées depui
 Commons selon les termes de chaque fichier. La page « Crédits » du jeu les liste toutes
 avec leur auteur, leur licence et un lien vers le fichier source.
 
-Répartition actuelle sur 229 photos : 113 en partage à l'identique (CC BY-SA), 63 en
-attribution simple (CC BY), 36 libres de droits (domaine public, CC0), 17 sous licences
+Répartition actuelle sur 293 photos : 148 en partage à l'identique (CC BY-SA), 80 en
+attribution simple (CC BY), 42 libres de droits (domaine public, CC0), 23 sous licences
 institutionnelles (Attribution, Licence Ouverte / Etalab, Flickr Commons).
 
 **Le partage à l'identique ne contamine pas le code.** Le ShareAlike de Creative Commons
