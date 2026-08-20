@@ -92,7 +92,7 @@ distance de Levenshtein (~20 lignes) plutôt que d'ajouter une librairie.
 │   ├── ministers.json             # LA base de données, éditable à la main
 │   └── ministers.schema.ts        # schéma Zod + types TS dérivés
 ├── scripts/
-│   ├── fetch-candidates.ts        # requête Wikidata → liste de candidats à trier
+│   ├── fetch-candidates.ts        # Wikidata → candidats à trier (3 voies, cf. §6.2)
 │   ├── fetch-photo-metadata.ts    # API Commons → crédit + licence d'un fichier
 │   ├── check-photo-links.ts       # HEAD sur chaque photo, signale les 404
 │   └── validate-data.ts           # échoue si le JSON est invalide
@@ -266,7 +266,7 @@ recours pour une personne dont Wikidata ignore toute affiliation : `party` vaut 
 
 ## 5. Périmètre de la base
 
-**Cible : 150 à 250 personnes**, de 1958 à aujourd'hui.
+**Cible : 250 à 350 personnes**, de 1958 à aujourd'hui.
 
 Critères d'inclusion, par ordre de priorité :
 
@@ -300,7 +300,20 @@ Répartition visée par `difficulty` : ~30 % niveau 1, ~45 % niveau 2, ~25 % niv
 1. `scripts/fetch-candidates.ts` interroge le SPARQL endpoint de Wikidata
    (`https://query.wikidata.org/sparql`) pour lister les personnes ayant occupé une
    position de ministre français après 1958, avec leur image Commons quand elle existe.
+
+   **Wikidata ne décrit pas ces postes de façon homogène.** Une liste d'identifiants
+   écrite à la main laissait 51 ministres de côté. Le script énumère donc les postes
+   par trois voies dont l'union seule est complète : `P31 = poste` + `P17 = France` ;
+   les organisations « ministère », car le `P39` de Simone Veil pointe vers le
+   ministère de la Santé et non vers un poste ; et `P1001 = France`, que « ministre du
+   Travail » porte sans avoir le `P31` attendu.
+
+   L'énumération des postes est une requête **séparée** de celle des titulaires :
+   jointes, elles dépassent le délai de WDQS. Le préfixe « haut-commissaire » est
+   volontairement exclu — il n'est gouvernemental qu'une fois sur deux et faisait
+   entrer des hauts-commissaires à l'énergie atomique.
    Sortie : `data/candidates.raw.json` (non versionné, ou versionné mais jamais lu par l'app).
+
 2. **Un humain (ou Claude, sous revue) trie** : sélection selon §5, attribution du
    `portfolio`, de la `difficulty`, des `aliases`, nettoyage des intitulés.
    Résultat écrit dans `data/ministers.json`.
@@ -620,9 +633,9 @@ plus large.
 
 | Niveau            | Critère                                                      | Vivier         |
 | ----------------- | ------------------------------------------------------------ | -------------- |
-| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~95 personnes  |
-| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~190 personnes |
-| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~230 personnes |
+| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~110 personnes |
+| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~255 personnes |
+| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~295 personnes |
 
 Postes **régaliens** : `premier-ministre`, `interieur`, `affaires-etrangeres`,
 `justice`, `defense`, `economie-finances`. Bercy y figure parce que son titulaire est
