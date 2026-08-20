@@ -234,7 +234,25 @@ interface Minister {
 c'est voulu, une personne doit pouvoir corriger une date ou ajouter une fiche sans
 lancer de script.
 
-### 4.3 Règles de qualité des données
+### 4.3 Ce que `party` veut dire
+
+`party` est **l'affiliation la plus récente connue de la personne**, et non son parti
+au moment du mandat affiché. Nicolas Sarkozy est donc « LR », bien que LR n'existât pas
+lors de son passage au Budget en 1993.
+
+C'est un choix, motivé par l'usage : le champ ne sert qu'à l'indice n°5, où l'on
+cherche à situer quelqu'un, pas à dater une adhésion.
+
+Wikidata liste plusieurs `P102` **sans ordre garanti**. Retenir « la dernière
+déclarée » produisait des valeurs fausses : Hervé Gaymard en UDR — parti dissous en
+1976 alors qu'il est ministre en 2002 — ou Élisabeth Guigou en PSU, dissous en 1989.
+On retient donc le parti dont la **date de création est la plus tardive**.
+
+Cette résolution n'est pas parfaite pour qui a changé de camp, et elle reste sans
+recours pour une personne dont Wikidata ignore toute affiliation : `party` vaut alors
+`null` et l'indice est escamoté (§7.5).
+
+### 4.4 Règles de qualité des données
 
 - **Aucune donnée inventée.** Chaque fiche a un `sourceUrl` vérifiable. Si une info
   est incertaine, ne pas créer la fiche.
@@ -602,9 +620,9 @@ plus large.
 
 | Niveau            | Critère                                                      | Vivier         |
 | ----------------- | ------------------------------------------------------------ | -------------- |
-| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~80 personnes  |
-| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~160 personnes |
-| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~186 personnes |
+| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~95 personnes  |
+| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~190 personnes |
+| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~230 personnes |
 
 Postes **régaliens** : `premier-ministre`, `interieur`, `affaires-etrangeres`,
 `justice`, `defense`, `economie-finances`. Bercy y figure parce que son titulaire est
