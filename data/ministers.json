@@ -337,6 +337,30 @@
     "difficulty": 3
   },
   {
+    "id": "anne-genetet",
+    "firstName": "Anne",
+    "lastName": "Genetet",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Anne Genetet.jpg",
+      "credit": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30339280",
+    "difficulty": 2
+  },
+  {
     "id": "annick-girardin",
     "firstName": "Annick",
     "lastName": "Girardin",
@@ -543,6 +567,30 @@
     "difficulty": 1
   },
   {
+    "id": "brice-hortefeux",
+    "firstName": "Brice",
+    "lastName": "Hortefeux",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 2009,
+        "endYear": 2010,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Hortefeux, Brice-1264.jpg",
+      "credit": "Foto-AG Gymnasium Melle",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q502972",
+    "difficulty": 1
+  },
+  {
     "id": "bruno-le-maire",
     "firstName": "Bruno",
     "lastName": "Le Maire",
@@ -620,6 +668,78 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2926942",
     "difficulty": 1
+  },
+  {
+    "id": "berangere-abba",
+    "firstName": "Bérangère",
+    "lastName": "Abba",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État auprès de la ministre de la Transition écologique et solidaire",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bérangère Abba.jpg",
+      "credit": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30339386",
+    "difficulty": 3
+  },
+  {
+    "id": "berangere-couillard",
+    "firstName": "Bérangère",
+    "lastName": "Couillard",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État à l'Écologie",
+        "startYear": 2022,
+        "endYear": 2023,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bérangère Couillard.jpg",
+      "credit": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30440777",
+    "difficulty": 3
+  },
+  {
+    "id": "carole-grandjean",
+    "firstName": "Carole",
+    "lastName": "Grandjean",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre délégué chargé de l'Enseignement et de la Formation professionnels",
+        "startYear": 2022,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Carole Grandjean, 2017 (cropped).jpg",
+      "credit": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30512501",
+    "difficulty": 3
   },
   {
     "id": "caroline-cayeux",
@@ -749,6 +869,30 @@
     "difficulty": 2
   },
   {
+    "id": "charles-de-gaulle",
+    "firstName": "Charles",
+    "lastName": "de Gaulle",
+    "aliases": [],
+    "party": "UDR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "premier-ministre",
+        "officialTitle": "Premier ministre",
+        "startYear": 1959,
+        "endYear": 1959,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "General Charles de Gaulle in 1945.jpg",
+      "credit": "The National Archives UK",
+      "license": "No restrictions"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2042",
+    "difficulty": 1
+  },
+  {
     "id": "charlotte-caubel",
     "firstName": "Charlotte",
     "lastName": "Caubel",
@@ -850,6 +994,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2965623",
     "difficulty": 2
+  },
+  {
+    "id": "christiane-taubira",
+    "firstName": "Christiane",
+    "lastName": "Taubira",
+    "aliases": [],
+    "party": "MDES",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "justice",
+        "officialTitle": "Garde des Sceaux, ministre de la Justice",
+        "startYear": 2012,
+        "endYear": 2016,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Vote solennel loi mariage 23042013 42.jpg",
+      "credit": "Ericwaltr",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q268675",
+    "difficulty": 1
   },
   {
     "id": "christine-albanel",
@@ -1096,6 +1264,30 @@
     "difficulty": 3
   },
   {
+    "id": "daniel-vaillant",
+    "firstName": "Daniel",
+    "lastName": "Vaillant",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Daniel Vaillant1 (5).JPG",
+      "credit": "Milliped",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1905371",
+    "difficulty": 2
+  },
+  {
     "id": "didier-guillaume",
     "firstName": "Didier",
     "lastName": "Guillaume",
@@ -1273,6 +1465,44 @@
     "difficulty": 2
   },
   {
+    "id": "dominique-de-villepin",
+    "firstName": "Dominique",
+    "lastName": "de Villepin",
+    "aliases": [],
+    "party": "La France humaniste",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "premier-ministre",
+        "officialTitle": "Premier ministre",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Dominique de Villepin (2010).jpg",
+      "credit": "Georges Seguin ( Okki )",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q131660",
+    "difficulty": 1
+  },
+  {
     "id": "edgar-faure",
     "firstName": "Edgar",
     "lastName": "Faure",
@@ -1431,6 +1661,37 @@
     "difficulty": 2
   },
   {
+    "id": "fleur-pellerin",
+    "firstName": "Fleur",
+    "lastName": "Pellerin",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 2014,
+        "endYear": 2016,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, du Développement du tourisme et des Français de l'étranger",
+        "startYear": 2014,
+        "endYear": 2014,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "FIBD 2015 Fleur Pellerin.jpg",
+      "credit": "Selbymay",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q268660",
+    "difficulty": 2
+  },
+  {
     "id": "florence-parly",
     "firstName": "Florence",
     "lastName": "Parly",
@@ -1586,6 +1847,37 @@
     "difficulty": 1
   },
   {
+    "id": "francois-fillon",
+    "firstName": "François",
+    "lastName": "Fillon",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "premier-ministre",
+        "officialTitle": "Premier ministre",
+        "startYear": 2007,
+        "endYear": 2012,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François Fillon 2010.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q101410",
+    "difficulty": 1
+  },
+  {
     "id": "francois-guillaume",
     "firstName": "François",
     "lastName": "Guillaume",
@@ -1631,6 +1923,30 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1394083",
+    "difficulty": 2
+  },
+  {
+    "id": "francois-patriat",
+    "firstName": "François",
+    "lastName": "Patriat",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2002,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François Patriat.jpg",
+      "credit": "François PATRIAT",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3085525",
     "difficulty": 2
   },
   {
@@ -2043,6 +2359,37 @@
     "difficulty": 3
   },
   {
+    "id": "herve-gaymard",
+    "firstName": "Hervé",
+    "lastName": "Gaymard",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Paris - Salon du livre 2012 - Hervé Gaymard - 001.jpg",
+      "credit": "Thesupermat",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q182786",
+    "difficulty": 2
+  },
+  {
     "id": "herve-de-charette",
     "firstName": "Hervé",
     "lastName": "de Charette",
@@ -2064,6 +2411,30 @@
       "license": "Attribution"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1366170",
+    "difficulty": 2
+  },
+  {
+    "id": "hubert-vedrine",
+    "firstName": "Hubert",
+    "lastName": "Védrine",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1997,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Hubert Vedrine 2006 01 06.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY-SA 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q560682",
     "difficulty": 2
   },
   {
@@ -2278,6 +2649,30 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1379752",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-arthuis",
+    "firstName": "Jean",
+    "lastName": "Arthuis",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bayrou Bercy 2007-04-18 n5.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q528462",
     "difficulty": 2
   },
   {
@@ -2821,6 +3216,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q30339198",
     "difficulty": 1
+  },
+  {
+    "id": "jean-pierre-chevenement",
+    "firstName": "Jean-Pierre",
+    "lastName": "Chevènement",
+    "aliases": [],
+    "party": "Refondation républicaine",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "2014-07-14 11-07-47 defile-militaire-belfort (cropped).jpg",
+      "credit": "Thomas Bresson",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q736502",
+    "difficulty": 2
   },
   {
     "id": "jean-pierre-fourcade",
@@ -3708,6 +4127,30 @@
     "difficulty": 3
   },
   {
+    "id": "michel-mercier",
+    "firstName": "Michel",
+    "lastName": "Mercier",
+    "aliases": [],
+    "party": "MoDem",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "justice",
+        "officialTitle": "Garde des Sceaux, ministre de la Justice",
+        "startYear": 2010,
+        "endYear": 2012,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Michel Mercier 27 03 12.jpg",
+      "credit": "Georges Biard",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q12955",
+    "difficulty": 1
+  },
+  {
     "id": "michel-poniatowski",
     "firstName": "Michel",
     "lastName": "Poniatowski",
@@ -3973,6 +4416,51 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q982005",
     "difficulty": 2
+  },
+  {
+    "id": "nicolas-sarkozy",
+    "firstName": "Nicolas",
+    "lastName": "Sarkozy",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre du Budget",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1994,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 2002,
+        "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 2004,
+        "endYear": 2004,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nicolas Sarkozy in 2010.jpg",
+      "credit": "European People's Party",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q329",
+    "difficulty": 1
   },
   {
     "id": "nicole-belloubet",
@@ -4590,6 +5078,37 @@
     "difficulty": 2
   },
   {
+    "id": "rachida-dati",
+    "firstName": "Rachida",
+    "lastName": "Dati",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "justice",
+        "officialTitle": "Garde des Sceaux, ministre de la Justice",
+        "startYear": 2007,
+        "endYear": 2009,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 2024,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Festival automobile international 2016 - Photocall - 043 (cropped).jpg",
+      "credit": "Thesupermat",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q27182",
+    "difficulty": 1
+  },
+  {
     "id": "raymond-barre",
     "firstName": "Raymond",
     "lastName": "Barre",
@@ -4871,6 +5390,30 @@
     "difficulty": 3
   },
   {
+    "id": "roger-karoutchi",
+    "firstName": "Roger",
+    "lastName": "Karoutchi",
+    "aliases": [],
+    "party": "Libres !",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Secrétaire d'État chargé des relations avec le Parlement",
+        "startYear": 2007,
+        "endYear": 2009,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "UMP regional elections IlM 2010-02-18 n10.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1059511",
+    "difficulty": 3
+  },
+  {
     "id": "roland-dumas",
     "firstName": "Roland",
     "lastName": "Dumas",
@@ -5017,6 +5560,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q29867485",
     "difficulty": 2
+  },
+  {
+    "id": "sophie-cluzel",
+    "firstName": "Sophie",
+    "lastName": "Cluzel",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État aux personnes handicapées",
+        "startYear": 2017,
+        "endYear": 2022,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Sophie Cluzel 2018-04-06 lancement stratégie autisme 2018-2022 (3).jpg",
+      "credit": "Amélie Tsaag Valren",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3490886",
+    "difficulty": 3
   },
   {
     "id": "stephane-le-foll",
@@ -5304,6 +5871,30 @@
     "difficulty": 2
   },
   {
+    "id": "xavier-darcos",
+    "firstName": "Xavier",
+    "lastName": "Darcos",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 2007,
+        "endYear": 2009,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Xavier Darcos 3.jpg",
+      "credit": "MEDEF",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1470586",
+    "difficulty": 2
+  },
+  {
     "id": "yael-braun-pivet",
     "firstName": "Yaël",
     "lastName": "Braun-Pivet",
@@ -5512,6 +6103,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q20020731",
     "difficulty": 1
+  },
+  {
+    "id": "elisabeth-guigou",
+    "firstName": "Élisabeth",
+    "lastName": "Guigou",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "justice",
+        "officialTitle": "Garde des Sceaux, ministre de la Justice",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Élisabeth Guigou, Socialist rally, Zénith, 2007 05 29 n11.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q274689",
+    "difficulty": 2
   },
   {
     "id": "emile-pelletier",
