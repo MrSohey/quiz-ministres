@@ -2594,8 +2594,8 @@
         "rank": "ministre"
       },
       {
-        "portfolio": "affaires-etrangeres",
-        "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, du Développement du tourisme et des Français de l'étranger",
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Secrétaire d'État chargée du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
         "startYear": 2014,
         "endYear": 2014,
         "rank": "secretaire-etat"
@@ -5863,7 +5863,7 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
-        "portfolio": "affaires-etrangeres",
+        "portfolio": "commerce-exterieur",
         "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
         "startYear": 2014,
         "endYear": 2017,
@@ -8291,8 +8291,8 @@
     "politicalFamily": "centre",
     "mandates": [
       {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre délégué chargé de l'Industrie",
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué chargé de l'Industrie et de l'Énergie",
         "startYear": 2022,
         "endYear": 2024,
         "rank": "ministre-delegue"
@@ -8714,7 +8714,7 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
-        "portfolio": "affaires-etrangeres",
+        "portfolio": "commerce-exterieur",
         "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
         "startYear": 2014,
         "endYear": 2014,
