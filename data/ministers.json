@@ -63,11 +63,25 @@
         "rank": "ministre-delegue"
       },
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre déléguée chargée de l'Industrie",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "environnement-transition-ecologique",
         "officialTitle": "Ministre de la Transition écologique",
         "startYear": 2024,
         "endYear": 2025,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre déléguée auprès du ministre de l'Agriculture et de la Souveraineté alimentaire",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -87,6 +101,20 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué au Budget",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, ministre délégué",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 1993,
@@ -98,6 +126,20 @@
         "officialTitle": "Premier ministre",
         "startYear": 1995,
         "endYear": 1997,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2007,
+        "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 2010,
+        "endYear": 2011,
         "rank": "ministre"
       },
       {
@@ -125,6 +167,13 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1995,
@@ -148,6 +197,27 @@
     "party": "UNR",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre délégué à la Recherche scientifique et aux Questions atomiques et spatiales",
+        "startYear": 1966,
+        "endYear": 1967,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1967,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
       {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
@@ -180,6 +250,20 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1968,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1968,
+        "endYear": 1972,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 1986,
@@ -203,6 +287,13 @@
     "party": "Renaissance",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre"
+      },
       {
         "portfolio": "education-nationale",
         "officialTitle": "Ministre de l'Éducation nationale",
@@ -235,6 +326,13 @@
         "rank": "secretaire-etat"
       },
       {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "environnement-transition-ecologique",
         "officialTitle": "Ministre de la Transition écologique",
         "startYear": 2022,
@@ -265,6 +363,20 @@
     "party": "Républicains indépendants",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1968,
+        "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre délégué chargé du Plan et de l'Aménagement du territoire",
+        "startYear": 1969,
+        "endYear": 1972,
+        "rank": "ministre-delegue"
+      },
       {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
@@ -350,6 +462,13 @@
         "startYear": 1986,
         "endYear": 1988,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -417,10 +536,31 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargée du Développement et de la Francophonie",
+        "startYear": 2014,
+        "endYear": 2016,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2016,
+        "endYear": 2017,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "outre-mer",
         "officialTitle": "Ministre des Outre-mer",
         "startYear": 2017,
         "endYear": 2020,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "mer",
+        "officialTitle": "Ministre de la Mer",
+        "startYear": 2020,
+        "endYear": 2022,
         "rank": "ministre"
       }
     ],
@@ -544,10 +684,17 @@
     "politicalFamily": null,
     "mandates": [
       {
+        "portfolio": "premier-ministre",
+        "officialTitle": "Premier ministre",
+        "startYear": 2015,
+        "endYear": 2017,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "sante-solidarites",
         "officialTitle": "Ministre de la Santé et des Solidarités",
         "startYear": 2023,
-        "endYear": null,
+        "endYear": 2023,
         "rank": "ministre"
       }
     ],
@@ -593,10 +740,17 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2017,
         "endYear": 2019,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État auprès du ministre de l'Économie et des Finances",
+        "startYear": 2017,
+        "endYear": 2017,
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -616,8 +770,22 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre délégué à l'Économie sociale et solidaire et à la Consommation",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "enseignement-superieur-recherche",
         "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2014,
+        "endYear": 2014,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
         "startYear": 2014,
         "endYear": 2014,
         "rank": "ministre"
@@ -647,6 +815,13 @@
         "rank": "ministre-delegue"
       },
       {
+        "portfolio": "interieur",
+        "officialTitle": "Secrétaire d'État chargé des Collectivités locales",
+        "startYear": 1986,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "transports",
         "officialTitle": "Ministre des Transports",
         "startYear": 1993,
@@ -670,6 +845,20 @@
     "party": "La Convention",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué aux Affaires européennes",
+        "startYear": 2012,
+        "endYear": 2013,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué au Budget",
+        "startYear": 2013,
+        "endYear": 2014,
+        "rank": "ministre-delegue"
+      },
       {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
@@ -701,6 +890,13 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
       {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
@@ -754,6 +950,13 @@
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 2009,
         "endYear": 2010,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2009,
+        "endYear": 2009,
         "rank": "ministre"
       }
     ],
@@ -821,6 +1024,20 @@
     "party": "Renaissance",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État aux Affaires européennes",
+        "startYear": 2008,
+        "endYear": 2009,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2009,
+        "endYear": 2012,
+        "rank": "ministre"
+      },
       {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
@@ -930,6 +1147,13 @@
         "startYear": 2022,
         "endYear": 2023,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre déléguée chargée de l’Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",
+        "startYear": 2023,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -952,7 +1176,7 @@
         "portfolio": "education-nationale",
         "officialTitle": "Ministre délégué chargé de l'Enseignement et de la Formation professionnels",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       }
     ],
@@ -1052,10 +1276,24 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1988,
+        "endYear": 1988,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1997,
         "endYear": 2002,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1997,
+        "endYear": 1998,
         "rank": "ministre"
       }
     ],
@@ -1076,10 +1314,31 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre déléguée à la Cohésion sociale et à la Parité",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "sante-solidarites",
         "officialTitle": "Ministre de la Santé et des Solidarités",
         "startYear": 2024,
         "endYear": 2024,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2024,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
@@ -1099,6 +1358,13 @@
     "party": "UDI",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État chargée de l'Écologie",
+        "startYear": 2009,
+        "endYear": 2010,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "sports",
         "officialTitle": "Ministre des Sports",
@@ -1179,6 +1445,13 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1958,
+        "endYear": 1959,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
         "startYear": 1959,
@@ -1206,7 +1479,7 @@
         "portfolio": "sante-solidarites",
         "officialTitle": "Secrétaire d'État chargée de l'Enfance",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "secretaire-etat"
       }
     ],
@@ -1226,6 +1499,13 @@
     "party": "Républicains indépendants",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Secrétaire d'État au Logement",
+        "startYear": 1972,
+        "endYear": 1974,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
@@ -1258,6 +1538,13 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1962,
+        "endYear": 1967,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1967,
@@ -1281,6 +1568,13 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Secrétaire d'État chargé du Budget",
+        "startYear": 1997,
+        "endYear": 1999,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
@@ -1378,10 +1672,24 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre déléguée au Commerce extérieur",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 2007,
         "endYear": 2011,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2007,
+        "endYear": 2007,
         "rank": "ministre"
       }
     ],
@@ -1414,6 +1722,13 @@
         "startYear": 2022,
         "endYear": 2022,
         "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre délégué chargé des Collectivités territoriales",
+        "startYear": 2022,
+        "endYear": 2022,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -1434,10 +1749,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2017,
         "endYear": 2017,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       },
       {
         "portfolio": "relations-parlement",
@@ -1473,6 +1788,13 @@
       {
         "portfolio": "enseignement-superieur-recherche",
         "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
         "startYear": 1997,
         "endYear": 2000,
         "rank": "ministre"
@@ -1572,6 +1894,13 @@
         "startYear": 1988,
         "endYear": 1991,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1988,
+        "endYear": 1989,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -1625,7 +1954,7 @@
         "portfolio": "transports",
         "officialTitle": "Ministre délégué chargé des Transports",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       }
     ],
@@ -1648,6 +1977,13 @@
       {
         "portfolio": "cohesion-territoires",
         "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
         "startYear": 2012,
         "endYear": 2014,
         "rank": "ministre"
@@ -1693,6 +2029,13 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "ministre"
+      },
       {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
@@ -1766,11 +2109,25 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "transports",
+        "officialTitle": "Secrétaire d'État aux Transports et à la Mer",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 2004,
         "endYear": 2005,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Secrétaire d'État au Budget et à la Réforme budgétaire",
+        "startYear": 2004,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -1793,7 +2150,7 @@
         "portfolio": "outre-mer",
         "officialTitle": "Ministre délégué chargé des Collectivités territoriales et de la Ruralité",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       },
       {
@@ -1802,6 +2159,13 @@
         "startYear": 2022,
         "endYear": 2022,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre déléguée chargée des Collectivités territoriales et de la Ruralité",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -1845,10 +2209,31 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 2002,
         "endYear": 2005,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 2005,
+        "endYear": 2007,
         "rank": "ministre"
       }
     ],
@@ -1870,6 +2255,13 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
       {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
@@ -1945,6 +2337,20 @@
         "startYear": 1966,
         "endYear": 1968,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1968,
+        "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1972,
+        "endYear": 1973,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -1968,6 +2374,13 @@
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 1961,
         "endYear": 1966,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1966,
+        "endYear": 1967,
         "rank": "ministre"
       }
     ],
@@ -2019,6 +2432,13 @@
         "rank": "ministre"
       },
       {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1967,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1969,
@@ -2042,6 +2462,20 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre déléguée au Temps libre, à la Jeunesse et aux Sports",
+        "startYear": 1981,
+        "endYear": 1984,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État auprès du ministre de la Défense",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
@@ -2091,6 +2525,13 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État auprès du ministre de la Transition écologique et solidaire",
+        "startYear": 2018,
+        "endYear": 2020,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "logement",
         "officialTitle": "Ministre du Logement",
         "startYear": 2020,
@@ -2139,6 +2580,13 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre déléguée chargée des Petites et Moyennes Entreprises, de l’Innovation et de l'Économie numérique",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 2014,
@@ -2146,8 +2594,8 @@
         "rank": "ministre"
       },
       {
-        "portfolio": "affaires-etrangeres",
-        "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, du Développement du tourisme et des Français de l'étranger",
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Secrétaire d'État chargée du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
         "startYear": 2014,
         "endYear": 2014,
         "rank": "secretaire-etat"
@@ -2232,6 +2680,13 @@
         "rank": "ministre"
       },
       {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "relations-parlement",
         "officialTitle": "Secrétaire d'État chargé des relations avec le Parlement",
         "startYear": 2022,
@@ -2280,6 +2735,13 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 2007,
@@ -2289,6 +2751,13 @@
       {
         "portfolio": "porte-parole-gouvernement",
         "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 2010,
+        "endYear": 2011,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre du Budget",
         "startYear": 2010,
         "endYear": 2011,
         "rank": "ministre"
@@ -2317,6 +2786,13 @@
     "party": "UDF",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1993,
+        "endYear": 1997,
+        "rank": "ministre"
+      },
       {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
@@ -2373,6 +2849,27 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre délégué à la Poste, aux Télécommunications et à l'Espace",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "education-nationale",
         "officialTitle": "Ministre de l'Éducation nationale",
         "startYear": 2004,
@@ -2383,6 +2880,13 @@
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
         "startYear": 2007,
+        "endYear": 2012,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2012,
         "endYear": 2012,
         "rank": "ministre"
       }
@@ -2433,6 +2937,13 @@
         "startYear": 1986,
         "endYear": 1988,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -2451,6 +2962,13 @@
     "party": "Renaissance",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État chargé des PME, du Commerce et de l’Artisanat",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
@@ -2500,10 +3018,31 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1967,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1968,
         "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1968,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1969,
+        "endYear": 1972,
         "rank": "ministre"
       }
     ],
@@ -2527,7 +3066,7 @@
         "portfolio": "outre-mer",
         "officialTitle": "Ministre délégué chargé des Collectivités territoriales et de la Ruralité",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre-delegue"
       }
     ],
@@ -2621,10 +3160,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2020,
         "endYear": 2022,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       },
       {
         "portfolio": "budget",
@@ -2669,6 +3208,13 @@
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1981,
         "endYear": 1984,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 1984,
+        "endYear": 1986,
         "rank": "ministre"
       }
     ],
@@ -2771,7 +3317,7 @@
         "portfolio": "sports",
         "officialTitle": "Ministre des Sports",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
       }
     ],
@@ -2792,8 +3338,22 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 2002,
+        "endYear": 2005,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "enseignement-superieur-recherche",
         "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
         "startYear": 2005,
         "endYear": 2007,
         "rank": "ministre"
@@ -2818,6 +3378,13 @@
       {
         "portfolio": "education-nationale",
         "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
         "startYear": 1995,
         "endYear": 1997,
         "rank": "ministre"
@@ -2857,7 +3424,7 @@
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
@@ -3010,6 +3577,13 @@
         "startYear": 2009,
         "endYear": 2010,
         "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2010,
+        "endYear": 2012,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -3029,11 +3603,11 @@
     "politicalFamily": "centre",
     "mandates": [
       {
-        "portfolio": "environnement-transition-ecologique",
-        "officialTitle": "Ministre de la Transition écologique",
+        "portfolio": "mer",
+        "officialTitle": "Secrétaire d'État à la Mer et à la Biodiversité",
         "startYear": 2022,
-        "endYear": null,
-        "rank": "ministre"
+        "endYear": 2024,
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -3052,6 +3626,13 @@
     "party": "UMP",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargé de la Santé et de la Sécurité sociale",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
@@ -3084,6 +3665,20 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre délégué à la Fonction publique et au Plan",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 1995,
@@ -3111,6 +3706,20 @@
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1972,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1972,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1974,
         "endYear": 1974,
         "rank": "ministre"
       }
@@ -3190,21 +3799,14 @@
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1988,
-        "endYear": 1991,
+        "endYear": 1993,
         "rank": "ministre"
       },
       {
-        "portfolio": "culture",
-        "officialTitle": "Ministre de la Culture",
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
         "startYear": 1991,
         "endYear": 1992,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "culture",
-        "officialTitle": "Ministre de la Culture",
-        "startYear": 1992,
-        "endYear": 1993,
         "rank": "ministre"
       },
       {
@@ -3231,6 +3833,13 @@
     "party": "MoDem",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 2017,
+        "endYear": 2018,
+        "rank": "ministre"
+      },
       {
         "portfolio": "cohesion-territoires",
         "officialTitle": "Ministre de la Cohésion des territoires",
@@ -3280,11 +3889,32 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État aux Problèmes de l'emploi",
+        "startYear": 1967,
+        "endYear": 1968,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État à l'Économie et aux Finances",
+        "startYear": 1968,
+        "endYear": 1971,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "relations-parlement",
         "officialTitle": "Ministre délégué aux Relations avec le Parlement",
         "startYear": 1971,
         "endYear": 1972,
         "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 1972,
+        "endYear": 1974,
+        "rank": "ministre"
       },
       {
         "portfolio": "interieur",
@@ -3473,6 +4103,13 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État du ministre des Affaires sociales et de l'Emploi",
+        "startYear": 1986,
+        "endYear": 1987,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1995,
@@ -3496,6 +4133,13 @@
     "party": "Parti radical",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1958,
+        "endYear": 1959,
+        "rank": "ministre"
+      },
       {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
@@ -3545,10 +4189,24 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1961,
+        "endYear": 1962,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 1962,
         "endYear": 1967,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1972,
+        "endYear": 1973,
         "rank": "ministre"
       }
     ],
@@ -3593,6 +4251,13 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "education-nationale",
+        "officialTitle": "Secrétaire d'État à l'Enseignement technique",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 1998,
@@ -3622,6 +4287,13 @@
         "startYear": 1974,
         "endYear": 1976,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 1976,
+        "endYear": 1977,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -3644,6 +4316,13 @@
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1995,
         "endYear": 1995,
         "rank": "ministre"
       }
@@ -3688,6 +4367,13 @@
     "party": "UNR",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État auprès du ministre de l'Économie et des Finances chargé du Budget",
+        "startYear": 1971,
+        "endYear": 1973,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
@@ -3742,6 +4428,20 @@
         "startYear": 2020,
         "endYear": 2021,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "tourisme",
+        "officialTitle": "Ministre délégué chargé du Tourisme, des Français de l’étranger et de la Francophonie",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué chargé des Petites et moyennes entreprises",
+        "startYear": 2021,
+        "endYear": 2022,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -3857,10 +4557,24 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "outre-mer",
+        "officialTitle": "Secrétaire d'État à l'Outre-mer",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1998,
         "endYear": 1998,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 2000,
+        "endYear": 2002,
         "rank": "ministre"
       }
     ],
@@ -3929,10 +4643,31 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "logement",
+        "officialTitle": "Ministre délégué à la Ville et à la Rénovation urbaine",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 2007,
         "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2007,
+        "endYear": 2010,
         "rank": "ministre"
       }
     ],
@@ -4032,6 +4767,20 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1959,
+        "endYear": 1962,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1966,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 1969,
@@ -4083,14 +4832,14 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre délégué chargé de la Transition numérique et des Télécommunications",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       },
       {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
       }
     ],
@@ -4135,6 +4884,27 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1988,
+        "endYear": 1991,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1997,
@@ -4164,6 +4934,13 @@
         "startYear": 1974,
         "endYear": 1976,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1976,
+        "endYear": 1977,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -4182,6 +4959,13 @@
     "party": "LR",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      },
       {
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
@@ -4207,6 +4991,34 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Secrétaire d'État aux Universités",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sports",
+        "officialTitle": "Secrétaire d'État à la Jeunesse et aux Sports",
+        "startYear": 1976,
+        "endYear": 1977,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État à la Formation professionnelle",
+        "startYear": 1976,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 1992,
@@ -4231,10 +5043,24 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "mer",
+        "officialTitle": "Secrétaire d'État à la Mer",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "defense",
         "officialTitle": "Ministre des Armées",
         "startYear": 2012,
         "endYear": 2017,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2017,
+        "endYear": 2022,
         "rank": "ministre"
       }
     ],
@@ -4260,6 +5086,13 @@
         "startYear": 2020,
         "endYear": 2022,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2022,
+        "endYear": 2022,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -4303,6 +5136,13 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Secrétaire d'État auprès du ministre de la Cohésion des territoires",
+        "startYear": 2017,
+        "endYear": 2018,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "logement",
         "officialTitle": "Ministre du Logement",
         "startYear": 2018,
@@ -4334,11 +5174,11 @@
     "politicalFamily": null,
     "mandates": [
       {
-        "portfolio": "environnement-transition-ecologique",
-        "officialTitle": "Ministre de la Transition écologique",
+        "portfolio": "mer",
+        "officialTitle": "Secrétaire d'État à la Mer",
         "startYear": 2022,
         "endYear": 2022,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -4429,6 +5269,20 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué au Budget",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1983,
+        "endYear": 1984,
+        "rank": "ministre"
+      },
       {
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
@@ -4547,6 +5401,20 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État chargé de la Fonction publique",
+        "startYear": 1959,
+        "endYear": 1960,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1960,
+        "endYear": 1960,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 1967,
@@ -4570,6 +5438,34 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "mer",
+        "officialTitle": "Ministre de la Mer",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 1988,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "mer",
+        "officialTitle": "Ministre de la Mer",
+        "startYear": 1988,
+        "endYear": 1988,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1989,
+        "endYear": 1991,
+        "rank": "ministre"
+      },
       {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
@@ -4607,6 +5503,20 @@
         "startYear": 1990,
         "endYear": 1992,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -4626,11 +5536,25 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État chargé de la Consommation et du Tourisme",
+        "startYear": 2007,
+        "endYear": 2008,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "porte-parole-gouvernement",
         "officialTitle": "Porte-parole du Gouvernement",
         "startYear": 2008,
         "endYear": 2010,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État chargé de l'Industrie et de la Consommation",
+        "startYear": 2008,
+        "endYear": 2009,
+        "rank": "secretaire-etat"
       },
       {
         "portfolio": "education-nationale",
@@ -4700,6 +5624,13 @@
         "startYear": 2020,
         "endYear": 2022,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -4839,6 +5770,20 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Secrétaire d'État chargée de l'Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",
+        "startYear": 2017,
+        "endYear": 2020,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre déléguée chargée de la Citoyenneté",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Secrétaire d'État à l'Économie sociale, solidaire et responsable",
         "startYear": 2022,
@@ -4892,6 +5837,13 @@
         "startYear": 2000,
         "endYear": 2002,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2012,
+        "endYear": 2016,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -4911,7 +5863,7 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
-        "portfolio": "affaires-etrangeres",
+        "portfolio": "commerce-exterieur",
         "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
         "startYear": 2014,
         "endYear": 2017,
@@ -5006,10 +5958,31 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1958,
+        "endYear": 1958,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 1958,
+        "endYear": 1958,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 1981,
         "endYear": 1981,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1988,
+        "endYear": 1989,
         "rank": "ministre"
       }
     ],
@@ -5055,10 +6028,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 1983,
         "endYear": 1984,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -5078,10 +6051,24 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 2004,
         "endYear": 2005,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2007,
+        "endYear": 2009,
         "rank": "ministre"
       },
       {
@@ -5114,6 +6101,13 @@
         "startYear": 1971,
         "endYear": 1972,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 1980,
+        "endYear": 1981,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -5132,6 +6126,20 @@
     "party": "Parti radical",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1983,
+        "endYear": 1986,
+        "rank": "ministre"
+      },
       {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
@@ -5171,6 +6179,13 @@
         "rank": "ministre"
       },
       {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1959,
+        "endYear": 1960,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1966,
@@ -5182,6 +6197,13 @@
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 1968,
         "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1969,
+        "endYear": 1973,
         "rank": "ministre"
       }
     ],
@@ -5202,10 +6224,38 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1988,
+        "endYear": 1988,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1988,
+        "endYear": 1990,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "logement",
         "officialTitle": "Ministre du Logement",
         "startYear": 1990,
         "endYear": 1992,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1992,
+        "endYear": 1993,
         "rank": "ministre"
       }
     ],
@@ -5255,6 +6305,13 @@
         "startYear": 1973,
         "endYear": 1974,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -5273,6 +6330,13 @@
     "party": "MoDem",
     "politicalFamily": "centre",
     "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2009,
+        "endYear": 2010,
+        "rank": "ministre"
+      },
       {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
@@ -5298,6 +6362,13 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1974,
@@ -5321,6 +6392,13 @@
     "party": "SFIO",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
       {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
@@ -5353,6 +6431,13 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "justice",
+        "officialTitle": "Ministre délégué à la Justice",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1992,
@@ -5360,16 +6445,23 @@
         "rank": "ministre"
       },
       {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 2014,
-        "endYear": 2016,
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2012,
+        "endYear": 2014,
         "rank": "ministre"
       },
       {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 2016,
+        "startYear": 2014,
         "endYear": 2017,
         "rank": "ministre"
       }
@@ -5415,10 +6507,24 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1974,
+        "endYear": 1977,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1977,
         "endYear": 1978,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1978,
+        "endYear": 1981,
         "rank": "ministre"
       },
       {
@@ -5451,8 +6557,22 @@
         "portfolio": "education-nationale",
         "officialTitle": "Secrétaire d'État chargé de l'Enseignement",
         "startYear": 1986,
-        "endYear": 1998,
+        "endYear": 1988,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 2002,
+        "endYear": 2007,
+        "rank": "ministre"
       },
       {
         "portfolio": "interieur",
@@ -5570,6 +6690,20 @@
         "startYear": 2012,
         "endYear": 2014,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre chargé de l'Égalité entre les femmes et les hommes",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 2014,
+        "endYear": 2017,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -5612,6 +6746,13 @@
     "party": "LR",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Secrétaire d'État chargé de l'Agriculture, de l'Alimentation, de la Pêche et des Affaires rurales",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "secretaire-etat"
+      },
       {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
@@ -5663,6 +6804,13 @@
       {
         "portfolio": "budget",
         "officialTitle": "Ministre du Budget",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
         "startYear": 1993,
         "endYear": 1995,
         "rank": "ministre"
@@ -5742,6 +6890,20 @@
         "startYear": 2012,
         "endYear": 2014,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2012,
+        "endYear": 2012,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -5793,10 +6955,17 @@
       },
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, ministre délégué",
         "startYear": 2022,
         "endYear": 2022,
-        "rank": "ministre"
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "tourisme",
+        "officialTitle": "Ministre déléguée chargée des Entreprises, du Tourisme et de la Consommation",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -5819,8 +6988,15 @@
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre délégué chargé du Commerce extérieur, de l’Attractivité et des Français de l’étranger",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -5845,6 +7021,13 @@
         "startYear": 2017,
         "endYear": 2022,
         "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -5863,6 +7046,20 @@
     "party": "UNR",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 1968,
+        "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1969,
+        "endYear": 1972,
+        "rank": "ministre"
+      },
       {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
@@ -5912,11 +7109,25 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "relations-parlement",
-        "officialTitle": "Secrétaire d'État chargé des relations avec le Parlement",
+        "officialTitle": "Ministre délégué chargé des Relations avec le Parlement",
         "startYear": 2022,
         "endYear": 2022,
-        "rank": "secretaire-etat"
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, ministre délégué",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -6008,6 +7219,34 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1983,
+        "endYear": 1985,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1984,
+        "endYear": 1985,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1985,
+        "endYear": 1986,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1988,
+        "endYear": 1991,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1992,
@@ -6056,10 +7295,24 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre délégué à la Santé",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1995,
         "endYear": 1997,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1995,
+        "endYear": 1995,
         "rank": "ministre"
       },
       {
@@ -6159,6 +7412,13 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1982,
+        "endYear": 1984,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1984,
@@ -6169,13 +7429,6 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1988,
-        "endYear": 1991,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1991,
         "endYear": 1992,
         "rank": "ministre"
       },
@@ -6183,6 +7436,13 @@
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
         "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1993,
         "endYear": 1993,
         "rank": "ministre"
       }
@@ -6252,6 +7512,13 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1981,
+        "endYear": 1981,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1984,
@@ -6263,6 +7530,13 @@
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1988,
         "endYear": 1991,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1991,
+        "endYear": 1993,
         "rank": "ministre"
       }
     ],
@@ -6307,6 +7581,20 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1960,
+        "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 1971,
+        "endYear": 1972,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
         "startYear": 1972,
@@ -6337,6 +7625,13 @@
     "party": "LCR",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1997,
+        "endYear": 2002,
+        "rank": "ministre"
+      },
       {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
@@ -6369,6 +7664,13 @@
         "rank": "ministre"
       },
       {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 1993,
@@ -6392,6 +7694,13 @@
     "party": "Sans étiquette",
     "politicalFamily": "autre",
     "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1958,
+        "endYear": 1962,
+        "rank": "ministre"
+      },
       {
         "portfolio": "education-nationale",
         "officialTitle": "Ministre de l'Éducation nationale",
@@ -6418,10 +7727,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2024,
-        "endYear": null,
-        "rank": "ministre"
+        "endYear": 2024,
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -6451,7 +7760,7 @@
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2026,
         "rank": "ministre"
       }
     ],
@@ -6484,6 +7793,13 @@
         "startYear": 1976,
         "endYear": 1978,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 1976,
+        "endYear": 1976,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -6503,9 +7819,30 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1962,
+        "endYear": 1966,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1966,
+        "endYear": 1967,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1968,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 1974,
         "endYear": 1974,
         "rank": "ministre"
       }
@@ -6529,6 +7866,13 @@
     "party": "Parti républicain",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué aux Affaires européennes",
+        "startYear": 2002,
+        "endYear": 2002,
+        "rank": "ministre-delegue"
+      },
       {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
@@ -6578,10 +7922,24 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1977,
+        "endYear": 1978,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1978,
         "endYear": 1981,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1986,
+        "endYear": 1988,
         "rank": "ministre"
       }
     ],
@@ -6635,6 +7993,13 @@
       {
         "portfolio": "travail-emploi",
         "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
         "startYear": 1992,
         "endYear": 1993,
         "rank": "ministre"
@@ -6729,10 +8094,52 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "budget",
+        "officialTitle": "Secrétaire d'État au Budget",
+        "startYear": 1962,
+        "endYear": 1967,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État à l'Économie et aux Finances",
+        "startYear": 1967,
+        "endYear": 1968,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 1968,
         "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1968,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1969,
+        "endYear": 1972,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre délégué aux Relations avec le Parlement",
+        "startYear": 1976,
+        "endYear": 1977,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1978,
+        "endYear": 1979,
         "rank": "ministre"
       }
     ],
@@ -6777,10 +8184,31 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1959,
+        "endYear": 1960,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1961,
         "endYear": 1967,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1967,
+        "endYear": 1971,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1971,
+        "endYear": 1972,
         "rank": "ministre"
       }
     ],
@@ -6842,13 +8270,6 @@
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 1991,
-        "endYear": 1992,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "affaires-etrangeres",
-        "officialTitle": "Ministre des Affaires étrangères",
-        "startYear": 1992,
         "endYear": 1993,
         "rank": "ministre"
       }
@@ -6870,10 +8291,10 @@
     "politicalFamily": "centre",
     "mandates": [
       {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre délégué chargé de l'Industrie",
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué chargé de l'Industrie et de l'Énergie",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       }
     ],
@@ -6893,6 +8314,13 @@
     "party": "RPR",
     "politicalFamily": "droite",
     "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2007,
+        "endYear": 2010,
+        "rank": "ministre"
+      },
       {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
@@ -6952,8 +8380,15 @@
         "portfolio": "environnement-transition-ecologique",
         "officialTitle": "Secrétaire d'État à l'Écologie",
         "startYear": 2023,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre déléguée chargée de l'Enfance, de la Jeunesse et des Familles",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
       }
     ],
     "photo": {
@@ -6974,10 +8409,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2019,
         "endYear": 2020,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -7075,6 +8510,13 @@
     "party": "PS",
     "politicalFamily": "gauche",
     "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2012,
+        "endYear": 2017,
+        "rank": "ministre"
+      },
       {
         "portfolio": "porte-parole-gouvernement",
         "officialTitle": "Porte-parole du Gouvernement",
@@ -7196,6 +8638,20 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État auprès du ministre de la Transition écologique et solidaire",
+        "startYear": 2017,
+        "endYear": 2018,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 2018,
+        "endYear": 2020,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "outre-mer",
         "officialTitle": "Ministre des Outre-mer",
         "startYear": 2020,
@@ -7213,7 +8669,7 @@
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
@@ -7258,7 +8714,7 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
-        "portfolio": "affaires-etrangeres",
+        "portfolio": "commerce-exterieur",
         "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
         "startYear": 2014,
         "endYear": 2014,
@@ -7282,8 +8738,22 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2007,
+        "endYear": 2011,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "porte-parole-gouvernement",
         "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 2011,
+        "endYear": 2012,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre du Budget",
         "startYear": 2011,
         "endYear": 2012,
         "rank": "ministre"
@@ -7319,27 +8789,6 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1969,
-        "endYear": 1972,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1972,
-        "endYear": 1973,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1973,
-        "endYear": 1974,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1974,
         "endYear": 1974,
         "rank": "ministre"
       }
@@ -7440,10 +8889,24 @@
     "politicalFamily": "droite",
     "mandates": [
       {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué à la Coopération, au Développement et à la Francophonie",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "education-nationale",
         "officialTitle": "Ministre de l'Éducation nationale",
         "startYear": 2007,
         "endYear": 2009,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2009,
+        "endYear": 2010,
         "rank": "ministre"
       }
     ],
@@ -7500,6 +8963,13 @@
         "startYear": 1995,
         "endYear": 1995,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1995,
+        "endYear": 1995,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -7523,6 +8993,27 @@
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 1981,
         "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 1983,
+        "endYear": 1984,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1988,
+        "endYear": 1990,
         "rank": "ministre"
       },
       {
@@ -7636,10 +9127,24 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 2017,
+        "endYear": 2019,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "environnement-transition-ecologique",
         "officialTitle": "Ministre de la Transition écologique",
         "startYear": 2019,
         "endYear": 2020,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2020,
+        "endYear": 2022,
         "rank": "ministre"
       },
       {
@@ -7653,7 +9158,7 @@
         "portfolio": "education-nationale",
         "officialTitle": "Ministre de l'Éducation nationale",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
@@ -7674,10 +9179,24 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre déléguée aux Affaires européennes",
+        "startYear": 1990,
+        "endYear": 1993,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 1997,
         "endYear": 2000,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2000,
+        "endYear": 2002,
         "rank": "ministre"
       }
     ],
@@ -7773,7 +9292,7 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],

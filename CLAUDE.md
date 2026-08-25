@@ -105,6 +105,7 @@ distance de Levenshtein (~20 lignes) plutôt que d'ajouter une librairie.
     │   ├── deck.ts                # ordre de passage : mélange unique du vivier
     │   ├── seed.ts                # aléa reproductible, empreinte du vivier
     │   ├── challenge.ts           # encodage du défi dans l'URL
+    │   ├── issueUrl.ts            # lien d'issue GitHub pré-remplie (signalement)
     │   ├── portfolios.ts          # table des ministères : libellés, alias, sigles
     │   ├── levels.ts              # niveaux de difficulté et filtrage du vivier
     │   ├── matching.ts            # normalisation + comparaison des réponses
@@ -121,6 +122,7 @@ distance de Levenshtein (~20 lignes) plutôt que d'ajouter une librairie.
     │   ├── AnswerForm.tsx
     │   ├── HintPanel.tsx
     │   ├── RevealPanel.tsx
+    │   ├── ReportErrorForm.tsx
     │   ├── ScoreBar.tsx
     │   ├── EndScreen.tsx
     │   └── CreditsPage.tsx
@@ -177,7 +179,10 @@ type PortfolioId =
   | "commerce-exterieur"
   | "relations-parlement"
   | "porte-parole-gouvernement"
-  | "autre";
+  | "cohesion-territoires"
+  | "egalite-femmes-hommes"
+  | "tourisme"
+  | "mer";
 
 /** Rang du poste. C'est lui qui sépare les niveaux de difficulté (§7.6). */
 type MandateRank = "ministre" | "ministre-delegue" | "secretaire-etat";
@@ -592,7 +597,9 @@ Paires à surveiller lors de la rédaction de la table :
 `education-nationale` / `enseignement-superieur-recherche` · `economie-finances` /
 `budget` / `industrie` · `travail-emploi` / `sante-solidarites` ·
 `environnement-transition-ecologique` / `agriculture` / `transports` ·
-`defense` / `interieur` (« armées », « sécurité »).
+`defense` / `interieur` (« armées », « sécurité ») · `mer` / `outre-mer`, la plus
+dangereuse, où un intitulé contient l'autre : leur séparation ne tient qu'au fait
+qu'« outre » n'est pas un mot vide.
 
 ### 7.5 Indices — `game/hints.ts`
 
@@ -633,9 +640,9 @@ plus large.
 
 | Niveau            | Critère                                                      | Vivier         |
 | ----------------- | ------------------------------------------------------------ | -------------- |
-| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~110 personnes |
-| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~255 personnes |
-| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~295 personnes |
+| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~112 personnes |
+| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~254 personnes |
+| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~293 personnes |
 
 Postes **régaliens** : `premier-ministre`, `interieur`, `affaires-etrangeres`,
 `justice`, `defense`, `economie-finances`. Bercy y figure parce que son titulaire est
@@ -653,6 +660,28 @@ ministre de 1976 à 1981, entre en Facile.
 **Le rang du mandat est ce qui sépare les niveaux.** `Mandate.rank` vaut `ministre`,
 `ministre-delegue` ou `secretaire-etat`. Une valeur erronée sortirait silencieusement
 une personne d'un niveau : le schéma Zod l'impose et `data.test.ts` le vérifie.
+
+#### Cas particulier du porte-parolat
+
+Le porte-parole du Gouvernement n'est pas un portefeuille comme les autres : il se
+**cumule** avec un poste. Najat Vallaud-Belkacem était porte-parole _et_ ministre des
+Droits des femmes ; Nicolas Sarkozy porte-parole _et_ ministre du Budget.
+
+Le rang du mandat de porte-parole recopie donc celui du poste exercé en même temps.
+Quand il n'y en a pas — Max Gallo en 1983, Prisca Thevenot en 2024 — la personne
+n'est connue publiquement que pour ce rôle : le mandat vaut alors un secrétariat
+d'État et ne fait entrer qu'au niveau Difficile.
+
+Attention en calculant la concomitance : les mandats n'ont que des années, si bien
+que deux postes qui se **succèdent** partagent une année de bornes. La Santé
+d'Olivier Véran s'arrête l'année où commence son porte-parolat, ce qui n'est pas un
+cumul. Il faut donc un recouvrement strictement positif, ou une même année de début —
+signe d'une nomination unique, comme pour Douste-Blazy en 1995.
+
+Ne sont retenus que les porte-parole **du Gouvernement**. Ceux de la présidence de la
+République (Catherine Colonna, Hubert Védrine, Michel Vauzelle) et ceux des partis
+(Benoît Hamon pour le PS, Jean-Noël Barrot pour le MoDem) ne sont pas membres du
+gouvernement, et l'intitulé de l'infobox est le seul moyen de les distinguer.
 
 `levels.test.ts` contient l'invariant qui empêche la fonctionnalité de devenir creuse :
 sur la base réelle, chaque vivier doit être **strictement plus large** que le
@@ -753,6 +782,43 @@ identifiant de session ferait basculer le site hors de cette exemption.
 
 Les accès à `localStorage` sont enveloppés dans un `try/catch` : en navigation privée
 ou stockage refusé, le jeu doit rester jouable.
+
+### 7.9 Signalement d'erreur — `game/issueUrl.ts`
+
+Les données viennent de Wikidata et de Wikipédia, qui se trompent. Un audit mené sur
+les 293 fiches a relevé des écarts sur plus de la moitié d'entre elles : mandats
+manquants, mandats crus en cours, tenures fragmentées. Les joueurs repéreront les
+suivants — encore faut-il que le signalement leur coûte un clic.
+
+Le bouton est dans **`RevealPanel`**, et nulle part ailleurs : c'est le seul écran où
+la fiche est déjà visible, donc le seul où l'afficher ne divulgue pas la réponse.
+
+Sans backend (§1), le jeu ne peut ni recevoir ni stocker un signalement. On délègue à
+**GitHub** : le lien ouvre le formulaire de création d'issue avec le titre et le corps
+pré-remplis. Rien n'est envoyé tant que la personne n'a pas validé, et GitHub
+l'authentifie et horodate à notre place.
+
+Le corps porte l'**identifiant de la fiche** en premier : c'est la seule clé qui
+permette de retrouver la ligne dans `ministers.json`. Suivent le nom, le parti, le
+fichier Commons, la source et tous les mandats, puis le texte libre.
+
+Trois pièges, tous couverts par `issueUrl.test.ts` :
+
+- **Borner les caractères ne borne pas l'URL.** Un caractère accentué s'encode sur
+  six (`%C3%A9`) : 1500 caractères de français produisaient un lien de 10 000
+  caractères, au-delà de la limite d'environ 8 ko de GitHub, qui renvoie alors une
+  erreur au lieu du formulaire. `MAX_MESSAGE_LENGTH` vaut donc 750, valeur qui tient
+  même si tout le message est accentué. Un test éprouve l'invariant **sur la base
+  réelle**, avec le message le plus coûteux possible.
+- **Toujours passer par `URLSearchParams`.** Le corps est multi-lignes et plein
+  d'apostrophes : une concaténation à la main casserait l'URL au premier `\n`.
+- **Remonter le formulaire à chaque personne** (`key={minister.id}`), sinon un texte
+  saisi sur une fiche resterait attaché à la suivante.
+
+Le déclencheur final est un `<a target="_blank">` et non un `window.open` : une
+navigation issue d'un clic passe les bloqueurs de fenêtres, un appel programmatique
+pas toujours. Le champ reste **facultatif** — une fiche identifiée sans commentaire
+est déjà un signalement exploitable, alors qu'un champ obligatoire décourage.
 
 ---
 
