@@ -271,7 +271,17 @@ recours pour une personne dont Wikidata ignore toute affiliation : `party` vaut 
 
 ## 5. Périmètre de la base
 
-**Cible : 250 à 350 personnes**, de 1958 à aujourd'hui.
+**Cible : toute personne ayant exercé une fonction ministérielle depuis 1958 et
+dont la fiche peut être COMPLÈTE.** La base en compte environ 500.
+
+Ce périmètre a remplacé une cible initiale de 250 à 350 personnes « notoires ». La
+notoriété est un critère que personne ne sait appliquer sans arbitraire, et le jeu
+a de toute façon trois niveaux : c'est le **rang du mandat** qui règle la
+difficulté (§7.6), pas une sélection en amont. Un secrétaire d'État obscur
+n'encombre que le niveau Difficile.
+
+Ce qui borne réellement la base, c'est donc la **complétude de la fiche**, pas la
+célébrité de la personne.
 
 Critères d'inclusion, par ordre de priorité :
 
@@ -280,13 +290,23 @@ Critères d'inclusion, par ordre de priorité :
    Économie/Finances, Justice, Défense, Éducation nationale.
 3. Les ministres notoires des autres portefeuilles (Culture, Santé, Environnement…)
    ayant une notoriété publique réelle.
-4. Compléter jusqu'à ~200 avec des figures reconnaissables.
+4. Les ministres délégués et secrétaires d'État, qui ne peuplent que le niveau
+   Difficile.
 
-**Exclus** : secrétaires d'État et ministres délégués peu connus, sauf s'ils sont
-devenus notoires par ailleurs. On ne cherche pas l'exhaustivité (elle dépasserait
-1000 personnes, avec des photos introuvables et un jeu injouable).
+**Exclus**, faute de fiche complète et non par jugement de valeur :
 
-Répartition visée par `difficulty` : ~30 % niveau 1, ~45 % niveau 2, ~25 % niveau 3.
+- pas de photo sous licence libre sur Wikimedia Commons — motif de loin le plus
+  fréquent, et sans remède (§6.3) ;
+- pas de crédit exploitable : le champ `Artist` de Commons contient parfois un
+  gabarit et non un auteur ;
+- aucun mandat daté rattachable à un portefeuille du jeu.
+
+`ministres-manquants.csv`, à la racine du dépôt, tient l'inventaire de ces
+exclusions avec leur motif.
+
+Le niveau 1 de `difficulty` est attribué à la main et n'a pas suivi
+l'élargissement ; la difficulté d'une fiche importée se déduit du seul rang, 2
+pour un ministre de plein exercice et 3 sinon.
 
 ---
 
@@ -640,9 +660,9 @@ plus large.
 
 | Niveau            | Critère                                                      | Vivier         |
 | ----------------- | ------------------------------------------------------------ | -------------- |
-| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~112 personnes |
+| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~127 personnes |
 | **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~254 personnes |
-| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~293 personnes |
+| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~509 personnes |
 
 Postes **régaliens** : `premier-ministre`, `interieur`, `affaires-etrangeres`,
 `justice`, `defense`, `economie-finances`. Bercy y figure parce que son titulaire est

@@ -1,5 +1,29 @@
 [
   {
+    "id": "adrien-taquet",
+    "firstName": "Adrien",
+    "lastName": "Taquet",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État auprès du ministre des Solidarités et de la Santé",
+        "startYear": 2019,
+        "endYear": 2022,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Adrien taquet 16467.jpg",
+      "credit": "G.Garitan",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30344625",
+    "difficulty": 3
+  },
+  {
     "id": "agnes-buzyn",
     "firstName": "Agnès",
     "lastName": "Buzyn",
@@ -93,6 +117,61 @@
     "difficulty": 2
   },
   {
+    "id": "alain-calmat",
+    "firstName": "Alain",
+    "lastName": "Calmat",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bundesarchiv Bild 183-B1014-0012-002, Alain Calmat.jpg",
+      "credit": "Ulrich Kohls",
+      "license": "CC BY-SA 3.0 de"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1353268",
+    "difficulty": 2
+  },
+  {
+    "id": "alain-carignon",
+    "firstName": "Alain",
+    "lastName": "Carignon",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre délégué à l'Environnement",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1993,
+        "endYear": 1994,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Alain Carignon.jpg",
+      "credit": "Thomas Bonzy",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2401871",
+    "difficulty": 2
+  },
+  {
     "id": "alain-juppe",
     "firstName": "Alain",
     "lastName": "Juppé",
@@ -159,6 +238,61 @@
     "difficulty": 1
   },
   {
+    "id": "alain-lamassoure",
+    "firstName": "Alain",
+    "lastName": "Lamassoure",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué aux Affaires européennes",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué au Budget",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Alain Lamassoure par Claude Truong-Ngoc mai 2013.jpg",
+      "credit": "Photo Claude TRUONG-NGOC",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q777954",
+    "difficulty": 3
+  },
+  {
+    "id": "alain-lambert",
+    "firstName": "Alain",
+    "lastName": "Lambert",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué au Budget",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Alain Lambert.jpg",
+      "credit": "Laurent GUEDON from Paris, France",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q429805",
+    "difficulty": 3
+  },
+  {
     "id": "alain-madelin",
     "firstName": "Alain",
     "lastName": "Madelin",
@@ -188,6 +322,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q582101",
     "difficulty": 2
+  },
+  {
+    "id": "alain-marleix",
+    "firstName": "Alain",
+    "lastName": "Marleix",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État à la Défense chargé des Anciens combattants",
+        "startYear": 2007,
+        "endYear": 2008,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Secrétaire d'État à l'Intérieur chargé des Collectivités territoriales",
+        "startYear": 2008,
+        "endYear": 2010,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Alain MARLEIX lors de la fête du casse-croute à Salers cropped.jpg",
+      "credit": "TARTAUD-GINESTE",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2830085",
+    "difficulty": 3
   },
   {
     "id": "alain-peyrefitte",
@@ -256,6 +421,54 @@
     "difficulty": 2
   },
   {
+    "id": "alain-richard",
+    "firstName": "Alain",
+    "lastName": "Richard",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1997,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Alain Richard (46824286014).jpg",
+      "credit": "Jacques Paquier",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q930418",
+    "difficulty": 2
+  },
+  {
+    "id": "alain-savary",
+    "firstName": "Alain",
+    "lastName": "Savary",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1981,
+        "endYear": 1984,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Alain Savary - Hôtel de Ville de Ksar-Hellal - Tunisie.jpg",
+      "credit": "Natma 2",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q477121",
+    "difficulty": 2
+  },
+  {
     "id": "albin-chalandon",
     "firstName": "Albin",
     "lastName": "Chalandon",
@@ -291,6 +504,30 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1193378",
+    "difficulty": 2
+  },
+  {
+    "id": "alexandre-sanguinetti",
+    "firstName": "Alexandre",
+    "lastName": "Sanguinetti",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1966,
+        "endYear": 1967,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "14.03.1971. M. Sanguinetti va voter. (1971) - 53Fi3499 (cropped).jpg",
+      "credit": "André Cros",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2834012",
     "difficulty": 2
   },
   {
@@ -439,6 +676,157 @@
     "difficulty": 3
   },
   {
+    "id": "andre-billardon",
+    "firstName": "André",
+    "lastName": "Billardon",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre délégué à l'Énergie",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "André Billardon.jpg",
+      "credit": "FaceDub",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2847297",
+    "difficulty": 3
+  },
+  {
+    "id": "andre-boulloche",
+    "firstName": "André",
+    "lastName": "Boulloche",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 1959,
+        "endYear": 1959,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "André Boulloche polytechnicien.jpg",
+      "credit": "Anonymous Unknown author",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2847355",
+    "difficulty": 2
+  },
+  {
+    "id": "andre-chandernagor",
+    "firstName": "André",
+    "lastName": "Chandernagor",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué aux Affaires européennes",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "CHANDERNAGOR Andre.jpg",
+      "credit": "Archives",
+      "license": "Licence Ouverte"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q674260",
+    "difficulty": 3
+  },
+  {
+    "id": "andre-delelis",
+    "firstName": "André",
+    "lastName": "Delelis",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Andre Delelis.jpg",
+      "credit": "Laure19",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2847627",
+    "difficulty": 2
+  },
+  {
+    "id": "andre-fanton",
+    "firstName": "André",
+    "lastName": "Fanton",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État chargé de la Défense nationale",
+        "startYear": 1969,
+        "endYear": 1972,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Andre FANTON.jpg",
+      "credit": "MLANCEL",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2847739",
+    "difficulty": 3
+  },
+  {
+    "id": "andre-giraud",
+    "firstName": "André",
+    "lastName": "Giraud",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1978,
+        "endYear": 1981,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "André Giraud 1987 (cropped).jpg",
+      "credit": "Rob Bogaerts for Anefo",
+      "license": "CC BY-SA 3.0 nl"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q518853",
+    "difficulty": 2
+  },
+  {
     "id": "andre-labarrere",
     "firstName": "André",
     "lastName": "Labarrère",
@@ -460,6 +848,37 @@
       "license": "CC BY 2.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q520375",
+    "difficulty": 3
+  },
+  {
+    "id": "andre-laignel",
+    "firstName": "André",
+    "lastName": "Laignel",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État à la Formation professionnelle",
+        "startYear": 1988,
+        "endYear": 1991,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "logement",
+        "officialTitle": "Secrétaire d'État à la Ville et à l'Aménagement du territoire",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "ALaignel.JPG",
+      "credit": "Parlement Européen",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q957415",
     "difficulty": 3
   },
   {
@@ -485,6 +904,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q151164",
     "difficulty": 3
+  },
+  {
+    "id": "andre-rossi",
+    "firstName": "André",
+    "lastName": "Rossi",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Secrétaire d'État, porte-parole du gouvernement",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 1976,
+        "endYear": 1978,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Chézy-sur-Marne-FR-02-A-08.jpg",
+      "credit": "François GOGLINS",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2848571",
+    "difficulty": 2
   },
   {
     "id": "andre-rossinot",
@@ -515,6 +965,75 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q497071",
+    "difficulty": 3
+  },
+  {
+    "id": "andre-santini",
+    "firstName": "André",
+    "lastName": "Santini",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre délégué à la Communication",
+        "startYear": 1987,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État à la Fonction publique",
+        "startYear": 2007,
+        "endYear": 2009,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "A. Santini.jpg",
+      "credit": "Elegale",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2848614",
+    "difficulty": 3
+  },
+  {
+    "id": "andre-vallini",
+    "firstName": "André",
+    "lastName": "Vallini",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État chargé de la Réforme territoriale",
+        "startYear": 2014,
+        "endYear": 2016,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Secrétaire d'État chargé des Relations avec le Parlement",
+        "startYear": 2016,
+        "endYear": 2017,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargé du Développement et de la Francophonie",
+        "startYear": 2016,
+        "endYear": 2016,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "André Vallini.jpg",
+      "credit": "Phenix-rouge",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2848745",
     "difficulty": 3
   },
   {
@@ -590,6 +1109,30 @@
     "difficulty": 3
   },
   {
+    "id": "anne-marie-escoffier",
+    "firstName": "Anne-Marie",
+    "lastName": "Escoffier",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre déléguée chargée de la Décentralisation",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Anne-Marie Escoffier-02.07.2013.JPG",
+      "credit": "Ngagnebin",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2850864",
+    "difficulty": 3
+  },
+  {
     "id": "annick-girardin",
     "firstName": "Annick",
     "lastName": "Girardin",
@@ -632,6 +1175,30 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2851582",
+    "difficulty": 2
+  },
+  {
+    "id": "annie-genevard",
+    "firstName": "Annie",
+    "lastName": "Genevard",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 2024,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Agriculture and Fisheries Council. Bilateral meeting, FR-HR. 2025-07-14 - Annie Genevard (cropped).jpg",
+      "credit": "Yladda",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2414678",
     "difficulty": 2
   },
   {
@@ -690,6 +1257,30 @@
     "difficulty": 3
   },
   {
+    "id": "arnaud-montebourg",
+    "firstName": "Arnaud",
+    "lastName": "Montebourg",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Montebourg Toulouse 2012.JPG",
+      "credit": "Jackolan1",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q737311",
+    "difficulty": 2
+  },
+  {
     "id": "audrey-azoulay",
     "firstName": "Audrey",
     "lastName": "Azoulay",
@@ -711,6 +1302,44 @@
       "license": "CC BY-SA 3.0 fr"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q22683089",
+    "difficulty": 2
+  },
+  {
+    "id": "aurore-berge",
+    "firstName": "Aurore",
+    "lastName": "Bergé",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2023,
+        "endYear": 2024,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre déléguée chargée de l’Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",
+        "startYear": 2024,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 2025,
+        "endYear": 2025,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "AURORE BERGÉ 04 (cropped).jpg",
+      "credit": "HUGUES DE BEAUCHESNE",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q29570183",
     "difficulty": 2
   },
   {
@@ -767,6 +1396,68 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q29738515",
     "difficulty": 2
+  },
+  {
+    "id": "axelle-lemaire",
+    "firstName": "Axelle",
+    "lastName": "Lemaire",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État chargée du Numérique et de l'Innovation",
+        "startYear": 2014,
+        "endYear": 2017,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Axelle Lemaire par Claude Truong-Ngoc avril 2015.jpg",
+      "credit": "Photo Claude TRUONG-NGOC",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18553",
+    "difficulty": 3
+  },
+  {
+    "id": "aymar-achille-fould",
+    "firstName": "Aymar",
+    "lastName": "Achille-Fould",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État auprès du ministre des Armées",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Secrétaire d'État auprès du ministre de l'Aménagement du Territoire chargé des Transports",
+        "startYear": 1974,
+        "endYear": 1974,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État aux Postes et Télécommunications",
+        "startYear": 1975,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Aymar Achille-Fould.jpg",
+      "credit": "Studio Harcourt",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2874910",
+    "difficulty": 3
   },
   {
     "id": "barbara-pompili",
@@ -852,6 +1543,30 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q112572505",
+    "difficulty": 3
+  },
+  {
+    "id": "benoist-apparu",
+    "firstName": "Benoist",
+    "lastName": "Apparu",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre délégué chargé du Logement",
+        "startYear": 2009,
+        "endYear": 2012,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Apparu 14 juillet 2014 9904.jpg",
+      "credit": "G.Garitan",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2896372",
     "difficulty": 3
   },
   {
@@ -976,6 +1691,30 @@
     "difficulty": 1
   },
   {
+    "id": "bernard-debre",
+    "firstName": "Bernard",
+    "lastName": "Debré",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1994,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bernard Debré cropped.jpg",
+      "credit": "La diag",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2897761",
+    "difficulty": 2
+  },
+  {
     "id": "bernard-kouchner",
     "firstName": "Bernard",
     "lastName": "Kouchner",
@@ -1019,6 +1758,68 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q206327",
     "difficulty": 1
+  },
+  {
+    "id": "bernard-pons",
+    "firstName": "Bernard",
+    "lastName": "Pons",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Secrétaire d'État auprès du ministre de l'Agriculture",
+        "startYear": 1969,
+        "endYear": 1973,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "7.7.69. Mme et M. Pompidou. Messe, mairie et bain de foule à Cajarc (Lot) (1969) - 53Fi5586 (Bernard Pons).jpg",
+      "credit": "André Cros",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2898459",
+    "difficulty": 2
+  },
+  {
+    "id": "bernard-stasi",
+    "firstName": "Bernard",
+    "lastName": "Stasi",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bernard Stasi MEP 1994.jpg",
+      "credit": "European Parliament Multimedia Centre",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q822724",
+    "difficulty": 2
   },
   {
     "id": "bernard-tapie",
@@ -1083,6 +1884,37 @@
     "difficulty": 1
   },
   {
+    "id": "brice-lalonde",
+    "firstName": "Brice",
+    "lastName": "Lalonde",
+    "aliases": [],
+    "party": "Génération écologie",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre délégué à l'Environnement et à la Prévention des risques technologiques et naturels majeurs",
+        "startYear": 1990,
+        "endYear": 1991,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Brice Lalonde, 2014 (cropped).jpg",
+      "credit": "Thomas Bresson",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2512092",
+    "difficulty": 2
+  },
+  {
     "id": "brigitte-bourguignon",
     "firstName": "Brigitte",
     "lastName": "Bourguignon",
@@ -1104,6 +1936,37 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2925411",
+    "difficulty": 2
+  },
+  {
+    "id": "brigitte-girardin",
+    "firstName": "Brigitte",
+    "lastName": "Girardin",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 2002,
+        "endYear": 2005,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre déléguée à la Coopération, au Développement et à la Francophonie",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Brigitte Girardin, Ministre.jpg",
+      "credit": "BrigitteGirardin",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2925422",
     "difficulty": 2
   },
   {
@@ -1129,6 +1992,61 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q63764562",
     "difficulty": 2
+  },
+  {
+    "id": "brune-poirson",
+    "firstName": "Brune",
+    "lastName": "Poirson",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État auprès du ministre de la Transition écologique et solidaire",
+        "startYear": 2017,
+        "endYear": 2020,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Brune Poirson 02 (cropped).jpg",
+      "credit": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30333326",
+    "difficulty": 3
+  },
+  {
+    "id": "bruno-durieux",
+    "firstName": "Bruno",
+    "lastName": "Durieux",
+    "aliases": [],
+    "party": "Mouvement des réformateurs",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre délégué à la Santé",
+        "startYear": 1990,
+        "endYear": 1992,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre délégué au Commerce extérieur",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Durieuxbruno01.jpg",
+      "credit": "Adhemar01 at English Wikipedia",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2926756",
+    "difficulty": 3
   },
   {
     "id": "bruno-le-maire",
@@ -1382,6 +2300,51 @@
     "difficulty": 1
   },
   {
+    "id": "catherine-lalumiere",
+    "firstName": "Catherine",
+    "lastName": "Lalumière",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État chargée de la Fonction publique et des Réformes administratives",
+        "startYear": 1981,
+        "endYear": 1981,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État chargée de la Consommation",
+        "startYear": 1983,
+        "endYear": 1984,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargée des Affaires européennes",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Catherine Lalumière.jpg",
+      "credit": "Bennismhd",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2263544",
+    "difficulty": 2
+  },
+  {
     "id": "catherine-pegard",
     "firstName": "Catherine",
     "lastName": "Pégard",
@@ -1403,6 +2366,51 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2942038",
+    "difficulty": 2
+  },
+  {
+    "id": "catherine-tasca",
+    "firstName": "Catherine",
+    "lastName": "Tasca",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre déléguée à la Communication",
+        "startYear": 1988,
+        "endYear": 1991,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre déléguée à la Francophonie",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État à la Francophonie et aux Relations culturelles extérieures",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "CatherineTasca.png",
+      "credit": "Mattduvail",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2942078",
     "difficulty": 2
   },
   {
@@ -1541,6 +2549,30 @@
     "difficulty": 2
   },
   {
+    "id": "charles-fiterman",
+    "firstName": "Charles",
+    "lastName": "Fiterman",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1981,
+        "endYear": 1984,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Charlesfiterman.jpg",
+      "credit": "Rue43120",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2959067",
+    "difficulty": 2
+  },
+  {
     "id": "charles-hernu",
     "firstName": "Charles",
     "lastName": "Hernu",
@@ -1594,6 +2626,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q725609",
     "difficulty": 2
+  },
+  {
+    "id": "charles-de-chambrun",
+    "firstName": "Charles",
+    "lastName": "de Chambrun",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Secrétaire d'État au Commerce extérieur",
+        "startYear": 1966,
+        "endYear": 1967,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Charles de Chambrun, secrétaire d'État.jpg",
+      "credit": "Studio Harcourt",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2960546",
+    "difficulty": 3
   },
   {
     "id": "charles-de-gaulle",
@@ -1675,6 +2731,30 @@
     "difficulty": 3
   },
   {
+    "id": "christelle-dubos",
+    "firstName": "Christelle",
+    "lastName": "Dubos",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État auprès du ministre des Solidarités et de la Santé",
+        "startYear": 2018,
+        "endYear": 2020,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Portrait de Christelle Dubos.jpg",
+      "credit": "Mllekarma",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30458608",
+    "difficulty": 3
+  },
+  {
     "id": "christian-bonnet",
     "firstName": "Christian",
     "lastName": "Bonnet",
@@ -1744,6 +2824,154 @@
     "difficulty": 3
   },
   {
+    "id": "christian-jacob",
+    "firstName": "Christian",
+    "lastName": "Jacob",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre délégué à la Famille",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué aux PME, au Commerce, à l’Artisanat, aux Professions libérales et à la Consommation",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Christian Jacob - 29-08-11.jpg",
+      "credit": "Jean-François Benard",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q707984",
+    "difficulty": 2
+  },
+  {
+    "id": "christian-nucci",
+    "firstName": "Christian",
+    "lastName": "Nucci",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué chargé de la Coopération et du Développement auprès du ministre des Relations extérieures",
+        "startYear": 1982,
+        "endYear": 1986,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Christian Nucci en 2014.jpg",
+      "credit": "Le Dauphiné Libéré",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2965505",
+    "difficulty": 3
+  },
+  {
+    "id": "christian-paul",
+    "firstName": "Christian",
+    "lastName": "Paul",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Secrétaire d'État chargé de l'Outre-mer",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Christian Paul 2009.jpg",
+      "credit": "Richard Ying ( Flickr ) pour LePost.fr",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q681613",
+    "difficulty": 3
+  },
+  {
+    "id": "christian-pierret",
+    "firstName": "Christian",
+    "lastName": "Pierret",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État à l'Industrie",
+        "startYear": 1997,
+        "endYear": 2002,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué à l'Industrie, aux PME, au Commerce, à l'Artisanat et à la Consommation",
+        "startYear": 2002,
+        "endYear": 2002,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Christian Pierret-FIG 1999.jpg",
+      "credit": "Photographe de la Ville de Saint-Dié-des-Vosges, dans le cadre de sa mission ; scan par Ji-Elle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2965547",
+    "difficulty": 3
+  },
+  {
+    "id": "christian-poncelet",
+    "firstName": "Christian",
+    "lastName": "Poncelet",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Secrétaire d'État chargé du Budget",
+        "startYear": 1974,
+        "endYear": 1977,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1977,
+        "endYear": 1977,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Christian Poncelet (cropped).JPG",
+      "credit": "No machine-readable author provided. Cheep assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q714774",
+    "difficulty": 2
+  },
+  {
     "id": "christian-sautter",
     "firstName": "Christian",
     "lastName": "Sautter",
@@ -1773,6 +3001,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2965623",
     "difficulty": 2
+  },
+  {
+    "id": "christiane-scrivener",
+    "firstName": "Christiane",
+    "lastName": "Scrivener",
+    "aliases": [],
+    "party": "Parti républicain",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État à la Consommation",
+        "startYear": 1976,
+        "endYear": 1978,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Christiane Scrivener 1989 (cropped).jpg",
+      "credit": "Christian Lambiotte - European Commission Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q448500",
+    "difficulty": 3
   },
   {
     "id": "christiane-taubira",
@@ -1961,6 +3213,30 @@
     "difficulty": 1
   },
   {
+    "id": "chrysoula-zacharopoulou",
+    "firstName": "Chrysoúla",
+    "lastName": "Zacharopoúlou",
+    "aliases": [],
+    "party": "Sans étiquette",
+    "politicalFamily": "autre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargée du Développement, de la Francophonie et des Partenariats internationaux",
+        "startYear": 2022,
+        "endYear": 2024,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Chrysoula Zacharopoulou - 2023 (cropped).jpg",
+      "credit": "Christophe Licoppe / European Union, 2023 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64032959",
+    "difficulty": 3
+  },
+  {
     "id": "claude-allegre",
     "firstName": "Claude",
     "lastName": "Allègre",
@@ -2037,6 +3313,30 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q521696",
+    "difficulty": 2
+  },
+  {
+    "id": "claude-goasguen",
+    "firstName": "Claude",
+    "lastName": "Goasguen",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1995,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Claude Goasguen, gymnase Japy 2008 02 27 n7.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2746785",
     "difficulty": 2
   },
   {
@@ -2119,6 +3419,37 @@
     "difficulty": 2
   },
   {
+    "id": "clotilde-valter",
+    "firstName": "Clotilde",
+    "lastName": "Valter",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État chargée de la Réforme de l'État et de la Simplification",
+        "startYear": 2015,
+        "endYear": 2016,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État chargée de la Formation professionnelle et de l'Apprentissage",
+        "startYear": 2016,
+        "endYear": 2017,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Clotilde Valter 2015 Tour de France (2).jpg",
+      "credit": "Ministère des Affaires étrangères et du Développement international",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2277782",
+    "difficulty": 3
+  },
+  {
     "id": "clement-beaune",
     "firstName": "Clément",
     "lastName": "Beaune",
@@ -2148,6 +3479,54 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q33172434",
     "difficulty": 3
+  },
+  {
+    "id": "colette-codaccioni",
+    "firstName": "Colette",
+    "lastName": "Codaccioni",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1995,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Colette Codaccionni procession de foi Législatives de 1993 dans le Nord.jpg",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2982480",
+    "difficulty": 2
+  },
+  {
+    "id": "corinne-lepage",
+    "firstName": "Corinne",
+    "lastName": "Lepage",
+    "aliases": [],
+    "party": "Cap Écologie",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Lepage, Corinne-2493.jpg",
+      "credit": "Foto-AG Gymnasium Melle",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q291341",
+    "difficulty": 2
   },
   {
     "id": "cecile-duflot",
@@ -2203,6 +3582,61 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q966529",
     "difficulty": 3
+  },
+  {
+    "id": "daniel-benoist",
+    "firstName": "Daniel",
+    "lastName": "Benoist",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargé des Personnes âgées",
+        "startYear": 1982,
+        "endYear": 1984,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Daniel Benoist.jpg",
+      "credit": "Calvin931 2",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3013711",
+    "difficulty": 3
+  },
+  {
+    "id": "daniel-hoeffel",
+    "firstName": "Daniel",
+    "lastName": "Hoeffel",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1980,
+        "endYear": 1981,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre délégué à l'Aménagement du territoire et aux Collectivités locales",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Daniel Hoeffel par Claude Truong-Ngoc 2013 (cropped).jpg",
+      "credit": "Photo Claude TRUONG-NGOC",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3014177",
+    "difficulty": 2
   },
   {
     "id": "daniel-vaillant",
@@ -2267,6 +3701,61 @@
     "difficulty": 2
   },
   {
+    "id": "delphine-batho",
+    "firstName": "Delphine",
+    "lastName": "Batho",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2012,
+        "endYear": 2013,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "justice",
+        "officialTitle": "Ministre déléguée auprès de la Garde des Sceaux, ministre de la Justice",
+        "startYear": 2012,
+        "endYear": 2012,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Delphine Batho (cropped).png",
+      "credit": "DeuxSevres79",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q291385",
+    "difficulty": 2
+  },
+  {
+    "id": "didier-bariani",
+    "firstName": "Didier",
+    "lastName": "Bariani",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Didier Bariani.jpg",
+      "credit": "Eric Malmaison",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3026913",
+    "difficulty": 2
+  },
+  {
     "id": "didier-guillaume",
     "firstName": "Didier",
     "lastName": "Guillaume",
@@ -2313,6 +3802,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3027123",
     "difficulty": 1
+  },
+  {
+    "id": "dominique-bertinotti",
+    "firstName": "Dominique",
+    "lastName": "Bertinotti",
+    "aliases": [],
+    "party": "Génération.s",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre déléguée à la Famille",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marisol Touraine.jpg",
+      "credit": "Laurent GUEDON from Paris, France",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1238152",
+    "difficulty": 3
   },
   {
     "id": "dominique-bussereau",
@@ -2507,6 +4020,54 @@
     "difficulty": 2
   },
   {
+    "id": "dominique-versini",
+    "firstName": "Dominique",
+    "lastName": "Versini",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargée de la Lutte contre la précarité et l'Exclusion",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Dominique Versini (40581873783).jpg",
+      "credit": "Jacques Paquier",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3035512",
+    "difficulty": 3
+  },
+  {
+    "id": "dominique-voynet",
+    "firstName": "Dominique",
+    "lastName": "Voynet",
+    "aliases": [],
+    "party": "EELV",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 1997,
+        "endYear": 2001,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Dominique Voynet - Anti-EPR demonstration in Toulouse 0025 2007-03-17 cropped.jpg",
+      "credit": "Guillaume Paumier",
+      "license": "CC BY-SA 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q268669",
+    "difficulty": 2
+  },
+  {
     "id": "dominique-de-villepin",
     "firstName": "Dominique",
     "lastName": "de Villepin",
@@ -2652,6 +4213,44 @@
     "difficulty": 2
   },
   {
+    "id": "edmond-herve",
+    "firstName": "Edmond",
+    "lastName": "Hervé",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre délégué chargé de l'Énergie",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1981,
+        "endYear": 1981,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargé de la Santé",
+        "startYear": 1983,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Rennes - 6 mai 2012 E Hervé.JPG",
+      "credit": "Pymouss",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q329044",
+    "difficulty": 2
+  },
+  {
     "id": "edmond-michelet",
     "firstName": "Edmond",
     "lastName": "Michelet",
@@ -2750,6 +4349,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3052772",
     "difficulty": 1
+  },
+  {
+    "id": "emmanuelle-cosse",
+    "firstName": "Emmanuelle",
+    "lastName": "Cosse",
+    "aliases": [],
+    "party": "EELV",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 2016,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Europe Ecologie closing rally regional elections 2010-03-10 n13.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3052948",
+    "difficulty": 2
   },
   {
     "id": "emmanuelle-wargon",
@@ -2900,6 +4523,30 @@
     "difficulty": 2
   },
   {
+    "id": "franck-borotra",
+    "firstName": "Franck",
+    "lastName": "Borotra",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Franck Borotra 1968.jpg",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2396260",
+    "difficulty": 2
+  },
+  {
     "id": "franck-riester",
     "firstName": "Franck",
     "lastName": "Riester",
@@ -2967,6 +4614,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3083773",
     "difficulty": 2
+  },
+  {
+    "id": "francois-autain",
+    "firstName": "François",
+    "lastName": "Autain",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargé de la Sécurité sociale",
+        "startYear": 1981,
+        "endYear": 1981,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État chargé de la Défense",
+        "startYear": 1983,
+        "endYear": 1983,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François Autain 1981.png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2373234",
+    "difficulty": 3
   },
   {
     "id": "francois-baroin",
@@ -3083,6 +4761,30 @@
     "difficulty": 2
   },
   {
+    "id": "francois-delmas",
+    "firstName": "François",
+    "lastName": "Delmas",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État chargé de l'Environnement",
+        "startYear": 1978,
+        "endYear": 1981,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François Delmas.png",
+      "credit": "Mairie de Montpellier",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3084411",
+    "difficulty": 3
+  },
+  {
     "id": "francois-fillon",
     "firstName": "François",
     "lastName": "Fillon",
@@ -3142,6 +4844,37 @@
     "difficulty": 1
   },
   {
+    "id": "francois-goulard",
+    "firstName": "François",
+    "lastName": "Goulard",
+    "aliases": [],
+    "party": "Objectif France",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Secrétaire d'État aux Transports et à la Mer",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre délégué à l'Enseignement supérieur et à la Recherche",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Bayrou Bercy 2007-04-18 n16.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3084768",
+    "difficulty": 3
+  },
+  {
     "id": "francois-guillaume",
     "firstName": "François",
     "lastName": "Guillaume",
@@ -3164,6 +4897,44 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3084796",
     "difficulty": 2
+  },
+  {
+    "id": "francois-loos",
+    "firstName": "François",
+    "lastName": "Loos",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre délégué au Commerce extérieur",
+        "startYear": 2002,
+        "endYear": 2005,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre délégué à l'Enseignement supérieur et à la Recherche",
+        "startYear": 2002,
+        "endYear": 2002,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué à l'Industrie",
+        "startYear": 2005,
+        "endYear": 2007,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François Loos par Claude Truong-Ngoc avril 2013.jpg",
+      "credit": "Claude TRUONG-NGOC",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q603288",
+    "difficulty": 3
   },
   {
     "id": "francois-leotard",
@@ -3197,6 +4968,37 @@
     "difficulty": 2
   },
   {
+    "id": "francois-missoffe",
+    "firstName": "François",
+    "lastName": "Missoffe",
+    "aliases": [],
+    "party": "UNR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État au Commerce intérieur",
+        "startYear": 1961,
+        "endYear": 1962,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 1966,
+        "endYear": 1968,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François-Missoffe.jpg",
+      "credit": "Teidix",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1278120",
+    "difficulty": 2
+  },
+  {
     "id": "francois-patriat",
     "firstName": "François",
     "lastName": "Patriat",
@@ -3226,6 +5028,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3085525",
     "difficulty": 2
+  },
+  {
+    "id": "francois-d-aubert",
+    "firstName": "François",
+    "lastName": "d'Aubert",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Secrétaire d'État à la Recherche",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "François d'Aubert - Salon du livre de Paris 2010.jpg",
+      "credit": "Thesupermat",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3086090",
+    "difficulty": 3
   },
   {
     "id": "francois-de-rugy",
@@ -3335,6 +5161,37 @@
     "difficulty": 3
   },
   {
+    "id": "francoise-giroud",
+    "firstName": "Françoise",
+    "lastName": "Giroud",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Secrétaire d'État à la Condition féminine",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Secrétaire d'État à la Culture",
+        "startYear": 1976,
+        "endYear": 1977,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "FrancoiseGiroud-Milan-1974.png",
+      "credit": "Adriano Alecchi (b. 1941, Milan )",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q386438",
+    "difficulty": 3
+  },
+  {
     "id": "francoise-nyssen",
     "firstName": "Françoise",
     "lastName": "Nyssen",
@@ -3359,6 +5216,30 @@
     "difficulty": 2
   },
   {
+    "id": "francoise-de-panafieu",
+    "firstName": "Françoise",
+    "lastName": "de Panafieu",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "tourisme",
+        "officialTitle": "Ministre du Tourisme",
+        "startYear": 1995,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Panafieu Mutualite 2007 12 07.jpg",
+      "credit": "Jastrow",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q273143",
+    "difficulty": 2
+  },
+  {
     "id": "frederic-mitterrand",
     "firstName": "Frédéric",
     "lastName": "Mitterrand",
@@ -3380,6 +5261,30 @@
       "license": "CC BY 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q257752",
+    "difficulty": 2
+  },
+  {
+    "id": "frederique-bredin",
+    "firstName": "Frédérique",
+    "lastName": "Bredin",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Frédérique Bredin.jpg",
+      "credit": "Eric Bonté",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3090356",
     "difficulty": 2
   },
   {
@@ -3459,6 +5364,30 @@
     "difficulty": 1
   },
   {
+    "id": "gabriel-kaspereit",
+    "firstName": "Gabriel",
+    "lastName": "Kaspereit",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État auprès du ministre du Développement industriel et scientifique",
+        "startYear": 1969,
+        "endYear": 1972,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Gabriel Kaspéreit 1.jpg",
+      "credit": "Agence26",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3093805",
+    "difficulty": 3
+  },
+  {
     "id": "gaston-defferre",
     "firstName": "Gaston",
     "lastName": "Defferre",
@@ -3487,6 +5416,30 @@
       "license": "CC0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q608815",
+    "difficulty": 2
+  },
+  {
+    "id": "gaston-palewski",
+    "firstName": "Gaston",
+    "lastName": "Palewski",
+    "aliases": [],
+    "party": "RPF",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 1962,
+        "endYear": 1965,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Gaston Palewski1964.JPG",
+      "credit": "Fritz Cohen",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q531385",
     "difficulty": 2
   },
   {
@@ -3545,6 +5498,199 @@
     "difficulty": 2
   },
   {
+    "id": "george-pau-langevin",
+    "firstName": "George",
+    "lastName": "Pau-Langevin",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 2014,
+        "endYear": 2016,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "George Pau-Langevin - Février 2013 (2).jpg",
+      "credit": "Matthieu Riegler, CC-by",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1321340",
+    "difficulty": 2
+  },
+  {
+    "id": "georges-fillioud",
+    "firstName": "Georges",
+    "lastName": "Fillioud",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1981,
+        "endYear": 1986,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Georges Fillioud 1981 (cropped).png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q532221",
+    "difficulty": 2
+  },
+  {
+    "id": "georges-fontes",
+    "firstName": "Georges",
+    "lastName": "Fontès",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État chargé des Anciens Combattants",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Georges Fontès - juin 2011.JPG",
+      "credit": "Matthieu Riegler, CC-by",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3102717",
+    "difficulty": 3
+  },
+  {
+    "id": "georges-gorse",
+    "firstName": "Georges",
+    "lastName": "Gorse",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État aux Affaires étrangères",
+        "startYear": 1961,
+        "endYear": 1962,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1962,
+        "endYear": 1962,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1967,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Georges Gorse.png",
+      "credit": "Unknown author Unknown author",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3102795",
+    "difficulty": 2
+  },
+  {
+    "id": "georges-kiejman",
+    "firstName": "Georges",
+    "lastName": "Kiejman",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "justice",
+        "officialTitle": "Ministre délégué à la Justice",
+        "startYear": 1990,
+        "endYear": 1991,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre délégué à la Communication",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué aux Affaires étrangères",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Georges Kiejman.png",
+      "credit": "Lepasriche",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3102972",
+    "difficulty": 3
+  },
+  {
+    "id": "georges-lemoine",
+    "firstName": "Georges",
+    "lastName": "Lemoine",
+    "aliases": [],
+    "party": "Parti ouvrier indépendant",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État chargé de la Défense",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État chargé de l'Énergie",
+        "startYear": 1981,
+        "endYear": 1981,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Secrétaire d'État chargé des départements et des territoires d’outre-mer",
+        "startYear": 1983,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Georges Lemoine 1981.png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3103080",
+    "difficulty": 3
+  },
+  {
     "id": "georges-pompidou",
     "firstName": "Georges",
     "lastName": "Pompidou",
@@ -3569,6 +5715,75 @@
     "difficulty": 1
   },
   {
+    "id": "georges-tron",
+    "firstName": "Georges",
+    "lastName": "Tron",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État chargé de la Fonction publique",
+        "startYear": 2010,
+        "endYear": 2011,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "GTPortraitsCab.JPG",
+      "credit": "GTFP",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3103572",
+    "difficulty": 3
+  },
+  {
+    "id": "georgina-dufoix",
+    "firstName": "Georgina",
+    "lastName": "Dufoix",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargée de la Famille, de la Population et des Travailleurs immigrés",
+        "startYear": 1981,
+        "endYear": 1984,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre déléguée chargée de la Famille, des Droits de la femme, de la Solidarité et des Rapatriés",
+        "startYear": 1988,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Georgina Dufoix 1990.jpg",
+      "credit": "Sdeliens",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3103788",
+    "difficulty": 2
+  },
+  {
     "id": "gil-averous",
     "firstName": "Gil",
     "lastName": "Avérous",
@@ -3590,6 +5805,54 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q21761190",
+    "difficulty": 2
+  },
+  {
+    "id": "gilbert-baumet",
+    "firstName": "Gilbert",
+    "lastName": "Baumet",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué au Commerce et à l'Artisanat",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Mitterrand-Baumet.jpg",
+      "credit": "Ishtar666",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1523929",
+    "difficulty": 3
+  },
+  {
+    "id": "gilbert-grandval",
+    "firstName": "Gilbert",
+    "lastName": "Grandval",
+    "aliases": [],
+    "party": "UDT",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1962,
+        "endYear": 1966,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Grandval Gilbert.jpg",
+      "credit": "Landesarchiv Saarbrücken",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1523977",
     "difficulty": 2
   },
   {
@@ -3662,6 +5925,30 @@
     "difficulty": 2
   },
   {
+    "id": "guy-hascoet",
+    "firstName": "Guy",
+    "lastName": "Hascoët",
+    "aliases": [],
+    "party": "EELV",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Secrétaire d'État à l'Économie solidaire",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "GuyHascoetKemper.JPG",
+      "credit": "Gariq",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3121831",
+    "difficulty": 3
+  },
+  {
     "id": "gerald-darmanin",
     "firstName": "Gérald",
     "lastName": "Darmanin",
@@ -3724,6 +6011,30 @@
     "difficulty": 1
   },
   {
+    "id": "gerard-larcher",
+    "firstName": "Gérard",
+    "lastName": "Larcher",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre délégué aux Relations du Travail",
+        "startYear": 2004,
+        "endYear": 2007,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Portrait G. Larcher 2014 (cropped).jpg",
+      "credit": "Senate",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q784021",
+    "difficulty": 3
+  },
+  {
     "id": "hamlaoui-mekachera",
     "firstName": "Hamlaoui",
     "lastName": "Mekachera",
@@ -3772,6 +6083,61 @@
     "difficulty": 3
   },
   {
+    "id": "henri-duvillard",
+    "firstName": "Henri",
+    "lastName": "Duvillard",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1967,
+        "endYear": 1972,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Henriduvillard.jpeg",
+      "credit": "Xxyba",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3131034",
+    "difficulty": 2
+  },
+  {
+    "id": "henri-emmanuelli",
+    "firstName": "Henri",
+    "lastName": "Emmanuelli",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Secrétaire d'État chargé des Départements et Territoires d'outre-mer",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Secrétaire d'État chargé du Budget et de la Consommation<ref group=N>",
+        "startYear": 1983,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Emmanuelli.jpg",
+      "credit": "Alexandre Wattiez ( User:Nouveau Parti Socialiste )",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1347791",
+    "difficulty": 3
+  },
+  {
     "id": "henri-nallet",
     "firstName": "Henri",
     "lastName": "Nallet",
@@ -3808,6 +6174,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1108317",
     "difficulty": 2
+  },
+  {
+    "id": "henri-plagnol",
+    "firstName": "Henri",
+    "lastName": "Plagnol",
+    "aliases": [],
+    "party": "UDI",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État chargé de la Réforme de l'État",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Henri Plagnol.jpg",
+      "credit": "Tetro",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q787956",
+    "difficulty": 3
   },
   {
     "id": "henri-rochereau",
@@ -3972,6 +6362,30 @@
     "difficulty": 2
   },
   {
+    "id": "hubert-curien",
+    "firstName": "Hubert",
+    "lastName": "Curien",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre délégué chargé de la Recherche",
+        "startYear": 1988,
+        "endYear": 1993,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Mr CURIEN Ministre de la Recherche au collège Pierre Brossolette de Chatenay Malabry-10-cliche Jean Weber (cropped).jpg",
+      "credit": "Jean Weber",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q177709",
+    "difficulty": 3
+  },
+  {
     "id": "hubert-germain",
     "firstName": "Hubert",
     "lastName": "Germain",
@@ -4031,6 +6445,30 @@
       "license": "CC BY-SA 2.5"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q560682",
+    "difficulty": 2
+  },
+  {
+    "id": "huguette-bouchardeau",
+    "firstName": "Huguette",
+    "lastName": "Bouchardeau",
+    "aliases": [],
+    "party": "PSU",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Mme Bouchardeau, 1985 (cropped).jpg",
+      "credit": "André Cros",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3142783",
     "difficulty": 2
   },
   {
@@ -4110,6 +6548,37 @@
     "difficulty": 2
   },
   {
+    "id": "jack-ralite",
+    "firstName": "Jack",
+    "lastName": "Ralite",
+    "aliases": [],
+    "party": "PCF",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre délégué chargé de l'Emploi",
+        "startYear": 1983,
+        "endYear": 1984,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jack Ralite - Aubervilliers - 6 juin 2011.JPG",
+      "credit": "Wikinade",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3157296",
+    "difficulty": 2
+  },
+  {
     "id": "jacqueline-gourault",
     "firstName": "Jacqueline",
     "lastName": "Gourault",
@@ -4139,6 +6608,75 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3157735",
     "difficulty": 2
+  },
+  {
+    "id": "jacques-barrot",
+    "firstName": "Jacques",
+    "lastName": "Barrot",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Secrétaire d'État chargé du Logement",
+        "startYear": 1974,
+        "endYear": 1978,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1978,
+        "endYear": 1979,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1979,
+        "endYear": 1981,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Barrot 2004 (cropped).jpg",
+      "credit": "Christian Lambiotte - European Commission Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q455040",
+    "difficulty": 2
+  },
+  {
+    "id": "jacques-blanc",
+    "firstName": "Jacques",
+    "lastName": "Blanc",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Secrétaire d'État auprès du ministre de l'Agriculture",
+        "startYear": 1977,
+        "endYear": 1978,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Blanc at the 136th Plenary Session of the European Committee of the Regions (48874176098).jpg",
+      "credit": "EPP Group in the CoR",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3158295",
+    "difficulty": 3
   },
   {
     "id": "jacques-chaban-delmas",
@@ -4255,6 +6793,78 @@
     "difficulty": 2
   },
   {
+    "id": "jacques-floch",
+    "firstName": "Jacques",
+    "lastName": "Floch",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État chargé des Anciens combattants",
+        "startYear": 2001,
+        "endYear": 2002,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Floch.jpg",
+      "credit": "Manuel from Nantes | Paris, France",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3158891",
+    "difficulty": 3
+  },
+  {
+    "id": "jacques-godfrain",
+    "firstName": "Jacques",
+    "lastName": "Godfrain",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Godfrain.JPG",
+      "credit": "Simon de l'Ouest",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3159004",
+    "difficulty": 2
+  },
+  {
+    "id": "jacques-legendre",
+    "firstName": "Jacques",
+    "lastName": "Legendre",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État auprès du ministre du Travail",
+        "startYear": 1977,
+        "endYear": 1981,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Legendre, Member of the French Senate - 2010 (cropped).jpg",
+      "credit": "Benoît Bourgeois / European Union, 2010 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3159355",
+    "difficulty": 3
+  },
+  {
     "id": "jacques-limouzy",
     "firstName": "Jacques",
     "lastName": "Limouzy",
@@ -4317,6 +6927,30 @@
     "difficulty": 3
   },
   {
+    "id": "jacques-medecin",
+    "firstName": "Jacques",
+    "lastName": "Médecin",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "tourisme",
+        "officialTitle": "Secrétaire d'État au Tourisme",
+        "startYear": 1976,
+        "endYear": 1978,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Médecin portrait 1976 Terra Amata museum.png",
+      "credit": "Resized copy of .",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3159629",
+    "difficulty": 3
+  },
+  {
     "id": "jacques-mezard",
     "firstName": "Jacques",
     "lastName": "Mézard",
@@ -4345,6 +6979,37 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3159636",
+    "difficulty": 2
+  },
+  {
+    "id": "jacques-soustelle",
+    "firstName": "Jacques",
+    "lastName": "Soustelle",
+    "aliases": [],
+    "party": "UNR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1958,
+        "endYear": 1959,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre délégué chargé du Sahara, des DOM-TOM et de l'Énergie atomique",
+        "startYear": 1959,
+        "endYear": 1960,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Soustelle, Bestanddeelnr 909-5719 (cropped).jpg",
+      "credit": "Anefo",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q699510",
     "difficulty": 2
   },
   {
@@ -4377,6 +7042,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1379752",
     "difficulty": 2
+  },
+  {
+    "id": "jacques-valade",
+    "firstName": "Jacques",
+    "lastName": "Valade",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre délégué, chargé de la Recherche et de l'Enseignement supérieur",
+        "startYear": 1987,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jacques Valade (cropped).png",
+      "credit": "Grimlock",
+      "license": "CC BY-SA 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3160121",
+    "difficulty": 3
   },
   {
     "id": "jean-arthuis",
@@ -4414,6 +7103,37 @@
       "license": "CC BY 2.5"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q528462",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-auroux",
+    "firstName": "Jean",
+    "lastName": "Auroux",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1981,
+        "endYear": 1982,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1985,
+        "endYear": 1986,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Auroux.jpg",
+      "credit": "Hegor",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3170464",
     "difficulty": 2
   },
   {
@@ -4470,6 +7190,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3171170",
     "difficulty": 1
+  },
+  {
+    "id": "jean-chamant",
+    "firstName": "Jean",
+    "lastName": "Chamant",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1971,
+        "endYear": 1972,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "11.12.67 Présentation officielle du Concorde (1967) - 53Fi1793 (Jean Chamant).jpg",
+      "credit": "André Cros",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3171209",
+    "difficulty": 2
   },
   {
     "id": "jean-foyer",
@@ -4572,6 +7316,61 @@
     "difficulty": 2
   },
   {
+    "id": "jean-laurain",
+    "firstName": "Jean",
+    "lastName": "Laurain",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État aux Anciens combattants et Victimes de guerre",
+        "startYear": 1983,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Laurain.jpg",
+      "credit": "Rowqui57730",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3173033",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-le-garrec",
+    "firstName": "Jean",
+    "lastName": "Le Garrec",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre délégué chargé de l'Emploi",
+        "startYear": 1982,
+        "endYear": 1983,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Le Garrec 1981 (cropped).png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3173078",
+    "difficulty": 3
+  },
+  {
     "id": "jean-lecanuet",
     "firstName": "Jean",
     "lastName": "Lecanuet",
@@ -4603,6 +7402,30 @@
     "difficulty": 3
   },
   {
+    "id": "jean-poperen",
+    "firstName": "Jean",
+    "lastName": "Poperen",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1988,
+        "endYear": 1992,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Poperen.jpg",
+      "credit": "Lilith222",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3174079",
+    "difficulty": 2
+  },
+  {
     "id": "jean-puech",
     "firstName": "Jean",
     "lastName": "Puech",
@@ -4631,6 +7454,30 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3174139",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-royer",
+    "firstName": "Jean",
+    "lastName": "Royer",
+    "aliases": [],
+    "party": "UNR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "1974-04-25 Meeting Jean Royer à Toulouse (1974) - 53Fi5660 (cropped).jpg",
+      "credit": "André Cros",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1685804",
     "difficulty": 2
   },
   {
@@ -4686,6 +7533,30 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3174738",
+    "difficulty": 3
+  },
+  {
+    "id": "jean-tiberi",
+    "firstName": "Jean",
+    "lastName": "Tiberi",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État chargé des Industries alimentaires",
+        "startYear": 1976,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Tiberi 2007 06 06.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1685859",
     "difficulty": 3
   },
   {
@@ -4847,6 +7718,151 @@
     "difficulty": 2
   },
   {
+    "id": "jean-francois-cope",
+    "firstName": "Jean-François",
+    "lastName": "Copé",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 2002,
+        "endYear": 2007,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Secrétaire d'État chargé des Relations avec le Parlement",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué au Budget",
+        "startYear": 2004,
+        "endYear": 2007,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre délégué à l'Intérieur",
+        "startYear": 2004,
+        "endYear": 2004,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-François Copé, Député-maire de Meaux 2015 (cropped).jpg",
+      "credit": "Astrakan25",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q62354",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-francois-deniau",
+    "firstName": "Jean-François",
+    "lastName": "Deniau",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1977,
+        "endYear": 1978,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre du Commerce extérieur",
+        "startYear": 1978,
+        "endYear": 1980,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre délégué chargé des Réformes administratives",
+        "startYear": 1980,
+        "endYear": 1981,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-François Deniau 1973 (cropped).jpg",
+      "credit": "Jean-Louis Debaize - European Commission Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q662406",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-francois-lamour",
+    "firstName": "Jean-François",
+    "lastName": "Lamour",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2002,
+        "endYear": 2007,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "UMP regional elections Paris 2010-01-21 n3.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q956428",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-francois-mattei",
+    "firstName": "Jean-François",
+    "lastName": "Mattei",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-François Mattei par Claude Truong-Ngoc 2013.jpg",
+      "credit": "Photo Claude TRUONG-NGOC",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q761795",
+    "difficulty": 2
+  },
+  {
     "id": "jean-jack-queyranne",
     "firstName": "Jean-Jack",
     "lastName": "Queyranne",
@@ -4909,6 +7925,54 @@
     "difficulty": 2
   },
   {
+    "id": "jean-jacques-beucler",
+    "firstName": "Jean-Jacques",
+    "lastName": "Beucler",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1977,
+        "endYear": 1977,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Jacques Beucler - Assemblee Nationale.jpg",
+      "credit": "Assemblee Nationale",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3166181",
+    "difficulty": 2
+  },
+  {
+    "id": "jean-jacques-servan-schreiber",
+    "firstName": "Jean-Jacques",
+    "lastName": "Servan-Schreiber",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1974,
+        "endYear": 1974,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Jacques Servan-Schreiber (1968).jpg",
+      "credit": "Ron Kroon / Anefo",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q431565",
+    "difficulty": 2
+  },
+  {
     "id": "jean-jacques-urvoas",
     "firstName": "Jean-Jacques",
     "lastName": "Urvoas",
@@ -4931,6 +7995,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2791083",
     "difficulty": 1
+  },
+  {
+    "id": "jean-jacques-de-peretti",
+    "firstName": "Jean-Jacques",
+    "lastName": "de Peretti",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Jacques de Peretti.jpg",
+      "credit": "Original uploader was Fufu33 at fr.wikipedia",
+      "license": "CC BY-SA 1.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3166465",
+    "difficulty": 2
   },
   {
     "id": "jean-louis-borloo",
@@ -5000,6 +8088,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q713235",
     "difficulty": 2
+  },
+  {
+    "id": "jean-luc-melenchon",
+    "firstName": "Jean-Luc",
+    "lastName": "Mélenchon",
+    "aliases": [],
+    "party": "La France insoumise",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre délégué à l'Enseignement professionnel",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Mélenchon 2027 - 55262255527 (cropped 3-4).png",
+      "credit": "jlm2017.fr",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q5829",
+    "difficulty": 3
   },
   {
     "id": "jean-marc-ayrault",
@@ -5095,6 +8207,51 @@
     "difficulty": 3
   },
   {
+    "id": "jean-michel-baylet",
+    "firstName": "Jean-Michel",
+    "lastName": "Baylet",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État auprès du ministre des Relations extérieures",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Secrétaire d'État chargé des Collectivités locales",
+        "startYear": 1988,
+        "endYear": 1990,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "tourisme",
+        "officialTitle": "Ministre délégué au Tourisme",
+        "startYear": 1990,
+        "endYear": 1993,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2016,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Michel Baylet - Strauss-Kahn meeting in Toulouse for the 2007 French presidential election 0154 2007-04-13 cropped mini.jpg",
+      "credit": "Guillaume Paumier",
+      "license": "CC BY-SA 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3082745",
+    "difficulty": 2
+  },
+  {
     "id": "jean-michel-blanquer",
     "firstName": "Jean-Michel",
     "lastName": "Blanquer",
@@ -5155,6 +8312,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q30339198",
     "difficulty": 1
+  },
+  {
+    "id": "jean-noel-jeanneney",
+    "firstName": "Jean-Noël",
+    "lastName": "Jeanneney",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Secrétaire d'État au Commerce extérieur",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Secrétaire d'État à la Communication",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Noël Jeanneney par Claude Truong-Ngoc avril 2014.jpg",
+      "credit": "Photo Claude TRUONG-NGOC",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q714993",
+    "difficulty": 3
   },
   {
     "id": "jean-paul-delevoye",
@@ -5226,6 +8414,30 @@
     "difficulty": 2
   },
   {
+    "id": "jean-pierre-cot",
+    "firstName": "Jean-Pierre",
+    "lastName": "Cot",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué chargé de la Coopération et du Développement",
+        "startYear": 1981,
+        "endYear": 1982,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Pierre Cot 1981 (cropped).png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q826275",
+    "difficulty": 3
+  },
+  {
     "id": "jean-pierre-farandou",
     "firstName": "Jean-Pierre",
     "lastName": "Farandou",
@@ -5278,6 +8490,54 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1685206",
+    "difficulty": 3
+  },
+  {
+    "id": "jean-pierre-jouyet",
+    "firstName": "Jean-Pierre",
+    "lastName": "Jouyet",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État aux Affaires européennes",
+        "startYear": 2007,
+        "endYear": 2008,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "M JOUYET 08 AMF 2009.JPG",
+      "credit": "User:Autorité des Marchés Financiers",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q324187",
+    "difficulty": 3
+  },
+  {
+    "id": "jean-pierre-masseret",
+    "firstName": "Jean-Pierre",
+    "lastName": "Masseret",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État à la Défense chargé des Anciens combattants",
+        "startYear": 1997,
+        "endYear": 2001,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean-Pierre Masseret par Claude Truong-Ngoc septembre 2015.jpg",
+      "credit": "Photo Claude TRUONG-NGOC",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3169556",
     "difficulty": 3
   },
   {
@@ -5371,6 +8631,30 @@
     "difficulty": 2
   },
   {
+    "id": "jean-pierre-sueur",
+    "firstName": "Jean-Pierre",
+    "lastName": "Sueur",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Jean Pierre Sueur Orléans.jpg",
+      "credit": "Nejmi",
+      "license": "FAL"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3169778",
+    "difficulty": 2
+  },
+  {
     "id": "jean-yves-le-drian",
     "firstName": "Jean-Yves",
     "lastName": "Le Drian",
@@ -5407,6 +8691,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q559040",
     "difficulty": 1
+  },
+  {
+    "id": "joseph-franceschi",
+    "firstName": "Joseph",
+    "lastName": "Franceschi",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Secrétaire d'État à la Sécurité publique",
+        "startYear": 1982,
+        "endYear": 1984,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargé des Retraités et des Personnes âgées",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Joseph Franceschi 1981 (cropped).png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3184959",
+    "difficulty": 3
   },
   {
     "id": "joel-giraud",
@@ -5533,6 +8848,30 @@
     "difficulty": 2
   },
   {
+    "id": "jerome-cahuzac",
+    "firstName": "Jérôme",
+    "lastName": "Cahuzac",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué au Budget",
+        "startYear": 2012,
+        "endYear": 2013,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "PR-2012-05-15 IMG 1493 (crop).jpg",
+      "credit": "Cyclotron",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q57751",
+    "difficulty": 3
+  },
+  {
     "id": "kader-arif",
     "firstName": "Kader",
     "lastName": "Arif",
@@ -5554,6 +8893,30 @@
       "license": "CC BY-SA 2.5"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1394045",
+    "difficulty": 3
+  },
+  {
+    "id": "kofi-yamgnane",
+    "firstName": "Kofi",
+    "lastName": "Yamgnane",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État aux Affaires sociales et à l'Intégration",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Kofi Yamgnane à Quimper.jpg",
+      "credit": "user jyc1 on Flickr https://www.flickr.com/photos/jyc1/",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q178339",
     "difficulty": 3
   },
   {
@@ -5602,6 +8965,61 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q17166195",
+    "difficulty": 3
+  },
+  {
+    "id": "laurence-rossignol",
+    "firstName": "Laurence",
+    "lastName": "Rossignol",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargée de la Famille, des Personnes âgées, de l'Autonomie et de l'Enfance",
+        "startYear": 2014,
+        "endYear": 2016,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2016,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "LR-2012-Hémicycle.JPG",
+      "credit": "ALRPMN",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3218932",
+    "difficulty": 2
+  },
+  {
+    "id": "laurent-cathala",
+    "firstName": "Laurent",
+    "lastName": "Cathala",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État à la Famille, aux Personnes âgées et aux Rapatriés",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Laurent Cathala 2019.jpg",
+      "credit": "Icipourtous",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3219106",
     "difficulty": 3
   },
   {
@@ -5655,6 +9073,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q217070",
     "difficulty": 1
+  },
+  {
+    "id": "laurent-henart",
+    "firstName": "Laurent",
+    "lastName": "Hénart",
+    "aliases": [],
+    "party": "UDI",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État chargé de l'Insertion professionnelle des jeunes",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "LaurentHénart.jpg",
+      "credit": "Talleyrand01",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q279821",
+    "difficulty": 3
   },
   {
     "id": "laurent-nunez",
@@ -5736,6 +9178,51 @@
     "difficulty": 3
   },
   {
+    "id": "laurent-wauquiez",
+    "firstName": "Laurent",
+    "lastName": "Wauquiez",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Secrétaire d'État auprès du Premier ministre Porte-parole du gouvernement",
+        "startYear": 2007,
+        "endYear": 2008,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État chargé de l'Emploi",
+        "startYear": 2008,
+        "endYear": 2010,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2010,
+        "endYear": 2011,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2011,
+        "endYear": 2012,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Laurent Wauquiez at the European People's Party Summit, Brussels 2018.jpg",
+      "credit": "European People's Party",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q984375",
+    "difficulty": 2
+  },
+  {
     "id": "lionel-jospin",
     "firstName": "Lionel",
     "lastName": "Jospin",
@@ -5765,6 +9252,44 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q187099",
     "difficulty": 1
+  },
+  {
+    "id": "louis-besson",
+    "firstName": "Louis",
+    "lastName": "Besson",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre délégué chargé du Logement",
+        "startYear": 1989,
+        "endYear": 1990,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1990,
+        "endYear": 1991,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "logement",
+        "officialTitle": "Secrétaire d'État chargé du Logement",
+        "startYear": 1997,
+        "endYear": 2001,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Louis Besson crop.jpg",
+      "credit": "Pierre73",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3261257",
+    "difficulty": 2
   },
   {
     "id": "louis-joxe",
@@ -5916,6 +9441,30 @@
     "difficulty": 2
   },
   {
+    "id": "louis-mexandeau",
+    "firstName": "Louis",
+    "lastName": "Mexandeau",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Secrétaire d'État aux Anciens combattants",
+        "startYear": 1991,
+        "endYear": 1993,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Louis Mexandeau.JPG",
+      "credit": "Benoit-caen",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3262692",
+    "difficulty": 3
+  },
+  {
     "id": "luc-chatel",
     "firstName": "Luc",
     "lastName": "Chatel",
@@ -5959,6 +9508,78 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q642640",
     "difficulty": 2
+  },
+  {
+    "id": "luc-ferry",
+    "firstName": "Luc",
+    "lastName": "Ferry",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre de l'Éducation nationale",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Paris - Salon du livre de Paris 2017 - Luc Ferry - 005.jpg",
+      "credit": "Thesupermat",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q740110",
+    "difficulty": 2
+  },
+  {
+    "id": "lucette-michaux-chevry",
+    "firstName": "Lucette",
+    "lastName": "Michaux-Chevry",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargée de la Francophonie",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Lucette Michaux-Chevry 1993 (cropped).jpg",
+      "credit": "EC/Christian Lambiotte",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3265133",
+    "difficulty": 3
+  },
+  {
+    "id": "leon-schwartzenberg",
+    "firstName": "Léon",
+    "lastName": "Schwartzenberg",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre délégué à la Santé",
+        "startYear": 1988,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Léon Schwartzenberg-FIG 1994 (1).jpg",
+      "credit": "Photographe de la Ville de Saint-Dié-des-Vosges, dans le cadre de sa mission ; scan par Ji-Elle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3271326",
+    "difficulty": 3
   },
   {
     "id": "manuel-valls",
@@ -6027,6 +9648,54 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q6755549",
+    "difficulty": 3
+  },
+  {
+    "id": "marcel-maurice-bigeard",
+    "firstName": "Marcel",
+    "lastName": "Maurice Bigeard",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1975,
+        "endYear": 1976,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "General Marcel Bigeard, 80, October 1996, before photo of him 40 years ago.jpg",
+      "credit": "Mztourist",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q728229",
+    "difficulty": 2
+  },
+  {
+    "id": "margie-sudre",
+    "firstName": "Margie",
+    "lastName": "Sudre",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargée de la Francophonie",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Flickr - europeanpeoplesparty - EPP Congress Warsaw (605).jpg",
+      "credit": "European People's Party",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q446995",
     "difficulty": 3
   },
   {
@@ -6102,6 +9771,116 @@
     "difficulty": 3
   },
   {
+    "id": "marie-anne-montchamp",
+    "firstName": "Marie-Anne",
+    "lastName": "Montchamp",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargée des Personnes handicapées",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargée des Solidarités et de la Cohésion sociale",
+        "startYear": 2010,
+        "endYear": 2012,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marie-Anne Montchamp.jpg",
+      "credit": "Marie-Anne Montchamp",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3291527",
+    "difficulty": 3
+  },
+  {
+    "id": "marie-george-buffet",
+    "firstName": "Marie-George",
+    "lastName": "Buffet",
+    "aliases": [],
+    "party": "PCF",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 1997,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marie-George Buffet en 2012.jpg",
+      "credit": "Nico9393",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q464029",
+    "difficulty": 2
+  },
+  {
+    "id": "marie-josee-roig",
+    "firstName": "Marie-Josée",
+    "lastName": "Roig",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre déléguée à l'Intérieur",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2004,
+        "endYear": 2004,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marie-Josée Roig - portrait de Fernand Michaud - btv1b10329605q.jpg",
+      "credit": "Michaud, Fernand (1929-2012). Photographe",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3292021",
+    "difficulty": 2
+  },
+  {
+    "id": "marie-luce-penchard",
+    "firstName": "Marie-Luce",
+    "lastName": "Penchard",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Secrétaire d'État puis ministre chargée de l'Outre-mer",
+        "startYear": 2009,
+        "endYear": 2012,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marie-Luce Penchard.jpg",
+      "credit": "Sarachan",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3292101",
+    "difficulty": 3
+  },
+  {
     "id": "marie-noelle-lienemann",
     "firstName": "Marie-Noëlle",
     "lastName": "Lienemann",
@@ -6155,6 +9934,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q63965965",
     "difficulty": 3
+  },
+  {
+    "id": "marielle-de-sarnez",
+    "firstName": "Marielle",
+    "lastName": "de Sarnez",
+    "aliases": [],
+    "party": "MoDem",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 2017,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Sarnez, Marielle de-1496.jpg",
+      "credit": "Foto-AG Gymnasium Melle",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q452173",
+    "difficulty": 2
   },
   {
     "id": "marina-ferrari",
@@ -6257,6 +10060,44 @@
     "difficulty": 3
   },
   {
+    "id": "martin-malvy",
+    "firstName": "Martin",
+    "lastName": "Malvy",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Secrétaire d'État auprès du ministre du Redéploiement industriel et du Commerce extérieur, chargé de l'Énergie",
+        "startYear": 1984,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre du Budget",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Secrétaire d'État chargé des Relations avec le Parlement porte-parole du gouvernement",
+        "startYear": 1992,
+        "endYear": 1992,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Martin Malvy 6 - Airbus public demonstration in Toulouse 0367 2007-03-06.jpg",
+      "credit": "Guillaume Paumier",
+      "license": "CC BY-SA 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3295540",
+    "difficulty": 2
+  },
+  {
     "id": "martine-aubry",
     "firstName": "Martine",
     "lastName": "Aubry",
@@ -6286,6 +10127,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q228977",
     "difficulty": 2
+  },
+  {
+    "id": "martine-pinville",
+    "firstName": "Martine",
+    "lastName": "Pinville",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État chargée du Commerce, de l'Artisanat, de la Consommation et de l'Économie sociale et solidaire",
+        "startYear": 2015,
+        "endYear": 2017,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Martine Pinville - 2011.jpg",
+      "credit": "Crambliere",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3295826",
+    "difficulty": 3
   },
   {
     "id": "marylise-lebranchu",
@@ -6412,6 +10277,30 @@
     "difficulty": 2
   },
   {
+    "id": "maurice-charretier",
+    "firstName": "Maurice",
+    "lastName": "Charretier",
+    "aliases": [],
+    "party": "Parti républicain",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1979,
+        "endYear": 1981,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Maurice Charretier.JPG",
+      "credit": "Marianne Casamance",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3300553",
+    "difficulty": 2
+  },
+  {
     "id": "maurice-couve-de-murville",
     "firstName": "Maurice Couve",
     "lastName": "de Murville",
@@ -6518,6 +10407,54 @@
       "license": "CC0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3300775",
+    "difficulty": 2
+  },
+  {
+    "id": "maurice-herzog",
+    "firstName": "Maurice",
+    "lastName": "Herzog",
+    "aliases": [],
+    "party": "UDR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Secrétaire d'État à la Jeunesse et aux Sports",
+        "startYear": 1963,
+        "endYear": 1966,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Rock climbing practice wall.jpg",
+      "credit": "Satyamfxr",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q505819",
+    "difficulty": 3
+  },
+  {
+    "id": "maurice-papon",
+    "firstName": "Maurice",
+    "lastName": "Papon",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre du Budget",
+        "startYear": 1978,
+        "endYear": 1981,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Maurice Papon 1.JPG",
+      "credit": "François Vogin",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q327009",
     "difficulty": 2
   },
   {
@@ -6801,6 +10738,44 @@
     "difficulty": 2
   },
   {
+    "id": "michel-durafour",
+    "firstName": "Michel",
+    "lastName": "Durafour",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre délégué auprès du Premier ministre, chargé de l'Économie, des Finances et du Budget",
+        "startYear": 1976,
+        "endYear": 1977,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1988,
+        "endYear": 1991,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Michel Durafour, maire de Saint-Étienne.jpg",
+      "credit": "Unknown author Unknown author",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q691457",
+    "difficulty": 2
+  },
+  {
     "id": "michel-gillibert",
     "firstName": "Michel",
     "lastName": "Gillibert",
@@ -6822,6 +10797,61 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3309758",
+    "difficulty": 3
+  },
+  {
+    "id": "michel-guy",
+    "firstName": "Michel",
+    "lastName": "Guy",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Secrétaire d'État à la Culture",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Michel Guy - portrait de Fernand Michaud - btv1b103295880.jpg",
+      "credit": "Michaud, Fernand (1929-2012). Photographe",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3309853",
+    "difficulty": 3
+  },
+  {
+    "id": "michel-habib-deloncle",
+    "firstName": "Michel",
+    "lastName": "Habib-Deloncle",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État aux Affaires étrangères",
+        "startYear": 1962,
+        "endYear": 1966,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Secrétaire d'État à l'Éducation nationale",
+        "startYear": 1966,
+        "endYear": 1967,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Michel Habib-Deloncle (1965).jpg",
+      "credit": "Eric Koch for Anefo",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1930751",
     "difficulty": 3
   },
   {
@@ -6885,6 +10915,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q12955",
     "difficulty": 1
+  },
+  {
+    "id": "michel-noir",
+    "firstName": "Michel",
+    "lastName": "Noir",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "commerce-exterieur",
+        "officialTitle": "Ministre délégué au Commerce extérieur",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Michel Noir en mai 2014.jpg",
+      "credit": "voyages provence",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3310469",
+    "difficulty": 3
   },
   {
     "id": "michel-poniatowski",
@@ -7077,6 +11131,30 @@
     "difficulty": 2
   },
   {
+    "id": "michelle-demessine",
+    "firstName": "Michelle",
+    "lastName": "Demessine",
+    "aliases": [],
+    "party": "PCF",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "tourisme",
+        "officialTitle": "Secrétaire d'État au Tourisme",
+        "startYear": 1997,
+        "endYear": 2001,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Huma2023MichelleDemessine.jpg",
+      "credit": "Selbymay",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3311419",
+    "difficulty": 3
+  },
+  {
     "id": "michele-alliot-marie",
     "firstName": "Michèle",
     "lastName": "Alliot-Marie",
@@ -7136,6 +11214,54 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q58130",
     "difficulty": 1
+  },
+  {
+    "id": "michele-barzach",
+    "firstName": "Michèle",
+    "lastName": "Barzach",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre déléguée à la Santé et à la Famille de la France",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Michèle Barzach.jpg",
+      "credit": "European Union - Source : EP",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3311566",
+    "difficulty": 3
+  },
+  {
+    "id": "michele-delaunay",
+    "firstName": "Michèle",
+    "lastName": "Delaunay",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre déléguée aux Personnes âgées et à l'Autonomie",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Michele Delaunay à Bordeaux.jpg",
+      "credit": "Nicolas Pastor",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q452139",
+    "difficulty": 3
   },
   {
     "id": "monique-barbut",
@@ -7208,6 +11334,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q30343155",
     "difficulty": 2
+  },
+  {
+    "id": "nadine-morano",
+    "firstName": "Nadine",
+    "lastName": "Morano",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Secrétaire d'État chargée de la Famille",
+        "startYear": 2008,
+        "endYear": 2010,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre déléguée chargée de l'Apprentissage et de la Formation professionnelle",
+        "startYear": 2010,
+        "endYear": 2012,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nadine Morano par Claude Truong-Ngoc juin 2013.jpg",
+      "credit": "Claude Truong-Ngoc",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3334944",
+    "difficulty": 3
   },
   {
     "id": "najat-vallaud-belkacem",
@@ -7417,6 +11574,51 @@
     "difficulty": 1
   },
   {
+    "id": "nicole-ameline",
+    "firstName": "Nicole",
+    "lastName": "Ameline",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Secrétaire d'État chargée de la Décentralisation",
+        "startYear": 1995,
+        "endYear": 1995,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre déléguée à la Parité et à l'Égalité professionnelle",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "mer",
+        "officialTitle": "Secrétaire d'État à la Mer",
+        "startYear": 2002,
+        "endYear": 2002,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre chargé de l'Égalité entre les femmes et les hommes",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nicoleameline5.jpg",
+      "credit": "Louranos",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3340996",
+    "difficulty": 2
+  },
+  {
     "id": "nicole-belloubet",
     "firstName": "Nicole",
     "lastName": "Belloubet",
@@ -7484,6 +11686,102 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q452131",
     "difficulty": 1
+  },
+  {
+    "id": "nicole-fontaine",
+    "firstName": "Nicole",
+    "lastName": "Fontaine",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre déléguée à l'Industrie",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Official portrait of Nicole Fontaine.jpg",
+      "credit": "© European Union - Source : EP",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q255023",
+    "difficulty": 3
+  },
+  {
+    "id": "nicole-guedj",
+    "firstName": "Nicole",
+    "lastName": "Guedj",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "justice",
+        "officialTitle": "Secrétaire d'État aux Programmes immobiliers de la Justice",
+        "startYear": 2004,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nicole Guedj.jpg",
+      "credit": "Redhelmets",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3341057",
+    "difficulty": 3
+  },
+  {
+    "id": "nicole-pery",
+    "firstName": "Nicole",
+    "lastName": "Péry",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Secrétaire d'État aux Droits des femmes et à la Formation professionnelle",
+        "startYear": 1998,
+        "endYear": 2002,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "1657902001016 P090 Nicole PERY 001 MOBILE.jpg",
+      "credit": "European Union - Source : EP",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q765852",
+    "difficulty": 3
+  },
+  {
+    "id": "nicole-questiaux",
+    "firstName": "Nicole",
+    "lastName": "Questiaux",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1981,
+        "endYear": 1982,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Nicole Questiaux 1981 (cropped).png",
+      "credit": "CEVIPOF Sciences Po",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3341110",
+    "difficulty": 2
   },
   {
     "id": "noelle-lenoir",
@@ -7772,6 +12070,37 @@
     "difficulty": 1
   },
   {
+    "id": "patrice-vergriete",
+    "firstName": "Patrice",
+    "lastName": "Vergriete",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre délégué chargé du Logement",
+        "startYear": 2023,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre délégué chargé des Transports",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Patrice Vergriete, Maire de Dunkerque.jpg",
+      "credit": "Jérémy-Günther-Heinz Jähnick",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q16669152",
+    "difficulty": 3
+  },
+  {
     "id": "patricia-miralles",
     "firstName": "Patricia",
     "lastName": "Mirallès",
@@ -7794,6 +12123,44 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q30497954",
     "difficulty": 3
+  },
+  {
+    "id": "patrick-devedjian",
+    "firstName": "Patrick",
+    "lastName": "Devedjian",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre délégué aux Libertés locales",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué à l'Industrie",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre de l'Économie et des Finances",
+        "startYear": 2008,
+        "endYear": 2010,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "UMP regional elections IlM 2010-02-18 n04.jpg",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1383590",
+    "difficulty": 2
   },
   {
     "id": "paul-quiles",
@@ -7862,6 +12229,30 @@
     "difficulty": 2
   },
   {
+    "id": "paulette-guinchard-kunstler",
+    "firstName": "Paulette",
+    "lastName": "Guinchard-Kunstler",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2001,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Paulette Guinchard-Kunstler, 2012.jpg",
+      "credit": "Arnaud 25",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3372638",
+    "difficulty": 2
+  },
+  {
     "id": "philippe-baptiste",
     "firstName": "Philippe",
     "lastName": "Baptiste",
@@ -7908,6 +12299,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3379308",
     "difficulty": 2
+  },
+  {
+    "id": "philippe-briand",
+    "firstName": "Philippe",
+    "lastName": "Briand",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Secrétaire d'État chargé de l'Aménagement du territoire",
+        "startYear": 2004,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Philippe Briand - Saint-Cyr-Loire - 151014.jpg",
+      "credit": "Bfauvergue",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3379439",
+    "difficulty": 3
   },
   {
     "id": "philippe-douste-blazy",
@@ -7986,6 +12401,78 @@
     "difficulty": 2
   },
   {
+    "id": "philippe-mestre",
+    "firstName": "Philippe",
+    "lastName": "Mestre",
+    "aliases": [],
+    "party": "UDF",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Philippe.Mestre.png",
+      "credit": "Jinx75116",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3380364",
+    "difficulty": 2
+  },
+  {
+    "id": "philippe-richert",
+    "firstName": "Philippe",
+    "lastName": "Richert",
+    "aliases": [],
+    "party": "LR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre de l'Intérieur",
+        "startYear": 2010,
+        "endYear": 2012,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Philippe Richert par Claude Truong-Ngoc janvier 2016.jpg",
+      "credit": "Photo Claude TRUONG-NGOC",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3380642",
+    "difficulty": 2
+  },
+  {
+    "id": "philippe-seguin",
+    "firstName": "Philippe",
+    "lastName": "Séguin",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Philippe Seguin 2005.jpg",
+      "credit": "Olivier Sourd",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q543332",
+    "difficulty": 2
+  },
+  {
     "id": "philippe-tabarot",
     "firstName": "Philippe",
     "lastName": "Tabarot",
@@ -8007,6 +12494,30 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q63371158",
+    "difficulty": 2
+  },
+  {
+    "id": "philippe-vasseur",
+    "firstName": "Philippe",
+    "lastName": "Vasseur",
+    "aliases": [],
+    "party": "Démocratie libérale",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Ministre de l'Agriculture",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "SSF2014 - Philippe Vasseur - 2.jpg",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3380839",
     "difficulty": 2
   },
   {
@@ -8034,6 +12545,85 @@
     "difficulty": 2
   },
   {
+    "id": "philippe-de-villiers",
+    "firstName": "Philippe",
+    "lastName": "de Villiers",
+    "aliases": [],
+    "party": "Reconquête",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "culture",
+        "officialTitle": "Secrétaire d'État à la Culture",
+        "startYear": 1986,
+        "endYear": 1987,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Philippe de Villiers - Meeting in Toulouse for the 2007 French presidential election 0165 2007-04-16 cropped.jpg",
+      "credit": "Guillaume Paumier",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q704846",
+    "difficulty": 3
+  },
+  {
+    "id": "pierre-abelin",
+    "firstName": "Pierre",
+    "lastName": "Abelin",
+    "aliases": [],
+    "party": "MRP",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Pierre Abelin.jpg",
+      "credit": "Anonymous Unknown author (Keystone France)",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2381218",
+    "difficulty": 2
+  },
+  {
+    "id": "pierre-bernard-reymond",
+    "firstName": "Pierre",
+    "lastName": "Bernard-Reymond",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Secrétaire d'État chargé du budget",
+        "startYear": 1977,
+        "endYear": 1978,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargé des Affaires européennes",
+        "startYear": 1978,
+        "endYear": 1981,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Pierre Bernard-Reymond MEP 1994.jpg",
+      "credit": "European Parliament Multimedia Centre",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3383943",
+    "difficulty": 3
+  },
+  {
     "id": "pierre-billotte",
     "firstName": "Pierre",
     "lastName": "Billotte",
@@ -8055,6 +12645,30 @@
       "license": "Public domain"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2496489",
+    "difficulty": 3
+  },
+  {
+    "id": "pierre-bedier",
+    "firstName": "Pierre",
+    "lastName": "Bédier",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "justice",
+        "officialTitle": "Secrétaire d'État chargé des Programmes immobiliers de la justice",
+        "startYear": 2002,
+        "endYear": 2004,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Pierre Bédier.JPG",
+      "credit": "Conseil général des Yvelines",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3384241",
     "difficulty": 3
   },
   {
@@ -8227,6 +12841,30 @@
     "difficulty": 1
   },
   {
+    "id": "pierre-mazeaud",
+    "firstName": "Pierre",
+    "lastName": "Mazeaud",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Secrétaire d'État chargé de la Jeunesse et des Sports",
+        "startYear": 1973,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Pierre Mazeaud.jpg",
+      "credit": "éditions Paulsen",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q492259",
+    "difficulty": 3
+  },
+  {
     "id": "pierre-messmer",
     "firstName": "Pierre",
     "lastName": "Messmer",
@@ -8372,6 +13010,61 @@
     "difficulty": 3
   },
   {
+    "id": "pierre-andre-perissol",
+    "firstName": "Pierre-André",
+    "lastName": "Périssol",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre puis ministre délégué chargé du Logement",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Pierre-André Périssol.jpg",
+      "credit": "licence Creative Commons Attribution-Share Alike License 3.0 (CC-BY-SA).",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3382822",
+    "difficulty": 3
+  },
+  {
+    "id": "pierre-christian-taittinger",
+    "firstName": "Pierre-Christian",
+    "lastName": "Taittinger",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État aux Affaires étrangères",
+        "startYear": 1976,
+        "endYear": 1977,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Secrétaire d'État à l'Intérieur",
+        "startYear": 1976,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Pierre Christian Taittinger.jpg",
+      "credit": "fototeca.iiccr.ro",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q820283",
+    "difficulty": 3
+  },
+  {
     "id": "prisca-thevenot",
     "firstName": "Prisca",
     "lastName": "Thevenot",
@@ -8432,6 +13125,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q27182",
     "difficulty": 1
+  },
+  {
+    "id": "rama-yade",
+    "firstName": "Rama",
+    "lastName": "Yade",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État chargée des Affaires étrangères et des Droits de l'homme",
+        "startYear": 2007,
+        "endYear": 2009,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sports",
+        "officialTitle": "Secrétaire d'État chargée des Sports",
+        "startYear": 2009,
+        "endYear": 2010,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Rama Yade 2007 05 23 n1.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q239154",
+    "difficulty": 3
   },
   {
     "id": "raymond-barre",
@@ -8514,6 +13238,30 @@
       "license": "Public domain"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1347314",
+    "difficulty": 3
+  },
+  {
+    "id": "raymond-triboulet",
+    "firstName": "Raymond",
+    "lastName": "Triboulet",
+    "aliases": [],
+    "party": "UDR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué à la Coopération",
+        "startYear": 1962,
+        "endYear": 1966,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Raymond Triboulet.jpg",
+      "credit": "Studio Harcourt",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2695709",
     "difficulty": 3
   },
   {
@@ -8644,6 +13392,30 @@
     "difficulty": 3
   },
   {
+    "id": "rene-souchon",
+    "firstName": "René",
+    "lastName": "Souchon",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "agriculture",
+        "officialTitle": "Secrétaire d'État puis ministre délégué à l'Agriculture et aux Forêts",
+        "startYear": 1983,
+        "endYear": 1986,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "René souchon.JPG",
+      "credit": "No machine-readable author provided. Alexp63 assumed (based on copyright claims).",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1238956",
+    "difficulty": 3
+  },
+  {
     "id": "rene-teulade",
     "firstName": "René",
     "lastName": "Teulade",
@@ -8673,6 +13445,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3426925",
     "difficulty": 2
+  },
+  {
+    "id": "rene-tomasini",
+    "firstName": "René",
+    "lastName": "Tomasini",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Secrétaire d'État aux Relations avec le Parlement",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "René Tomasini- Jean-Pierre Cassabel- Carcassonne 1971.jpg",
+      "credit": "APB11",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3426940",
+    "difficulty": 3
   },
   {
     "id": "richard-ferrand",
@@ -8820,6 +13616,103 @@
     "difficulty": 3
   },
   {
+    "id": "robert-buron",
+    "firstName": "Robert",
+    "lastName": "Buron",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1958,
+        "endYear": 1962,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Robert Buron 1961.jpg",
+      "credit": "Unknown author Unknown author",
+      "license": "CC BY-SA 3.0 nl"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3434688",
+    "difficulty": 2
+  },
+  {
+    "id": "robert-galley",
+    "firstName": "Robert",
+    "lastName": "Galley",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre délégué chargé de la Recherche scientifique et des Questions atomiques et spatiales",
+        "startYear": 1968,
+        "endYear": 1969,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1968,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1969,
+        "endYear": 1972,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1972,
+        "endYear": 1973,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre des Affaires étrangères",
+        "startYear": 1976,
+        "endYear": 1980,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1980,
+        "endYear": 1981,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Statue Robert Galley.jpg",
+      "credit": "Xuvier",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q345888",
+    "difficulty": 2
+  },
+  {
     "id": "robert-lecourt",
     "firstName": "Robert",
     "lastName": "Lecourt",
@@ -8842,6 +13735,102 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3435720",
     "difficulty": 3
+  },
+  {
+    "id": "robert-poujade",
+    "firstName": "Robert",
+    "lastName": "Poujade",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1971,
+        "endYear": 1974,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "1972 visite de M. Robert Poujade ministre de l'Environnement au CNRA-5-cliche Jean Weber (cropped).jpg",
+      "credit": "inra.dist",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3088070",
+    "difficulty": 2
+  },
+  {
+    "id": "robert-andre-vivien",
+    "firstName": "Robert-André",
+    "lastName": "Vivien",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Secrétaire d'État au Logement",
+        "startYear": 1969,
+        "endYear": 1972,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Plaque avenue Robert-André Vivien.jpg",
+      "credit": "Torg the Morg",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3434350",
+    "difficulty": 3
+  },
+  {
+    "id": "roger-bambuck",
+    "firstName": "Roger",
+    "lastName": "Bambuck",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Secrétaire d'État chargé des Sports",
+        "startYear": 1988,
+        "endYear": 1991,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Roger Bambuck.JPG",
+      "credit": "Unknown author Unknown author",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1379905",
+    "difficulty": 3
+  },
+  {
+    "id": "roger-dusseaulx",
+    "firstName": "Roger",
+    "lastName": "Dusseaulx",
+    "aliases": [],
+    "party": "UDR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1962,
+        "endYear": 1962,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Roger Dusseaulx en 1962..jpg",
+      "credit": "Mila Saint Anne",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3438925",
+    "difficulty": 2
   },
   {
     "id": "roger-frey",
@@ -8913,6 +13902,85 @@
     "difficulty": 3
   },
   {
+    "id": "roger-quilliot",
+    "firstName": "Roger",
+    "lastName": "Quilliot",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre du Logement",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Roger Quillot.webp",
+      "credit": "Maxime LPB",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3439394",
+    "difficulty": 2
+  },
+  {
+    "id": "roger-romani",
+    "firstName": "Roger",
+    "lastName": "Romani",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Roger Romani.jpg",
+      "credit": "StephaneParisSud",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3439424",
+    "difficulty": 2
+  },
+  {
+    "id": "roger-gerard-schwartzenberg",
+    "firstName": "Roger-Gérard",
+    "lastName": "Schwartzenberg",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Secrétaire d'État auprès du ministre de l'Éducation nationale",
+        "startYear": 1983,
+        "endYear": 1984,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Portrait Roger-Gérard Schwartzenberg.jpg",
+      "credit": "Rg.schwartzenberg",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3438605",
+    "difficulty": 2
+  },
+  {
     "id": "roland-dumas",
     "firstName": "Roland",
     "lastName": "Dumas",
@@ -8973,6 +14041,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q30130489",
     "difficulty": 3
+  },
+  {
+    "id": "roland-nungesser",
+    "firstName": "Roland",
+    "lastName": "Nungesser",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 1968,
+        "endYear": 1968,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Roland Nungesser - 1967 (cropped).tif",
+      "credit": "Christian Lambiotte / European Communities, 1967 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q931320",
+    "difficulty": 2
   },
   {
     "id": "roselyne-bachelot",
@@ -9075,6 +14167,30 @@
     "difficulty": 3
   },
   {
+    "id": "serge-lepeltier",
+    "firstName": "Serge",
+    "lastName": "Lepeltier",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2004,
+        "endYear": 2005,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Serge Lepeltier.jpg",
+      "credit": "Mfuc162",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3479423",
+    "difficulty": 2
+  },
+  {
     "id": "serge-papin",
     "firstName": "Serge",
     "lastName": "Papin",
@@ -9152,6 +14268,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q298180",
     "difficulty": 2
+  },
+  {
+    "id": "sonia-backes",
+    "firstName": "Sonia",
+    "lastName": "Backès",
+    "aliases": [],
+    "party": "Le Rassemblement",
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Secrétaire d'État chargée de la Citoyenneté",
+        "startYear": 2022,
+        "endYear": 2023,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Sonia backes 2022.jpg",
+      "credit": "Sonia Backes",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3490407",
+    "difficulty": 3
   },
   {
     "id": "sophie-cluzel",
@@ -9429,6 +14569,44 @@
     "difficulty": 3
   },
   {
+    "id": "segolene-royal",
+    "firstName": "Ségolène",
+    "lastName": "Royal",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "education-nationale",
+        "officialTitle": "Ministre déléguée à l'Enseignement scolaire",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre déléguée à la Famille, à l'Enfance et aux Personnes handicapées",
+        "startYear": 2000,
+        "endYear": 2002,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 2014,
+        "endYear": 2017,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Ségolène Royal - Janvier 2012.jpg",
+      "credit": "Matthieu Riegler, CC-by",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q81923",
+    "difficulty": 2
+  },
+  {
     "id": "thierry-breton",
     "firstName": "Thierry",
     "lastName": "Breton",
@@ -9453,6 +14631,30 @@
     "difficulty": 1
   },
   {
+    "id": "thomas-cazenave",
+    "firstName": "Thomas",
+    "lastName": "Cazenave",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre délégué chargé des Comptes publics",
+        "startYear": 2023,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Thomas Cazenave (cropped).jpg",
+      "credit": "Matpate",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28653600",
+    "difficulty": 3
+  },
+  {
     "id": "thomas-thevenoud",
     "firstName": "Thomas",
     "lastName": "Thévenoud",
@@ -9475,6 +14677,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3525615",
     "difficulty": 3
+  },
+  {
+    "id": "valerie-fourneyron",
+    "firstName": "Valérie",
+    "lastName": "Fourneyron",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2012,
+        "endYear": 2014,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État chargée du Commerce, de l'Artisanat, de la Consommation et de l'Économie sociale et solidaire",
+        "startYear": 2014,
+        "endYear": 2014,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Valérie Fourneyron.jpg",
+      "credit": "Matthieu Riegler, CC-by",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q291356",
+    "difficulty": 2
   },
   {
     "id": "valerie-pecresse",
@@ -9547,6 +14780,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q2124",
     "difficulty": 3
+  },
+  {
+    "id": "vincent-ansquer",
+    "firstName": "Vincent",
+    "lastName": "Ansquer",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1974,
+        "endYear": 1976,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre de la Transition écologique",
+        "startYear": 1976,
+        "endYear": 1976,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Vincent Ansquer.jpg",
+      "credit": "Maggie.sgy",
+      "license": "CC0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3559456",
+    "difficulty": 2
   },
   {
     "id": "vincent-jeanbrun",
@@ -9704,6 +14968,30 @@
     "difficulty": 2
   },
   {
+    "id": "yves-cochet",
+    "firstName": "Yves",
+    "lastName": "Cochet",
+    "aliases": [],
+    "party": "EELV",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "cohesion-territoires",
+        "officialTitle": "Ministre de la Cohésion des territoires",
+        "startYear": 2001,
+        "endYear": 2002,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Meeting Voynet Mutualite 2006-04-05 n9.jpg",
+      "credit": "Marie-Lan Nguyen ( User:Jastrow )",
+      "license": "CC BY 2.5"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1398216",
+    "difficulty": 2
+  },
+  {
     "id": "yves-galland",
     "firstName": "Yves",
     "lastName": "Galland",
@@ -9740,6 +15028,144 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3573659",
     "difficulty": 2
+  },
+  {
+    "id": "yves-guena",
+    "firstName": "Yves",
+    "lastName": "Guéna",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1968,
+        "endYear": 1969,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "culture",
+        "officialTitle": "Ministre de la Culture",
+        "startYear": 1968,
+        "endYear": 1968,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 1973,
+        "endYear": 1974,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1974,
+        "endYear": 1974,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Yves Guéna 2012 (crop).jpg",
+      "credit": "Alexandre Moatti",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q342878",
+    "difficulty": 2
+  },
+  {
+    "id": "yvette-roudy",
+    "firstName": "Yvette",
+    "lastName": "Roudy",
+    "aliases": [],
+    "party": "PS",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre déléguée aux Droits de la femme",
+        "startYear": 1981,
+        "endYear": 1985,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "egalite-femmes-hommes",
+        "officialTitle": "Ministre chargé de l'Égalité entre les femmes et les hommes",
+        "startYear": 1985,
+        "endYear": 1986,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Yvette Roudy.jpg",
+      "credit": "Garitan",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3574055",
+    "difficulty": 2
+  },
+  {
+    "id": "yvon-bourges",
+    "firstName": "Yvon",
+    "lastName": "Bourges",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Secrétaire d'État aux Affaires étrangères",
+        "startYear": 1968,
+        "endYear": 1972,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1972,
+        "endYear": 1973,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre des Armées",
+        "startYear": 1975,
+        "endYear": 1980,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Yvon Bourges.jpg",
+      "credit": "Roland Godefroy",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q764381",
+    "difficulty": 2
+  },
+  {
+    "id": "yvon-morandat",
+    "firstName": "Yvon",
+    "lastName": "Morandat",
+    "aliases": [],
+    "party": "RPF",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Secrétaire d'État chargé des Problèmes de l'emploi",
+        "startYear": 1968,
+        "endYear": 1968,
+        "rank": "secretaire-etat"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Yvon Morandat dans la cour des Invalides à Paris.jpg",
+      "credit": "GrandBout",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3574137",
+    "difficulty": 3
   },
   {
     "id": "edith-cresson",
@@ -9970,6 +15396,30 @@
     "difficulty": 2
   },
   {
+    "id": "elisabeth-hubert",
+    "firstName": "Élisabeth",
+    "lastName": "Hubert",
+    "aliases": [],
+    "party": "RPR",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1995,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "UE HAD 2022 125.jpg",
+      "credit": "Clarisse Aubrecourt",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q528621",
+    "difficulty": 2
+  },
+  {
     "id": "elisabeth-moreno",
     "firstName": "Élisabeth",
     "lastName": "Moreno",
@@ -10042,6 +15492,37 @@
     "difficulty": 3
   },
   {
+    "id": "emile-zuccarelli",
+    "firstName": "Émile",
+    "lastName": "Zuccarelli",
+    "aliases": [],
+    "party": "PRG",
+    "politicalFamily": "gauche",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 1997,
+        "endYear": 2000,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "ZuccarelliLang.jpg",
+      "credit": "Jean-Louis Courleux jlcourleux (at) atelier.fr",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3079081",
+    "difficulty": 2
+  },
+  {
     "id": "eric-dupond-moretti",
     "firstName": "Éric",
     "lastName": "Dupond-Moretti",
@@ -10088,5 +15569,36 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q45192006",
     "difficulty": 1
+  },
+  {
+    "id": "eric-raoult",
+    "firstName": "Éric",
+    "lastName": "Raoult",
+    "aliases": [],
+    "party": "UMP",
+    "politicalFamily": "droite",
+    "mandates": [
+      {
+        "portfolio": "logement",
+        "officialTitle": "Ministre délégué à la Ville et à l'Intégration",
+        "startYear": 1995,
+        "endYear": 1997,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 1995,
+        "endYear": 1995,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Eric Raoult p1370330.jpg",
+      "credit": "David.Monniaux",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3591330",
+    "difficulty": 2
   }
 ]
