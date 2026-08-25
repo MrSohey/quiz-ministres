@@ -547,7 +547,7 @@
         "portfolio": "sante-solidarites",
         "officialTitle": "Ministre de la Santé et des Solidarités",
         "startYear": 2023,
-        "endYear": null,
+        "endYear": 2023,
         "rank": "ministre"
       }
     ],
@@ -952,7 +952,7 @@
         "portfolio": "education-nationale",
         "officialTitle": "Ministre délégué chargé de l'Enseignement et de la Formation professionnels",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       }
     ],
@@ -1206,7 +1206,7 @@
         "portfolio": "sante-solidarites",
         "officialTitle": "Secrétaire d'État chargée de l'Enfance",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "secretaire-etat"
       }
     ],
@@ -1625,7 +1625,7 @@
         "portfolio": "transports",
         "officialTitle": "Ministre délégué chargé des Transports",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       }
     ],
@@ -1793,7 +1793,7 @@
         "portfolio": "outre-mer",
         "officialTitle": "Ministre délégué chargé des Collectivités territoriales et de la Ruralité",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       },
       {
@@ -2527,7 +2527,7 @@
         "portfolio": "outre-mer",
         "officialTitle": "Ministre délégué chargé des Collectivités territoriales et de la Ruralité",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre-delegue"
       }
     ],
@@ -2771,7 +2771,7 @@
         "portfolio": "sports",
         "officialTitle": "Ministre des Sports",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
       }
     ],
@@ -2857,7 +2857,7 @@
         "portfolio": "justice",
         "officialTitle": "Garde des Sceaux, ministre de la Justice",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
@@ -3032,7 +3032,7 @@
         "portfolio": "environnement-transition-ecologique",
         "officialTitle": "Ministre de la Transition écologique",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
       }
     ],
@@ -3190,20 +3190,6 @@
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1988,
-        "endYear": 1991,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "culture",
-        "officialTitle": "Ministre de la Culture",
-        "startYear": 1991,
-        "endYear": 1992,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "culture",
-        "officialTitle": "Ministre de la Culture",
-        "startYear": 1992,
         "endYear": 1993,
         "rank": "ministre"
       },
@@ -4083,14 +4069,14 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre délégué chargé de la Transition numérique et des Télécommunications",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       },
       {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
       }
     ],
@@ -5363,13 +5349,6 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 2014,
-        "endYear": 2016,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 2016,
         "endYear": 2017,
         "rank": "ministre"
       }
@@ -5451,7 +5430,7 @@
         "portfolio": "education-nationale",
         "officialTitle": "Secrétaire d'État chargé de l'Enseignement",
         "startYear": 1986,
-        "endYear": 1998,
+        "endYear": 1988,
         "rank": "secretaire-etat"
       },
       {
@@ -5819,7 +5798,7 @@
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
       }
     ],
@@ -6169,13 +6148,6 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1988,
-        "endYear": 1991,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1991,
         "endYear": 1992,
         "rank": "ministre"
       },
@@ -6420,7 +6392,7 @@
         "portfolio": "porte-parole-gouvernement",
         "officialTitle": "Porte-parole du Gouvernement",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre"
       }
     ],
@@ -6451,7 +6423,7 @@
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2026,
         "rank": "ministre"
       }
     ],
@@ -6842,13 +6814,6 @@
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 1991,
-        "endYear": 1992,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "affaires-etrangeres",
-        "officialTitle": "Ministre des Affaires étrangères",
-        "startYear": 1992,
         "endYear": 1993,
         "rank": "ministre"
       }
@@ -6873,7 +6838,7 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre délégué chargé de l'Industrie",
         "startYear": 2022,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "ministre-delegue"
       }
     ],
@@ -6952,7 +6917,7 @@
         "portfolio": "environnement-transition-ecologique",
         "officialTitle": "Secrétaire d'État à l'Écologie",
         "startYear": 2023,
-        "endYear": null,
+        "endYear": 2024,
         "rank": "secretaire-etat"
       }
     ],
@@ -7213,7 +7178,7 @@
         "portfolio": "premier-ministre",
         "officialTitle": "Premier ministre",
         "startYear": 2025,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
@@ -7319,27 +7284,6 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 1969,
-        "endYear": 1972,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1972,
-        "endYear": 1973,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1973,
-        "endYear": 1974,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "economie-finances",
-        "officialTitle": "Ministre de l'Économie et des Finances",
-        "startYear": 1974,
         "endYear": 1974,
         "rank": "ministre"
       }
@@ -7653,7 +7597,7 @@
         "portfolio": "education-nationale",
         "officialTitle": "Ministre de l'Éducation nationale",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
@@ -7773,7 +7717,7 @@
         "portfolio": "economie-finances",
         "officialTitle": "Ministre de l'Économie et des Finances",
         "startYear": 2024,
-        "endYear": null,
+        "endYear": 2025,
         "rank": "ministre"
       }
     ],
