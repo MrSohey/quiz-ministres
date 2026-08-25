@@ -72,6 +72,31 @@ describe("resolvePortfolio — mots non discriminants", () => {
 });
 
 /**
+ * `mer` et `outre-mer` sont la paire la plus dangereuse de la table : l'un des deux
+ * intitulés contient l'autre. La séparation ne tient qu'à un détail — « outre »
+ * n'est pas un mot vide, donc les deux clés restent distinctes après nettoyage.
+ * Un ajout maladroit à la liste des mots vides les confondrait silencieusement.
+ */
+describe("resolvePortfolio — mer et outre-mer", () => {
+  it("distingue la Mer des Outre-mer", () => {
+    expect(resolvePortfolio("mer")).toEqual(["mer"]);
+    expect(resolvePortfolio("ministère de la mer")).toEqual(["mer"]);
+    expect(resolvePortfolio("affaires maritimes")).toEqual(["mer"]);
+    expect(resolvePortfolio("outre-mer")).toEqual(["outre-mer"]);
+    expect(resolvePortfolio("ministère des outre-mer")).toEqual(["outre-mer"]);
+    expect(resolvePortfolio("départements et territoires d'outre-mer")).toEqual([
+      "outre-mer",
+    ]);
+  });
+
+  // « mer » fait trois lettres : sans l'étape d'égalité placée avant le rejet des
+  // sigles inconnus, il serait pris pour un sigle et ne résoudrait vers rien.
+  it("ne prend pas « mer » pour un sigle", () => {
+    expect(resolvePortfolio("mer")).not.toEqual([]);
+  });
+});
+
+/**
  * L'invariant qui protège la table sur la durée : ajouter une appellation ambiguë
  * fait échouer ce test, sans qu'on ait à y penser.
  */

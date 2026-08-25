@@ -179,7 +179,10 @@ type PortfolioId =
   | "commerce-exterieur"
   | "relations-parlement"
   | "porte-parole-gouvernement"
-  | "autre";
+  | "cohesion-territoires"
+  | "egalite-femmes-hommes"
+  | "tourisme"
+  | "mer";
 
 /** Rang du poste. C'est lui qui sépare les niveaux de difficulté (§7.6). */
 type MandateRank = "ministre" | "ministre-delegue" | "secretaire-etat";
@@ -594,7 +597,9 @@ Paires à surveiller lors de la rédaction de la table :
 `education-nationale` / `enseignement-superieur-recherche` · `economie-finances` /
 `budget` / `industrie` · `travail-emploi` / `sante-solidarites` ·
 `environnement-transition-ecologique` / `agriculture` / `transports` ·
-`defense` / `interieur` (« armées », « sécurité »).
+`defense` / `interieur` (« armées », « sécurité ») · `mer` / `outre-mer`, la plus
+dangereuse, où un intitulé contient l'autre : leur séparation ne tient qu'au fait
+qu'« outre » n'est pas un mot vide.
 
 ### 7.5 Indices — `game/hints.ts`
 
@@ -635,9 +640,9 @@ plus large.
 
 | Niveau            | Critère                                                      | Vivier         |
 | ----------------- | ------------------------------------------------------------ | -------------- |
-| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~110 personnes |
-| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~255 personnes |
-| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~295 personnes |
+| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~112 personnes |
+| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~259 personnes |
+| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~293 personnes |
 
 Postes **régaliens** : `premier-ministre`, `interieur`, `affaires-etrangeres`,
 `justice`, `defense`, `economie-finances`. Bercy y figure parce que son titulaire est

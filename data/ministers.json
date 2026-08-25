@@ -548,6 +548,13 @@
         "startYear": 2017,
         "endYear": 2020,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "mer",
+        "officialTitle": "Ministre de la Mer",
+        "startYear": 2020,
+        "endYear": 2022,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -3589,11 +3596,11 @@
     "politicalFamily": "centre",
     "mandates": [
       {
-        "portfolio": "environnement-transition-ecologique",
-        "officialTitle": "Ministre de la Transition écologique",
+        "portfolio": "mer",
+        "officialTitle": "Secrétaire d'État à la Mer et à la Biodiversité",
         "startYear": 2022,
         "endYear": 2024,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -5029,6 +5036,13 @@
     "politicalFamily": "centre",
     "mandates": [
       {
+        "portfolio": "mer",
+        "officialTitle": "Secrétaire d'État à la Mer",
+        "startYear": 1991,
+        "endYear": 1992,
+        "rank": "secretaire-etat"
+      },
+      {
         "portfolio": "defense",
         "officialTitle": "Ministre des Armées",
         "startYear": 2012,
@@ -5153,11 +5167,11 @@
     "politicalFamily": null,
     "mandates": [
       {
-        "portfolio": "environnement-transition-ecologique",
-        "officialTitle": "Ministre de la Transition écologique",
+        "portfolio": "mer",
+        "officialTitle": "Secrétaire d'État à la Mer",
         "startYear": 2022,
         "endYear": 2022,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -5418,10 +5432,24 @@
     "politicalFamily": "gauche",
     "mandates": [
       {
+        "portfolio": "mer",
+        "officialTitle": "Ministre de la Mer",
+        "startYear": 1981,
+        "endYear": 1983,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "outre-mer",
         "officialTitle": "Ministre des Outre-mer",
         "startYear": 1988,
         "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "mer",
+        "officialTitle": "Ministre de la Mer",
+        "startYear": 1988,
+        "endYear": 1988,
         "rank": "ministre"
       },
       {

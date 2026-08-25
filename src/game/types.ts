@@ -43,6 +43,7 @@ export const PORTFOLIO_IDS = [
   "cohesion-territoires",
   "egalite-femmes-hommes",
   "tourisme",
+  "mer",
 ] as const;
 
 export type PortfolioId = (typeof PORTFOLIO_IDS)[number];

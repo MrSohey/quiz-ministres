@@ -265,6 +265,17 @@ export const PORTFOLIOS: readonly Portfolio[] = [
     acronyms: [],
   },
   {
+    id: "mer",
+    canonicalLabel: "Ministère de la Mer",
+    holderLabel: "Ministre de la Mer",
+    // « mer » seul est volontairement accepté, et ne se confond pas avec
+    // `outre-mer` : la comparaison se fait sur l'intitulé entier après retrait des
+    // mots vides, or « outre » n'en est pas un. « mer » et « outre mer » restent
+    // donc deux clés distinctes. `portfolios.test.ts` en fait foi.
+    aliases: ["mer", "affaires maritimes", "mer et pêche", "économie maritime"],
+    acronyms: [],
+  },
+  {
     id: "porte-parole-gouvernement",
     canonicalLabel: "Porte-parole du Gouvernement",
     holderLabel: "Porte-parole du Gouvernement",
