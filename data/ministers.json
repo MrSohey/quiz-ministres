@@ -294,6 +294,30 @@
     "difficulty": 2
   },
   {
+    "id": "alice-rufo",
+    "firstName": "Alice",
+    "lastName": "Rufo",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "defense",
+        "officialTitle": "Ministre déléguée auprès de la ministre des Armées et des Anciens combattants",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Alice Rufo (cropped).jpg",
+      "credit": "U.S. Department of State",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q47312015",
+    "difficulty": 3
+  },
+  {
     "id": "amelie-oudea-castera",
     "firstName": "Amélie",
     "lastName": "Oudéa-Castéra",
@@ -542,6 +566,30 @@
     "difficulty": 2
   },
   {
+    "id": "anne-le-henanff",
+    "firstName": "Anne",
+    "lastName": "Le Hénanff",
+    "aliases": [],
+    "party": "Horizons",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué chargé de l’Intelligence artificielle et du Numérique",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Anne Le Hénanff TTE council 5Dec2025 (cropped).jpg",
+      "credit": "European Union",
+      "license": "Attribution"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q112651320",
+    "difficulty": 3
+  },
+  {
     "id": "annick-girardin",
     "firstName": "Annick",
     "lastName": "Girardin",
@@ -781,6 +829,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q29210910",
     "difficulty": 2
+  },
+  {
+    "id": "benjamin-haddad",
+    "firstName": "Benjamin",
+    "lastName": "Haddad",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre délégué chargé de l'Europe",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "20240708-P1020422 Benjamin Haddad Wikipedia.jpg",
+      "credit": "TrisHR",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q112572505",
+    "difficulty": 3
   },
   {
     "id": "benoit-hamon",
@@ -1255,6 +1327,30 @@
     "difficulty": 3
   },
   {
+    "id": "catherine-chabaud",
+    "firstName": "Catherine",
+    "lastName": "Chabaud",
+    "aliases": [],
+    "party": "MoDem",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "mer",
+        "officialTitle": "Ministre déléguée à la Mer et à la Pêche",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Catherine Chabaud.JPG",
+      "credit": "Environnement2100",
+      "license": "CC BY-SA 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2941852",
+    "difficulty": 3
+  },
+  {
     "id": "catherine-colonna",
     "firstName": "Catherine",
     "lastName": "Colonna",
@@ -1552,6 +1648,30 @@
       "license": "CC BY 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q99193104",
+    "difficulty": 3
+  },
+  {
+    "id": "charlotte-parmentier-lecocq",
+    "firstName": "Charlotte",
+    "lastName": "Parmentier-Lecocq",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre déléguée chargée de l'Autonomie et des Personnes handicapées Note",
+        "startYear": 2025,
+        "endYear": 2026,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Charlotte Parmentier-Lecocq 2017 (crop).jpg",
+      "credit": "Qlprvst",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30530300",
     "difficulty": 3
   },
   {
@@ -2113,6 +2233,37 @@
       "license": "CC BY-SA 3.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q1905371",
+    "difficulty": 2
+  },
+  {
+    "id": "david-amiel",
+    "firstName": "David",
+    "lastName": "Amiel",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre délégué chargé de la Fonction publique et de la Réforme de l'État",
+        "startYear": 2025,
+        "endYear": 2026,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "budget",
+        "officialTitle": "Ministre du Budget",
+        "startYear": 2026,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "David-amiel.jpg",
+      "credit": "B.MODIFICATEUR",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q47502155",
     "difficulty": 2
   },
   {
@@ -5075,6 +5226,30 @@
     "difficulty": 2
   },
   {
+    "id": "jean-pierre-farandou",
+    "firstName": "Jean-Pierre",
+    "lastName": "Farandou",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "travail-emploi",
+        "officialTitle": "Ministre du Travail et de l'Emploi",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "SNCF Jean-Pierre Farandou (cropped).jpg",
+      "credit": "Maxime Huriez",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q33106208",
+    "difficulty": 2
+  },
+  {
     "id": "jean-pierre-fourcade",
     "firstName": "Jean-Pierre",
     "lastName": "Fourcade",
@@ -5513,6 +5688,30 @@
     "difficulty": 1
   },
   {
+    "id": "laurent-panifous",
+    "firstName": "Laurent",
+    "lastName": "Panifous",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre délégué chargé des Relations avec le Parlement",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Laurent Panifous.jpg",
+      "credit": "Sandra.vegas",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q65595138",
+    "difficulty": 3
+  },
+  {
     "id": "laurent-pietraszewski",
     "firstName": "Laurent",
     "lastName": "Pietraszewski",
@@ -5934,6 +6133,68 @@
     "difficulty": 2
   },
   {
+    "id": "marie-pierre-vedrenne",
+    "firstName": "Marie-Pierre",
+    "lastName": "Vedrenne",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "interieur",
+        "officialTitle": "Ministre déléguée auprès du ministre de l'Intérieur",
+        "startYear": 2025,
+        "endYear": 2026,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "WTO Public Forum 2019 Day 2 - Marie-Pierre Vedrenne.jpg",
+      "credit": "World Trade Organization from Switzerland",
+      "license": "CC BY-SA 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q63965965",
+    "difficulty": 3
+  },
+  {
+    "id": "marina-ferrari",
+    "firstName": "Marina",
+    "lastName": "Ferrari",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "economie-finances",
+        "officialTitle": "Ministre déléguée chargée de l'Économie du tourisme",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Secrétaire d'État chargée du Numérique",
+        "startYear": 2024,
+        "endYear": 2024,
+        "rank": "secretaire-etat"
+      },
+      {
+        "portfolio": "sports",
+        "officialTitle": "Ministre des Sports",
+        "startYear": 2025,
+        "endYear": 2026,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Marina Ferrari (4364715834).jpg",
+      "credit": "Régions Démocrates 2010",
+      "license": "CC BY 2.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q63764396",
+    "difficulty": 2
+  },
+  {
     "id": "marisol-touraine",
     "firstName": "Marisol",
     "lastName": "Touraine",
@@ -6058,6 +6319,37 @@
     "difficulty": 2
   },
   {
+    "id": "mathieu-lefevre",
+    "firstName": "Mathieu",
+    "lastName": "Lefèvre",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre délégué chargé de la Transition écologique",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      },
+      {
+        "portfolio": "relations-parlement",
+        "officialTitle": "Ministre délégué chargé des Relations avec le Parlement",
+        "startYear": 2025,
+        "endYear": 2025,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Mathieu Lefèvre.jpg",
+      "credit": "Nicolas Maramotti",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q112654129",
+    "difficulty": 3
+  },
+  {
     "id": "matthias-fekl",
     "firstName": "Matthias",
     "lastName": "Fekl",
@@ -6087,6 +6379,37 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3299831",
     "difficulty": 1
+  },
+  {
+    "id": "maud-bregeon",
+    "firstName": "Maud",
+    "lastName": "Bregeon",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "environnement-transition-ecologique",
+        "officialTitle": "Ministre déléguée chargée de l'Énergie",
+        "startYear": 2026,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Maud Bregeon (2023).jpg",
+      "credit": "Ministère de l'Europe et des Affaires étrangères",
+      "license": "CC BY 3.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q104032664",
+    "difficulty": 2
   },
   {
     "id": "maurice-couve-de-murville",
@@ -6949,6 +7272,37 @@
     "difficulty": 1
   },
   {
+    "id": "naima-moutchou",
+    "firstName": "Naïma",
+    "lastName": "Moutchou",
+    "aliases": [],
+    "party": "Horizons",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "outre-mer",
+        "officialTitle": "Ministre des Outre-mer",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "fonction-publique",
+        "officialTitle": "Ministre de la Fonction publique",
+        "startYear": 2025,
+        "endYear": 2025,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Ministère des Outre-mer - DICOM (cropped).jpg",
+      "credit": "Ministère des Outre-mer - DICOM",
+      "license": "Licence Ouverte"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30379800",
+    "difficulty": 2
+  },
+  {
     "id": "nicolas-forissier",
     "firstName": "Nicolas",
     "lastName": "Forissier",
@@ -7508,6 +7862,30 @@
     "difficulty": 2
   },
   {
+    "id": "philippe-baptiste",
+    "firstName": "Philippe",
+    "lastName": "Baptiste",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "enseignement-superieur-recherche",
+        "officialTitle": "Ministre de l'Enseignement supérieur et de la Recherche",
+        "startYear": 2024,
+        "endYear": 2025,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Space Symposium - CNES Bilateral Meeting (NHQ202108250016) (cropped).jpg",
+      "credit": "Bill Ingalls",
+      "license": "Public domain"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q106287381",
+    "difficulty": 2
+  },
+  {
     "id": "philippe-bas",
     "firstName": "Philippe",
     "lastName": "Bas",
@@ -7605,6 +7983,30 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q3380313",
+    "difficulty": 2
+  },
+  {
+    "id": "philippe-tabarot",
+    "firstName": "Philippe",
+    "lastName": "Tabarot",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "transports",
+        "officialTitle": "Ministre des Transports",
+        "startYear": 2024,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Philippe Tabarot - 2025 (cropped).jpg",
+      "credit": "Nicolas Kovarik / European Union, 2025 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q63371158",
     "difficulty": 2
   },
   {
@@ -8673,6 +9075,30 @@
     "difficulty": 3
   },
   {
+    "id": "serge-papin",
+    "firstName": "Serge",
+    "lastName": "Papin",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre de l'Industrie",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Visit of Serge Papin, French Minister for Small and Medium-sized Enterprises, to the EC - 2025 (cropped).jpg",
+      "credit": "Bogdan Hoyaux / European Union, 2025 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q3479475",
+    "difficulty": 2
+  },
+  {
     "id": "sibeth-ndiaye",
     "firstName": "Sibeth",
     "lastName": "Ndiaye",
@@ -8855,6 +9281,30 @@
     "difficulty": 2
   },
   {
+    "id": "stephanie-rist",
+    "firstName": "Stéphanie",
+    "lastName": "Rist",
+    "aliases": [],
+    "party": "Renaissance",
+    "politicalFamily": "centre",
+    "mandates": [
+      {
+        "portfolio": "sante-solidarites",
+        "officialTitle": "Ministre de la Santé et des Solidarités",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Stéphanie Rist.jpg",
+      "credit": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30339281",
+    "difficulty": 2
+  },
+  {
     "id": "sylvie-goulard",
     "firstName": "Sylvie",
     "lastName": "Goulard",
@@ -8953,6 +9403,30 @@
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q20089181",
     "difficulty": 1
+  },
+  {
+    "id": "sebastien-martin",
+    "firstName": "Sébastien",
+    "lastName": "Martin",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "industrie",
+        "officialTitle": "Ministre délégué chargé de l'Industrie",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Visit of Sébastien Martin, French Minister Delegate for Industry, to the European Commission - 2025 (cropped).jpg",
+      "credit": "Bogdan Hoyaux / European Union, 2025 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q63766436",
+    "difficulty": 3
   },
   {
     "id": "thierry-breton",
@@ -9517,6 +9991,30 @@
       "license": "CC BY-SA 4.0"
     },
     "sourceUrl": "https://www.wikidata.org/wiki/Q64373817",
+    "difficulty": 3
+  },
+  {
+    "id": "eleonore-caroit",
+    "firstName": "Éléonore",
+    "lastName": "Caroit",
+    "aliases": [],
+    "party": null,
+    "politicalFamily": null,
+    "mandates": [
+      {
+        "portfolio": "affaires-etrangeres",
+        "officialTitle": "Ministre déléguée chargée de la Francophonie, des Partenariats internationaux et des Français de l'étranger",
+        "startYear": 2025,
+        "endYear": null,
+        "rank": "ministre-delegue"
+      }
+    ],
+    "photo": {
+      "commonsFile": "Visit of Eléonore Caroit, French Minister Delegate to the Minister for Europe and Foreign Affairs, to the EC - 2026 (01) (cropped).jpg",
+      "credit": "Claudio Centonze / European Union, 2026 / EC - Audiovisual Service",
+      "license": "CC BY 4.0"
+    },
+    "sourceUrl": "https://www.wikidata.org/wiki/Q112654771",
     "difficulty": 3
   },
   {
