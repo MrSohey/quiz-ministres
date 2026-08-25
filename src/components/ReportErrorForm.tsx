@@ -7,6 +7,17 @@ interface Props {
 }
 
 /**
+ * L'exemple porte sur un mandat manquant, de loin le défaut le plus fréquent :
+ * Wikidata sous-déclare les mandats, au point qu'il a fallu en ajouter 221 d'un
+ * coup. Suggérer une correction de date orientait vers un cas bien plus rare.
+ *
+ * Formulation neutre en genre, comme partout dans l'interface (CLAUDE.md §8.3) :
+ * « cette personne », jamais « il » ni « elle ».
+ */
+const PLACEHOLDER =
+  "Par exemple : il manque un mandat, cette personne a aussi été ministre du Logement.";
+
+/**
  * Signalement d'une erreur de fiche, par ouverture d'une issue GitHub pré-remplie.
  *
  * Les données viennent de Wikidata et de Wikipédia, qui se trompent : un audit a
@@ -46,7 +57,7 @@ export function ReportErrorForm({ minister }: Props) {
         rows={3}
         maxLength={MAX_MESSAGE_LENGTH}
         value={message}
-        placeholder="Par exemple : la date de fin est fausse, le mandat s'est arrêté en 1979."
+        placeholder={PLACEHOLDER}
         onChange={(event) => setMessage(event.target.value)}
         autoFocus
       />
