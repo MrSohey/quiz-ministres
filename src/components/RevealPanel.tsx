@@ -1,5 +1,6 @@
 import { photoDescriptionUrl } from "../game/photoUrl";
 import type { Round } from "../game/reducer";
+import { ReportErrorForm } from "./ReportErrorForm";
 
 interface Props {
   round: Round;
@@ -54,6 +55,10 @@ export function RevealPanel({ round, isLastRound, onNext }: Props) {
       <button type="button" className="primary" onClick={onNext} autoFocus>
         {isLastRound ? "Voir le résultat" : "Personne suivante"}
       </button>
+
+      {/* Remonté à chaque personne : sans `key`, un texte saisi sur une fiche
+          resterait ouvert et rattaché à la suivante. */}
+      <ReportErrorForm key={minister.id} minister={minister} />
     </section>
   );
 }
