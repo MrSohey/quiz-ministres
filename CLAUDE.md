@@ -276,9 +276,9 @@ dont la fiche peut être COMPLÈTE.** La base en compte environ 500.
 
 Ce périmètre a remplacé une cible initiale de 250 à 350 personnes « notoires ». La
 notoriété est un critère que personne ne sait appliquer sans arbitraire, et le jeu
-a de toute façon trois niveaux : c'est le **rang du mandat** qui règle la
+a de toute façon cinq niveaux : c'est le **rang du mandat** qui règle la
 difficulté (§7.6), pas une sélection en amont. Un secrétaire d'État obscur
-n'encombre que le niveau Difficile.
+n'encombre que le niveau Très difficile.
 
 Ce qui borne réellement la base, c'est donc la **complétude de la fiche**, pas la
 célébrité de la personne.
@@ -654,15 +654,44 @@ Les indices déjà obtenus restent affichés pendant toute la manche.
 
 ### 7.6 Niveaux de difficulté — `game/levels.ts`
 
-Le joueur choisit un niveau avant de commencer. Les trois viviers sont **gigognes** :
+Le joueur choisit un niveau avant de commencer. Les cinq viviers sont **gigognes** :
 monter de niveau, c'est retrouver les personnes déjà connues noyées dans un ensemble
 plus large.
 
-| Niveau            | Critère                                                      | Vivier         |
-| ----------------- | ------------------------------------------------------------ | -------------- |
-| **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~127 personnes |
-| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~254 personnes |
-| **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~509 personnes |
+| Niveau             | Critère                                                 | Vivier |
+| ------------------ | ------------------------------------------------------- | ------ |
+| **Très facile**    | Régaliens de plein exercice, exercés en 2017 ou après   | ~37    |
+| **Facile**         | Régaliens de plein exercice, exercés en 2002 ou après   | ~77    |
+| **Intermédiaire**  | Tous les ministères de plein exercice depuis 2002       | ~184   |
+| **Difficile**      | Tous les ministères de plein exercice depuis 1958       | ~356   |
+| **Très difficile** | Idem, plus les ministres délégués et secrétaires d'État | ~509   |
+
+#### Une seule variable change à chaque marche
+
+C'est la règle qui donne sa forme à l'échelle : l'année, puis le périmètre des
+portefeuilles, puis l'année, puis le rang. Chaque vivier fait alors à peu près le
+double du précédent — 37, 77, 184, 356, 509 — ce qui est la progression la plus
+lisible pour un joueur.
+
+Faire varier **deux** paramètres d'un coup, comme le faisait le barème à trois
+niveaux, quintuplait le vivier d'une marche à l'autre, et la marche tombait
+précisément entre les deux niveaux les plus faciles, là où un débutant se cogne.
+
+Ce découpage a un coût, assumé : le seuil de 1981, historiquement fort, disparaît. Il
+n'y a pas de place pour lui dans une échelle à cinq niveaux qui tient la règle d'une
+seule variable par marche.
+
+#### Le barème est versionné
+
+`bestScoreStorageKey` inclut un numéro de version. Le passage à cinq niveaux a changé
+le SENS de trois identifiants sans changer leur nom : « facile » désignait les
+régaliens depuis 1981, il désigne les régaliens depuis 2002. Un record conservé sous
+l'ancien barème serait comparé à des parties qui n'ont plus rien à voir, d'où la
+remise à zéro.
+
+Les **liens de défi** anciens, eux, n'ont pas besoin de traitement particulier :
+l'empreinte du vivier ne correspondra plus, et le bandeau prévient déjà le joueur
+(§7.7).
 
 Postes **régaliens** : `premier-ministre`, `interieur`, `affaires-etrangeres`,
 `justice`, `defense`, `economie-finances`. Bercy y figure parce que son titulaire est
@@ -673,11 +702,11 @@ critère. Les autres mandats restent des réponses valides : quelqu'un qui recon
 Gérald Darmanin et répond « budget » a trouvé, même si c'est l'Intérieur qui le fait
 entrer en Facile.
 
-Un mandat en cours (`endYear === null`) est toujours postérieur au seuil de 1981. Un
-mandat à cheval sur le seuil compte (`endYear >= 1981`) : Raymond Barre, Premier
-ministre de 1976 à 1981, entre en Facile.
+Un mandat en cours (`endYear === null`) est toujours postérieur au seuil. Un mandat à
+cheval sur le seuil compte (`endYear >= seuil`) : Lionel Jospin, Premier ministre de
+1997 à 2002, entre en Facile.
 
-**Le rang du mandat est ce qui sépare les niveaux.** `Mandate.rank` vaut `ministre`,
+**Le rang du mandat sépare les deux derniers niveaux.** `Mandate.rank` vaut `ministre`,
 `ministre-delegue` ou `secretaire-etat`. Une valeur erronée sortirait silencieusement
 une personne d'un niveau : le schéma Zod l'impose et `data.test.ts` le vérifie.
 
@@ -690,7 +719,7 @@ Droits des femmes ; Nicolas Sarkozy porte-parole _et_ ministre du Budget.
 Le rang du mandat de porte-parole recopie donc celui du poste exercé en même temps.
 Quand il n'y en a pas — Max Gallo en 1983, Prisca Thevenot en 2024 — la personne
 n'est connue publiquement que pour ce rôle : le mandat vaut alors un secrétariat
-d'État et ne fait entrer qu'au niveau Difficile.
+d'État et ne fait entrer qu'au niveau Très difficile.
 
 Attention en calculant la concomitance : les mandats n'ont que des années, si bien
 que deux postes qui se **succèdent** partagent une année de bornes. La Santé
@@ -790,8 +819,8 @@ hors alphabet, champ manquant — et le joueur retombe sur le choix du niveau.
   et récapitulatif des personnes vues.
 
 **Persistance** : uniquement `localStorage`, et uniquement le **meilleur score par
-niveau** (`quiz-ministres:best-score:<niveau>`). Un score unique n'aurait pas de sens :
-les trois viviers n'ont pas la même difficulté.
+niveau** (`quiz-ministres:best-score:v<barème>:<niveau>`). Un score unique n'aurait pas de sens :
+les cinq viviers n'ont pas la même difficulté.
 
 Rien d'autre n'est stocké. **Aucun cookie**, donc aucune bannière de consentement à
 afficher — et c'est un choix d'architecture, pas une facilité. L'exemption de

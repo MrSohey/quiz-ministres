@@ -4,13 +4,19 @@ Un jeu web : une photo, deux questions — le nom de la personne et un ministèr
 qu'elle a occupé depuis 1958. Six indices sont disponibles à la demande, chacun coûte
 des points.
 
-Trois niveaux, gigognes :
+Cinq niveaux, gigognes :
 
-| Niveau        | Périmètre                                          | Vivier        |
-| ------------- | -------------------------------------------------- | ------------- |
-| Facile        | Postes régaliens depuis 1981                       | 108 personnes |
-| Intermédiaire | Tous les ministères depuis 1958                    | 255 personnes |
-| Difficile     | Y compris ministres délégués et secrétaires d'État | 293 personnes |
+| Niveau         | Périmètre                                          | Vivier |
+| -------------- | -------------------------------------------------- | ------ |
+| Très facile    | Postes régaliens depuis 2017                       | 37     |
+| Facile         | Postes régaliens depuis 2002                       | 77     |
+| Intermédiaire  | Tous les ministères depuis 2002                    | 184    |
+| Difficile      | Tous les ministères depuis 1958                    | 356    |
+| Très difficile | Y compris ministres délégués et secrétaires d'État | 509    |
+
+Chaque marche ne fait varier **qu'un seul paramètre** — l'année, puis le périmètre,
+puis l'année, puis le rang. C'est ce qui donne une progression où chaque vivier fait
+à peu près le double du précédent.
 
 Le meilleur score est conservé séparément pour chaque niveau, dans `localStorage`.
 Aucun cookie, donc aucune bannière de consentement.
@@ -95,8 +101,8 @@ Tout se joue dans `data/ministers.json`, qui est fait pour être édité à la m
    - `portfolio` doit être l'un des identifiants de `src/game/types.ts`, pas un
      intitulé libre ;
    - `rank` vaut `ministre`, `ministre-delegue` ou `secretaire-etat`. **C'est lui qui
-     décide des niveaux** : un ministre marqué `secretaire-etat` disparaîtrait des
-     niveaux Facile et Intermédiaire sans que rien ne le signale ;
+     décide des deux derniers niveaux** : un ministre marqué `secretaire-etat`
+     n'apparaîtrait qu'en Très difficile sans que rien ne le signale ;
    - `officialTitle` reprend le `holderLabel` du portefeuille pour un ministre de
      plein exercice, et l'intitulé précis pour un délégué ou un secrétaire d'État ;
    - les mandats sont triés par année de début croissante ;
@@ -130,10 +136,14 @@ ajoutez un alias ambigu, la suite échoue en vous disant lequel.
 
 ## Modifier les niveaux
 
-Tout est dans `src/game/levels.ts` : la liste des postes régaliens, l'année seuil du
-niveau Facile, et le critère de chaque niveau. `levels.test.ts` vérifie sur la base
-réelle que les viviers restent gigognes, strictement croissants, et qu'aucun ne
-descend sous 10 personnes — en dessous, une partie recyclerait les photos.
+Tout est dans `src/game/levels.ts` : la liste des postes régaliens, les deux années
+seuils, et le critère de chaque niveau. `levels.test.ts` vérifie sur la base réelle
+que les viviers restent gigognes, strictement croissants, et qu'aucun ne descend sous
+10 personnes — en dessous, une partie recyclerait les photos.
+
+En changeant un critère, pensez à incrémenter `SCALE_VERSION` dans
+`src/game/config.ts` : les meilleurs scores sont rangés par niveau, et un record
+obtenu sous l'ancien barème n'est plus comparable au nouveau.
 
 ## Contribuer
 
