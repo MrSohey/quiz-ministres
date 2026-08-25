@@ -641,7 +641,7 @@ plus large.
 | Niveau            | Critère                                                      | Vivier         |
 | ----------------- | ------------------------------------------------------------ | -------------- |
 | **Facile**        | Postes régaliens de plein exercice, exercés en 1981 ou après | ~112 personnes |
-| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~259 personnes |
+| **Intermédiaire** | Tous les ministères de plein exercice depuis 1958            | ~254 personnes |
 | **Difficile**     | Idem, plus les ministres délégués et secrétaires d'État      | ~293 personnes |
 
 Postes **régaliens** : `premier-ministre`, `interieur`, `affaires-etrangeres`,
@@ -660,6 +660,28 @@ ministre de 1976 à 1981, entre en Facile.
 **Le rang du mandat est ce qui sépare les niveaux.** `Mandate.rank` vaut `ministre`,
 `ministre-delegue` ou `secretaire-etat`. Une valeur erronée sortirait silencieusement
 une personne d'un niveau : le schéma Zod l'impose et `data.test.ts` le vérifie.
+
+#### Cas particulier du porte-parolat
+
+Le porte-parole du Gouvernement n'est pas un portefeuille comme les autres : il se
+**cumule** avec un poste. Najat Vallaud-Belkacem était porte-parole _et_ ministre des
+Droits des femmes ; Nicolas Sarkozy porte-parole _et_ ministre du Budget.
+
+Le rang du mandat de porte-parole recopie donc celui du poste exercé en même temps.
+Quand il n'y en a pas — Max Gallo en 1983, Prisca Thevenot en 2024 — la personne
+n'est connue publiquement que pour ce rôle : le mandat vaut alors un secrétariat
+d'État et ne fait entrer qu'au niveau Difficile.
+
+Attention en calculant la concomitance : les mandats n'ont que des années, si bien
+que deux postes qui se **succèdent** partagent une année de bornes. La Santé
+d'Olivier Véran s'arrête l'année où commence son porte-parolat, ce qui n'est pas un
+cumul. Il faut donc un recouvrement strictement positif, ou une même année de début —
+signe d'une nomination unique, comme pour Douste-Blazy en 1995.
+
+Ne sont retenus que les porte-parole **du Gouvernement**. Ceux de la présidence de la
+République (Catherine Colonna, Hubert Védrine, Michel Vauzelle) et ceux des partis
+(Benoît Hamon pour le PS, Jean-Noël Barrot pour le MoDem) ne sont pas membres du
+gouvernement, et l'intitulé de l'infobox est le seul moyen de les distinguer.
 
 `levels.test.ts` contient l'invariant qui empêche la fonctionnalité de devenir creuse :
 sur la base réelle, chaque vivier doit être **strictement plus large** que le

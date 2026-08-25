@@ -108,6 +108,13 @@
         "rank": "ministre-delegue"
       },
       {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, ministre délégué",
+        "startYear": 1986,
+        "endYear": 1988,
+        "rank": "ministre-delegue"
+      },
+      {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 1993,
@@ -733,23 +740,16 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2017,
         "endYear": 2019,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       },
       {
         "portfolio": "economie-finances",
         "officialTitle": "Secrétaire d'État auprès du ministre de l'Économie et des Finances",
         "startYear": 2017,
         "endYear": 2017,
-        "rank": "secretaire-etat"
-      },
-      {
-        "portfolio": "premier-ministre",
-        "officialTitle": "Secrétaire d'État auprès du Premier ministre Porte-parole du gouvernement",
-        "startYear": 2017,
-        "endYear": 2019,
         "rank": "secretaire-etat"
       }
     ],
@@ -1288,6 +1288,13 @@
         "startYear": 1997,
         "endYear": 2002,
         "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1997,
+        "endYear": 1998,
+        "rank": "ministre"
       }
     ],
     "photo": {
@@ -1742,10 +1749,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2017,
         "endYear": 2017,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       },
       {
         "portfolio": "relations-parlement",
@@ -1886,6 +1893,13 @@
         "officialTitle": "Ministre de la Santé et des Solidarités",
         "startYear": 1988,
         "endYear": 1991,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1988,
+        "endYear": 1989,
         "rank": "ministre"
       }
     ],
@@ -2585,13 +2599,6 @@
         "startYear": 2014,
         "endYear": 2014,
         "rank": "secretaire-etat"
-      },
-      {
-        "portfolio": "commerce-exterieur",
-        "officialTitle": "Secrétaire d'État chargée du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
-        "startYear": 2014,
-        "endYear": 2014,
-        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -3153,10 +3160,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2020,
         "endYear": 2022,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       },
       {
         "portfolio": "budget",
@@ -3793,6 +3800,13 @@
         "officialTitle": "Ministre de la Culture",
         "startYear": 1988,
         "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1991,
+        "endYear": 1992,
         "rank": "ministre"
       },
       {
@@ -4822,13 +4836,6 @@
         "rank": "ministre-delegue"
       },
       {
-        "portfolio": "industrie",
-        "officialTitle": "Ministre délégué chargé du Numérique",
-        "startYear": 2022,
-        "endYear": 2024,
-        "rank": "ministre-delegue"
-      },
-      {
         "portfolio": "affaires-etrangeres",
         "officialTitle": "Ministre des Affaires étrangères",
         "startYear": 2024,
@@ -5453,6 +5460,13 @@
         "rank": "ministre"
       },
       {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1989,
+        "endYear": 1991,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "agriculture",
         "officialTitle": "Ministre de l'Agriculture",
         "startYear": 1997,
@@ -5493,6 +5507,13 @@
       {
         "portfolio": "relations-parlement",
         "officialTitle": "Ministre des Relations avec le Parlement",
+        "startYear": 1992,
+        "endYear": 1993,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
         "startYear": 1992,
         "endYear": 1993,
         "rank": "ministre"
@@ -5849,13 +5870,6 @@
         "rank": "secretaire-etat"
       },
       {
-        "portfolio": "commerce-exterieur",
-        "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
-        "startYear": 2014,
-        "endYear": 2017,
-        "rank": "secretaire-etat"
-      },
-      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 2017,
@@ -6014,10 +6028,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 1983,
         "endYear": 1984,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -6795,6 +6809,13 @@
         "rank": "ministre"
       },
       {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1993,
+        "endYear": 1995,
+        "rank": "ministre"
+      },
+      {
         "portfolio": "culture",
         "officialTitle": "Ministre de la Culture",
         "startYear": 1994,
@@ -6934,10 +6955,10 @@
       },
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, ministre délégué",
         "startYear": 2022,
         "endYear": 2022,
-        "rank": "ministre"
+        "rank": "ministre-delegue"
       },
       {
         "portfolio": "tourisme",
@@ -7096,14 +7117,14 @@
       },
       {
         "portfolio": "relations-parlement",
-        "officialTitle": "Secrétaire d'État chargé des relations avec le Parlement",
+        "officialTitle": "Ministre délégué chargé des Relations avec le Parlement",
         "startYear": 2022,
         "endYear": 2022,
-        "rank": "secretaire-etat"
+        "rank": "ministre-delegue"
       },
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Ministre délégué chargé du Renouveau démocratique Porte-parole du gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, ministre délégué",
         "startYear": 2022,
         "endYear": 2024,
         "rank": "ministre-delegue"
@@ -7285,6 +7306,13 @@
         "officialTitle": "Ministre de la Culture",
         "startYear": 1995,
         "endYear": 1997,
+        "rank": "ministre"
+      },
+      {
+        "portfolio": "porte-parole-gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement",
+        "startYear": 1995,
+        "endYear": 1995,
         "rank": "ministre"
       },
       {
@@ -7699,10 +7727,10 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2024,
         "endYear": 2024,
-        "rank": "ministre"
+        "rank": "secretaire-etat"
       }
     ],
     "photo": {
@@ -8163,13 +8191,6 @@
         "rank": "ministre"
       },
       {
-        "portfolio": "premier-ministre",
-        "officialTitle": "Ministre délégué auprès du Premier ministre",
-        "startYear": 1960,
-        "endYear": 1961,
-        "rank": "ministre-delegue"
-      },
-      {
         "portfolio": "interieur",
         "officialTitle": "Ministre de l'Intérieur",
         "startYear": 1961,
@@ -8272,13 +8293,6 @@
       {
         "portfolio": "economie-finances",
         "officialTitle": "Ministre délégué chargé de l'Industrie",
-        "startYear": 2022,
-        "endYear": 2024,
-        "rank": "ministre-delegue"
-      },
-      {
-        "portfolio": "industrie",
-        "officialTitle": "Ministre délégué chargé de l'Industrie et de l'Énergie",
         "startYear": 2022,
         "endYear": 2024,
         "rank": "ministre-delegue"
@@ -8395,14 +8409,7 @@
     "mandates": [
       {
         "portfolio": "porte-parole-gouvernement",
-        "officialTitle": "Porte-parole du Gouvernement",
-        "startYear": 2019,
-        "endYear": 2020,
-        "rank": "ministre"
-      },
-      {
-        "portfolio": "premier-ministre",
-        "officialTitle": "Secrétaire d'État auprès du Premier ministre Porte-parole du gouvernement",
+        "officialTitle": "Porte-parole du Gouvernement, secrétaire d'État",
         "startYear": 2019,
         "endYear": 2020,
         "rank": "secretaire-etat"
@@ -8708,13 +8715,6 @@
     "mandates": [
       {
         "portfolio": "affaires-etrangeres",
-        "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
-        "startYear": 2014,
-        "endYear": 2014,
-        "rank": "secretaire-etat"
-      },
-      {
-        "portfolio": "commerce-exterieur",
         "officialTitle": "Secrétaire d'État chargé du Commerce extérieur, de la Promotion du tourisme et des Français de l'étranger",
         "startYear": 2014,
         "endYear": 2014,
