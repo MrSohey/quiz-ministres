@@ -23,8 +23,8 @@ function makeMinister(id: string, lastName: string): Minister {
         portfolio: "agriculture",
         rank: "ministre",
         officialTitle: "Ministre de l'Agriculture",
-        startYear: 1981,
-        endYear: 1983,
+        startYear: 2020,
+        endYear: 2022,
       },
     ],
     photo: { commonsFile: `${id}.jpg`, credit: "c", license: "l" },
@@ -266,12 +266,18 @@ describe("niveaux", () => {
       level: "difficile",
       seed: "test",
     });
+    const veryHard = gameReducer(initialState(base), {
+      type: "start",
+      level: "tres-difficile",
+      seed: "test",
+    });
 
     // Agriculture n'est pas régalien : personne n'entre en Facile.
     expect(easy.status).toBe("idle");
-    // Le ministre délégué n'existe qu'au niveau Difficile.
-    expect(hard.pool.map((m) => m.id)).toContain("delegue");
-    expect(hard.pool).toHaveLength(base.length);
+    // Le ministre délégué n'apparaît qu'au dernier niveau, seul à admettre son rang.
+    expect(hard.pool.map((m) => m.id)).not.toContain("delegue");
+    expect(veryHard.pool.map((m) => m.id)).toContain("delegue");
+    expect(veryHard.pool).toHaveLength(base.length);
   });
 
   it("mémorise le niveau de la partie et le remet à zéro", () => {

@@ -29,12 +29,23 @@ export const STREAK_THRESHOLD = 2;
 export const STREAK_BONUS = 25;
 
 /**
- * Clé de stockage du meilleur score, différenciée par niveau : les trois viviers
- * n'ont pas la même difficulté, un score unique n'aurait pas de sens.
+ * Version du barème des niveaux, incluse dans la clé de stockage.
+ *
+ * Le passage à cinq niveaux a changé le SENS de trois identifiants sans changer
+ * leur nom : « facile » désignait les régaliens depuis 1981, il désigne maintenant
+ * les régaliens depuis 2002. Un record conservé sous l'ancien barème serait comparé
+ * à des parties qui n'ont plus rien à voir. On repart donc de zéro plutôt que de
+ * transporter un score qui ne veut plus dire la même chose.
+ */
+const SCALE_VERSION = 2;
+
+/**
+ * Clé de stockage du meilleur score, différenciée par niveau : les viviers n'ont
+ * pas la même difficulté, un score unique n'aurait pas de sens.
  *
  * `localStorage`, pas de cookie. Donnée strictement fonctionnelle, first-party,
  * jamais transmise : aucune bannière de consentement n'est requise.
  */
 export function bestScoreStorageKey(levelId: string): string {
-  return `quiz-ministres:best-score:${levelId}`;
+  return `quiz-ministres:best-score:v${SCALE_VERSION}:${levelId}`;
 }
